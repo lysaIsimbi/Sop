@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" font-family="DejaVu Sans, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 z" fill="#b45309"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="860" fill="#ffffff"/>
+
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1f2937">Unload a Dish Rack into a Cabinet Organizer</text>
+  <text x="40" y="76" font-size="16" fill="#4b5563">Workspace layout, top down view. Right arm owns the rack and the towel. Left arm owns the organizer. Every item crosses on the drying mat.</text>
+
+  <!-- tabletop -->
+  <rect x="40" y="100" width="1320" height="650" rx="10" fill="#fbfaf8" stroke="#d6d0c6" stroke-width="2"/>
+  <text x="1348" y="122" font-size="13" fill="#9ca3af" text-anchor="end">TABLETOP</text>
+
+  <!-- ===== ORGANIZER ===== -->
+  <rect x="76" y="150" width="360" height="560" rx="8" fill="#eef2f7" stroke="#5b789c" stroke-width="2.5"/>
+  <text x="256" y="176" font-size="16" font-weight="700" fill="#2f4a6d" text-anchor="middle">CABINET ORGANIZER</text>
+  <text x="256" y="196" font-size="12.5" fill="#5f7591" text-anchor="middle">against the left edge, left arm only</text>
+
+  <!-- cup rail -->
+  <rect x="94" y="212" width="324" height="112" rx="6" fill="#ffffff" stroke="#8aa2c0" stroke-width="1.5"/>
+  <line x1="94" y1="234" x2="418" y2="234" stroke="#8aa2c0" stroke-width="3"/>
+  <text x="256" y="230" font-size="11.5" fill="#5f7591" text-anchor="middle">back edge, cup rail</text>
+  <!-- cup 1 -->
+  <circle cx="176" cy="278" r="27" fill="#f6fbff" stroke="#3c5f8a" stroke-width="2"/>
+  <path d="M203,270 a13,13 0 0 1 0,17" fill="none" stroke="#3c5f8a" stroke-width="2.5"/>
+  <line x1="176" y1="234" x2="176" y2="251" stroke="#3c5f8a" stroke-width="2.5"/>
+  <circle cx="176" cy="251" r="4.5" fill="#3c5f8a"/>
+  <text x="176" y="316" font-size="12" font-weight="700" fill="#2f4a6d" text-anchor="middle">CUP 1</text>
+  <!-- cup 2 -->
+  <circle cx="336" cy="278" r="27" fill="#f6fbff" stroke="#3c5f8a" stroke-width="2"/>
+  <path d="M363,270 a13,13 0 0 1 0,17" fill="none" stroke="#3c5f8a" stroke-width="2.5"/>
+  <line x1="336" y1="234" x2="336" y2="251" stroke="#3c5f8a" stroke-width="2.5"/>
+  <circle cx="336" cy="251" r="4.5" fill="#3c5f8a"/>
+  <text x="336" y="316" font-size="12" font-weight="700" fill="#2f4a6d" text-anchor="middle">CUP 2</text>
+
+  <!-- plate insert -->
+  <rect x="94" y="340" width="156" height="176" rx="6" fill="#ffffff" stroke="#8aa2c0" stroke-width="1.5"/>
+  <circle cx="172" cy="418" r="63" fill="#f2f6fb" stroke="#3c5f8a" stroke-width="2"/>
+  <circle cx="172" cy="418" r="42" fill="#e2ecf7" stroke="#3c5f8a" stroke-width="2"/>
+  <text x="172" y="414" font-size="11.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">SMALL</text>
+  <text x="172" y="470" font-size="11.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">LARGE</text>
+  <text x="172" y="534" font-size="12.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">PLATE INSERT</text>
+  <text x="172" y="550" font-size="11" fill="#5f7591" text-anchor="middle">face up, large below</text>
+
+  <!-- bowl insert -->
+  <rect x="262" y="340" width="156" height="176" rx="6" fill="#ffffff" stroke="#8aa2c0" stroke-width="1.5"/>
+  <circle cx="340" cy="418" r="58" fill="#f2f6fb" stroke="#3c5f8a" stroke-width="2"/>
+  <circle cx="340" cy="418" r="36" fill="#e2ecf7" stroke="#3c5f8a" stroke-width="2"/>
+  <text x="340" y="422" font-size="11.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">BOWL 2</text>
+  <text x="340" y="466" font-size="11.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">BOWL 1</text>
+  <text x="340" y="534" font-size="12.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">BOWL INSERT</text>
+  <text x="340" y="550" font-size="11" fill="#5f7591" text-anchor="middle">bowl 2 nested inside</text>
+
+  <!-- cutlery tray -->
+  <rect x="94" y="562" width="324" height="102" rx="6" fill="#ffffff" stroke="#8aa2c0" stroke-width="1.5"/>
+  <line x1="202" y1="562" x2="202" y2="664" stroke="#8aa2c0" stroke-width="1.5"/>
+  <line x1="310" y1="562" x2="310" y2="664" stroke="#8aa2c0" stroke-width="1.5"/>
+  <!-- fork -->
+  <line x1="148" y1="578" x2="148" y2="638" stroke="#3c5f8a" stroke-width="3"/>
+  <line x1="140" y1="578" x2="140" y2="594" stroke="#3c5f8a" stroke-width="2"/>
+  <line x1="156" y1="578" x2="156" y2="594" stroke="#3c5f8a" stroke-width="2"/>
+  <text x="148" y="656" font-size="12" font-weight="700" fill="#2f4a6d" text-anchor="middle">FORK</text>
+  <!-- knife -->
+  <line x1="256" y1="578" x2="256" y2="638" stroke="#3c5f8a" stroke-width="3"/>
+  <path d="M249,578 q14,10 7,24" fill="none" stroke="#3c5f8a" stroke-width="2"/>
+  <text x="256" y="656" font-size="12" font-weight="700" fill="#2f4a6d" text-anchor="middle">KNIFE</text>
+  <!-- spoon -->
+  <line x1="364" y1="590" x2="364" y2="638" stroke="#3c5f8a" stroke-width="3"/>
+  <ellipse cx="364" cy="584" rx="9" ry="13" fill="none" stroke="#3c5f8a" stroke-width="2"/>
+  <text x="364" y="656" font-size="12" font-weight="700" fill="#2f4a6d" text-anchor="middle">SPOON</text>
+  <text x="256" y="686" font-size="12.5" font-weight="700" fill="#2f4a6d" text-anchor="middle">CUTLERY TRAY, front edge</text>
+  <text x="256" y="702" font-size="11" fill="#5f7591" text-anchor="middle">one per compartment, handles point front</text>
+
+  <!-- ===== DRYING MAT ===== -->
+  <rect x="536" y="330" width="272" height="216" rx="10" fill="#f7f3e8" stroke="#b08b4f" stroke-width="2.5"/>
+  <rect x="560" y="354" width="224" height="168" rx="6" fill="none" stroke="#d3bd94" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="672" y="424" font-size="16" font-weight="700" fill="#7a5a20" text-anchor="middle">DRYING MAT</text>
+  <text x="672" y="448" font-size="12.5" fill="#8a6b31" text-anchor="middle">one item at a time</text>
+  <text x="672" y="468" font-size="12.5" fill="#8a6b31" text-anchor="middle">both arms reach it</text>
+  <text x="672" y="572" font-size="12" fill="#8a6b31" text-anchor="middle">place, wipe twice, put away</text>
+
+  <!-- ===== TOWEL HOME ===== -->
+  <rect x="856" y="366" width="130" height="118" rx="8" fill="#f9e9e0" stroke="#c2714b" stroke-width="2.5"/>
+  <rect x="878" y="392" width="86" height="66" rx="4" fill="#ffffff" stroke="#c2714b" stroke-width="1.5"/>
+  <line x1="878" y1="414" x2="964" y2="414" stroke="#e0b49c" stroke-width="1.5"/>
+  <line x1="878" y1="436" x2="964" y2="436" stroke="#e0b49c" stroke-width="1.5"/>
+  <text x="921" y="506" font-size="13" font-weight="700" fill="#8f4a2a" text-anchor="middle">TOWEL HOME</text>
+  <text x="921" y="524" font-size="11" fill="#a8674a" text-anchor="middle">right arm only</text>
+
+  <!-- ===== DISH RACK ===== -->
+  <rect x="1024" y="150" width="300" height="560" rx="8" fill="#eef7f1" stroke="#4f8a68" stroke-width="2.5"/>
+  <text x="1174" y="176" font-size="16" font-weight="700" fill="#2c5a41" text-anchor="middle">DISH RACK</text>
+  <text x="1174" y="196" font-size="12.5" fill="#54786a" text-anchor="middle">against the right edge, right arm only</text>
+
+  <!-- plate slots -->
+  <rect x="1042" y="212" width="264" height="150" rx="6" fill="#ffffff" stroke="#8fbfa4" stroke-width="1.5"/>
+  <line x1="1074" y1="232" x2="1074" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <line x1="1110" y1="232" x2="1110" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <line x1="1146" y1="232" x2="1146" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <line x1="1182" y1="232" x2="1182" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <line x1="1218" y1="232" x2="1218" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <line x1="1254" y1="232" x2="1254" y2="322" stroke="#cfe4d8" stroke-width="2"/>
+  <rect x="1104" y="232" width="12" height="90" rx="3" fill="#dff0e6" stroke="#2c5a41" stroke-width="2"/>
+  <rect x="1212" y="248" width="12" height="74" rx="3" fill="#dff0e6" stroke="#2c5a41" stroke-width="2"/>
+  <text x="1110" y="344" font-size="11.5" font-weight="700" fill="#2c5a41" text-anchor="middle">LARGE</text>
+  <text x="1218" y="344" font-size="11.5" font-weight="700" fill="#2c5a41" text-anchor="middle">SMALL</text>
+  <text x="1174" y="384" font-size="12.5" font-weight="700" fill="#2c5a41" text-anchor="middle">PLATE SLOTS, upright</text>
+
+  <!-- shelf -->
+  <rect x="1042" y="398" width="264" height="150" rx="6" fill="#ffffff" stroke="#8fbfa4" stroke-width="1.5"/>
+  <circle cx="1098" cy="446" r="30" fill="#dff0e6" stroke="#2c5a41" stroke-width="2"/>
+  <text x="1098" y="450" font-size="11" font-weight="700" fill="#2c5a41" text-anchor="middle">BOWL</text>
+  <circle cx="1098" cy="514" r="26" fill="#dff0e6" stroke="#2c5a41" stroke-width="2"/>
+  <text x="1098" y="518" font-size="11" font-weight="700" fill="#2c5a41" text-anchor="middle">BOWL</text>
+  <circle cx="1236" cy="446" r="26" fill="#f6fbff" stroke="#2c5a41" stroke-width="2"/>
+  <path d="M1262,438 a12,12 0 0 1 0,16" fill="none" stroke="#2c5a41" stroke-width="2.5"/>
+  <text x="1236" y="450" font-size="11" font-weight="700" fill="#2c5a41" text-anchor="middle">CUP</text>
+  <circle cx="1236" cy="514" r="26" fill="#f6fbff" stroke="#2c5a41" stroke-width="2"/>
+  <path d="M1262,506 a12,12 0 0 1 0,16" fill="none" stroke="#2c5a41" stroke-width="2.5"/>
+  <text x="1236" y="518" font-size="11" font-weight="700" fill="#2c5a41" text-anchor="middle">CUP</text>
+  <text x="1174" y="570" font-size="12.5" font-weight="700" fill="#2c5a41" text-anchor="middle">SHELF, bowls and cups inverted</text>
+
+  <!-- basket -->
+  <rect x="1042" y="584" width="264" height="106" rx="6" fill="#ffffff" stroke="#8fbfa4" stroke-width="1.5"/>
+  <line x1="1128" y1="606" x2="1128" y2="662" stroke="#2c5a41" stroke-width="3"/>
+  <line x1="1121" y1="606" x2="1121" y2="620" stroke="#2c5a41" stroke-width="2"/>
+  <line x1="1135" y1="606" x2="1135" y2="620" stroke="#2c5a41" stroke-width="2"/>
+  <line x1="1174" y1="606" x2="1174" y2="662" stroke="#2c5a41" stroke-width="3"/>
+  <path d="M1167,606 q13,9 7,24" fill="none" stroke="#2c5a41" stroke-width="2"/>
+  <line x1="1220" y1="618" x2="1220" y2="662" stroke="#2c5a41" stroke-width="3"/>
+  <ellipse cx="1220" cy="612" rx="8" ry="12" fill="none" stroke="#2c5a41" stroke-width="2"/>
+  <text x="1174" y="682" font-size="12.5" font-weight="700" fill="#2c5a41" text-anchor="middle">BASKET, handle up</text>
+
+  <!-- ===== FLOW ARROWS ===== -->
+  <path d="M1016,438 C 950,300 880,286 820,306" fill="none" stroke="#b45309" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="912" y="272" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle">1. right arm, rack to mat</text>
+
+  <path d="M672,318 C 672,268 600,250 540,266" fill="none" stroke="#b45309" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="606" y="228" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle">2. wipe twice on the mat</text>
+
+  <path d="M524,406 C 480,406 470,340 442,326" fill="none" stroke="#b45309" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="480" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">3. left arm,</text>
+  <text x="480" y="498" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">mat to organizer</text>
+
+  <!-- footer -->
+  <text x="40" y="790" font-size="13.5" font-weight="700" fill="#374151">Unload order, fixed by type not position:</text>
+  <text x="366" y="790" font-size="13.5" fill="#374151">plates (large, small), then bowls, then cups, then cutlery (fork, knife, spoon).</text>
+  <text x="40" y="814" font-size="13.5" font-weight="700" fill="#374151">Bowls and cups:</text>
+  <text x="366" y="814" font-size="13.5" fill="#374151">take the one nearer the front of the rack first. Nothing is passed hand to hand; the mat is the handoff.</text>
+  <text x="40" y="838" font-size="12.5" fill="#6b7280">Front edge of the tabletop is the bottom of this drawing, where the operator sits.</text>
+</svg>

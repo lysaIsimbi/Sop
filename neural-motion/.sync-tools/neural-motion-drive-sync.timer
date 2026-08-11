@@ -1,0 +1,11 @@
+[Unit]
+Description=Check neural-motion SOPs for Drive updates every hour
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1h
+Persistent=true
+Unit=neural-motion-drive-sync.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Upload changed neural-motion SOPs to Google Drive
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/neotix/Documents/SOPs/neural-motion/.sync-tools/sync-sops-to-drive.sh
+
