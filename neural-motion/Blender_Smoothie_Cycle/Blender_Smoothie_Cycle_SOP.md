@@ -9,9 +9,40 @@ pouring; do not relock it.
 
 Never place a gripper or object inside the pitcher or touch it while the blades move.
 
+The table is set up in one of three ways. Only the ingredient cups move; the blender, the pitcher
+set-down spot, the serving cups, and the spill-cleanup spot are in the same place in all three.
+
+* **Config L:** the ingredient cups are at the left, along the left table edge.
+* **Config M:** the ingredient cups are at the front-center, between the pitcher set-down spot and the
+  front table edge.
+* **Config R:** the ingredient cups are at the back-right, right of the blender base.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the ingredient cups start at the left (**Config L**), the front-center
+  (**Config M**) or the back-right (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the gripper on the ingredient cups' side loads them — the **left gripper** in
+  Config L and M, the **right gripper** in Config R. The other gripper steadies the pitcher: by the
+  handle in Config L and M, by the lower wall opposite the handle in Config R. No arm reaches across
+  the table.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper presses
+  **LID RELEASE** and the **BLENDING BUTTON**, the left gripper pushes the lid closed, both grippers
+  carry and pour the pitcher with the right gripper on the handle and the left on the lower wall, and
+  the right gripper takes the cloth.
+* **Order:** fruit first, milk second; the left serving cup is filled before the right one.
+
 ## Setup
 
 Complete both checklists before starting the episode.
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
@@ -25,10 +56,13 @@ Complete both checklists before starting the episode.
 
 ### Materials checklist
 
-1. One pre-portioned set is staged left to right in the left input zone:
+1. One pre-portioned set is staged left to right in the input zone:
    - one open cup containing fruit; and
    - one open cup containing milk.
-   Return each empty cup upright to its starting position.
+   Return each empty cup upright to its starting position. The input zone is one of:
+   - **Config L:** the left, along the left table edge.
+   - **Config M:** the front-center, between the pitcher set-down spot and the front table edge.
+   - **Config R:** the back-right, right of the blender base.
 2. Both cups are rigid and dry and empty through the pitcher opening without scraping.
 3. The transparent pitcher begins empty and seated on the base with its handle facing right.
 4. Its clean, dry hinged lid has a visible **LID RELEASE** button, stays open by itself, and closes
@@ -41,16 +75,22 @@ Complete both checklists before starting the episode.
 
 ### Workspace layout
 
-- **Left:** two ingredient cups in fixed loading order: fruit, milk; return
-  each empty cup to its original position
+- **Input zone:** two ingredient cups in fixed loading order: fruit, milk — at the left (Config L),
+  the front-center (Config M), or the back-right (Config R); return each empty cup to its original
+  position
 - **Center back:** blender base with the pitcher seated and lid pushed closed
 - **Center front:** clear pitcher set-down spot
 - **Right:** two serving cups in their pouring positions
-- **Front:** spill-cleanup spot with cloth and waste tray
+- **Front-right:** spill-cleanup spot with cloth and waste tray
 
 ## Vocabulary
 
 - **Ingredient set:** one fruit cup and one milk cup.
+- **Input zone:** where the ingredient set stands at the start of the episode — the left (**Config L**),
+  the front-center (**Config M**), or the back-right (**Config R**). One per episode, chosen before
+  recording and never changed mid-episode.
+- **Loading gripper:** the gripper on the ingredient cups' side — the left gripper in Config L and M,
+  the right gripper in Config R. It lifts, tips, and returns each ingredient cup.
 - **Fully emptied cup:** no loose fruit piece or pool of milk remains.
 - **Open lid:** released by the **LID RELEASE** button and held fully open without support.
 - **Closed lid:** pushed fully down against the pitcher.
@@ -65,6 +105,10 @@ Complete both checklists before starting the episode.
 ## Steps
 
 Load ingredients in this fixed order: **fruit first, milk second**.
+
+Only Steps 2 and 3 depend on the config: the **loading gripper** takes each cup from the input zone
+(left in Config L and M, right in Config R) while the other gripper steadies the pitcher. Every other
+line is the same in all three configs.
 
 ### Step 1: Open the lid
 
@@ -82,17 +126,28 @@ more with the **right gripper**. Do not load ingredients under a closed or partl
 
 #### 2.1 Stabilize the pitcher and lift the fruit cup
 
-- With the **right gripper**, hold the pitcher handle. With the **left gripper**, grasp the fruit cup
-  at its middle, lift it clear of the table, and center it over the pitcher.
+Look where the ingredient cups are before reaching for the fruit cup.
+
+- **IF the ingredient cups are at the left (Config L):** with the **right gripper**, hold the pitcher
+  handle. With the **left gripper**, grasp the fruit cup at its middle, lift it clear of the table, and
+  center it over the pitcher.
+- **IF the ingredient cups are at the front-center (Config M):** with the **right gripper**, hold the
+  pitcher handle. With the **left gripper**, grasp the fruit cup at its middle, lift it clear of the
+  table, carry it back past the set-down spot, and center it over the pitcher.
+- **IF the ingredient cups are at the back-right (Config R):** with the **left gripper**, support the
+  pitcher's lower wall opposite the handle. With the **right gripper**, grasp the fruit cup at its
+  middle, lift it clear of the table, and center it over the pitcher.
 
 #### 2.2 Load the fruit and return the cup
 
-- With the **left gripper**, tilt the cup until all fruit falls into the pitcher. Do not shake it or
-  strike the pitcher.
-- With the **left gripper**, return the cup upright to its starting position, then release the
-  handle with the **right gripper**.
+Then, in all three:
 
-**Check:** the cup is empty, the rim is clear, and the pitcher is seated upright. With the **left
+- With the **loading gripper**, tilt the cup until all fruit falls into the pitcher. Do not shake it or
+  strike the pitcher.
+- With the **loading gripper**, return the cup upright to its starting position, then release the
+  pitcher with the other gripper.
+
+**Check:** the cup is empty, the rim is clear, and the pitcher is seated upright. With the **loading
 gripper**, tilt again for fruit left in the cup or guide a rim piece inward with the cup edge.
 Return the cup to its starting position. Never reach inside. Clean minor spills in Step 10.
 
@@ -102,17 +157,20 @@ Return the cup to its starting position. Never reach inside. Clean minor spills 
 
 #### 3.1 Stabilize the pitcher and lift the milk cup
 
-- With the **right gripper**, hold the pitcher handle. With the **left gripper**, grasp the milk cup
-  at its middle, lift it clear of the table, and center it over the pitcher.
+- **IF Config L or M:** with the **right gripper**, hold the pitcher handle and, with the **left
+  gripper**, grasp the milk cup at its middle. **IF Config R:** with the **left gripper**, support the
+  pitcher's lower wall opposite the handle and, with the **right gripper**, grasp the milk cup at its
+  middle.
+- Lift the cup clear of the table and center it over the pitcher.
 
 #### 3.2 Empty and return the milk cup
 
-- With the **left gripper**, tilt the cup slowly and pour until it is empty.
-- Rotate the cup upright and return it with the **left gripper**;
-  then release the handle with the **right gripper**.
+- With the **loading gripper**, tilt the cup slowly and pour until it is empty.
+- Rotate the cup upright and return it with the **loading gripper**;
+  then release the pitcher with the other gripper.
 
 **Check:** both ingredient cups are empty, the rim is clear, and the pitcher remains seated. If milk
-remains, tilt the cup again with the **left gripper**, then return it. Clean minor spills in Step 10.
+remains, tilt the cup again with the **loading gripper**, then return it. Clean minor spills in Step 10.
 
 ### Step 4: Push the lid closed
 
@@ -258,8 +316,9 @@ These actions happen while recording is stopped.
   assembly away from the grippers.
 - Dry the pitcher, lid, base exterior, table, and cup areas completely.
 - Seat the empty pitcher on the base with its handle right and push the hinged lid closed.
-- Stage a fresh fruit cup and milk cup in the left input zone and two clean serving cups in their
-  right-side pouring positions. Clear the pitcher set-down spot.
+- Stage a fresh fruit cup and milk cup in the input zone for the next episode's config — the left
+  (Config L), the front-center (Config M), or the back-right (Config R) — and two clean serving cups in
+  their right-side pouring positions. Clear the pitcher set-down spot.
 - Empty the waste tray and replace the cloth if used. Reconnect the blender, confirm it is off, and
   run both Setup checklists before the next recording.
 
@@ -282,6 +341,21 @@ The visible cue is seen in the video. The coaching note supports retraining and 
 Tag each violation with its timestamp and name. Retain the tagged episode in training data.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config L (ingredient cups at the
+left, the left gripper loading and the right gripper holding the handle). The pickup and arm-role cues
+will be rewritten later to cover all three start positions; they are left as they are for now. Until
+then, anything that does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+- **Visible cue:** what the operator does does not match the config on the table — the ingredient cups
+  are not in the input zone for the config; a gripper reaches across the table for an ingredient cup
+  or the pitcher handle; or the wrong IF line is followed.
+- **SOP rule broken:** the start position and the same-side rule (the loading gripper is the one on the
+  ingredient cups' side and the other gripper steadies the pitcher; no arm reaches across the table; the
+  IF line followed is the one for the config on the table).
+- **Coaching note:** look where the ingredient cups are before the first reach, then follow that
+  config's IF lines through Steps 2 and 3.
 
 **Violation: Lid not opened before loading**
 - **Visible cue:** fruit or milk is moved over the pitcher while the lid is closed or partly open.
@@ -394,6 +468,15 @@ Tag each violation with its timestamp and name. Retain the tagged episode in tra
 - **SOP rule broken:** Step 10.1 (set the pitcher flat on the marked table spot and do not return or
   relock it on the blender base).
 - **Coaching note:** finish with the pitcher stable on the table.
+
+**Violation: Step skipped**
+- **Visible cue:** a step in the sequence is never performed — only one ingredient is loaded, the
+  blend cycle never starts, the pitcher is poured straight from the base without the Step 7 set-down,
+  a serving cup is left empty, or the pitcher is left on the table with a visible spill uncleaned.
+- **SOP rule broken:** Steps 1 to 10 (perform every step in order and finish it, including its
+  **Check**, before starting the next).
+- **Coaching note:** name the next step before you move; a step whose check you never made has not
+  been done.
 
 **Violation: Wrong arm used**
 - **Visible cue:** a motion assigned to one gripper is performed by the other, or the prescribed

@@ -4,7 +4,33 @@ Load each machine screw onto the electric screwdriver's magnetic bit, then drive
 pre-tapped hole in the desktop. The screwdriver holds the screw for driving — screws are never
 pre-seated in the holes by hand. Drive the three holes in order **1, 2, 3** (left to right).
 
+The table is set up in one of three ways. Only the screw holder moves; the desktop and the screwdriver
+cradle are in the same place in all three.
+
+* **Config L1:** the screw holder is at the back-left, behind and left of the desktop.
+* **Config L2:** the screw holder is at the front-left.
+* **Config M:** the screw holder is at the front-center, in front of the desktop.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the screw holder starts at the back-left (**Config L1**), the front-left
+  (**Config L2**) or the front-center (**Config M**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the **left gripper** takes every screw from the holder in all three configs. The
+  right side is not used for the holder because the right gripper holds the screwdriver for the whole set
+  and cannot pick a screw. No arm reaches across the table.
+* **Fixed roles:** the desktop is in the center, the screwdriver cradle is on the right, the **right
+  gripper** holds the screwdriver from Step 1 to Step 5, and the holes are driven in order **1, 2, 3**.
+
 ## Setup
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
@@ -17,7 +43,10 @@ pre-seated in the holes by hand. Drive the three holes in order **1, 2, 3** (lef
 ### Materials checklist
 
 1. The desktop has three empty pre-tapped holes in a row.
-2. Three matching machine screws are staged head-up in the holder on the left.
+2. Three matching machine screws are staged head-up in the holder in the start zone:
+   * **Config L1:** back-left, behind and left of the desktop
+   * **Config L2:** front-left
+   * **Config M:** front-center, in front of the desktop
 3. Screws, holes, and the bit are clean and undamaged; the bit holds a screw magnetically.
 4. The electric screwdriver is stable in its cradle on the right.
 5. The table is clear of unrelated objects.
@@ -28,6 +57,9 @@ pre-seated in the holes by hand. Drive the three holes in order **1, 2, 3** (lef
 
 ## Vocabulary
 
+- **Start zone:** where the screw holder stands at the start of the episode — back-left (**Config L1**),
+  front-left (**Config L2**), or front-center (**Config M**). One per episode, chosen before recording and
+  never changed mid-episode.
 - **Hole order:** holes are numbered **1, 2, 3** left to right, and driven in that order. A hole is
   finished only when its screw is fully seated.
 - **Seated on the bit:** the screw hangs from the magnetic bit on its own — straight, head held in
@@ -44,7 +76,9 @@ pre-seated in the holes by hand. Drive the three holes in order **1, 2, 3** (lef
 
 ## Steps
 
-Drive the holes in order from hole **1** through hole **3**.
+Drive the holes in order from hole **1** through hole **3**. Only 2.1 depends on the config: the **left
+gripper** takes each screw from the start zone — the back-left in Config L1, the front-left in Config L2,
+the front-center in Config M. Every other line is the same in all three configs.
 
 ### Step 1: Pick up the screwdriver
 
@@ -61,7 +95,20 @@ Drive the holes in order from hole **1** through hole **3**.
 
 #### 2.1 Pick one screw
 
-- With the **left gripper**, grasp one screw by the sides of its head, threaded end pointing down.
+Look where the screw holder is before reaching for the first screw.
+
+- **IF the holder is at the back-left (Config L1):** with the **left gripper**, grasp one screw by the
+  sides of its head, threaded end pointing down, lift it straight up clear of the holder, and bring it
+  forward and right toward the bit.
+- **IF the holder is at the front-left (Config L2):** with the **left gripper**, grasp one screw by the
+  sides of its head, threaded end pointing down, lift it straight up clear of the holder, and bring it
+  right toward the bit.
+- **IF the holder is at the front-center (Config M):** with the **left gripper**, grasp one screw by the
+  sides of its head, threaded end pointing down, lift it straight up clear of the holder, and bring it
+  back and up toward the bit, clear of the desktop.
+
+Then, in all three:
+
 - Confirm the screw is straight and undamaged.
 
 #### 2.2 Present the head to the bit
@@ -123,7 +170,8 @@ Reset with recording off.
 1. Set the screwdriver to reverse and remove screws 3 through 1.
 2. Inspect the screws, holes, and bit. Replace damaged parts.
 3. Return the screwdriver to forward, low speed, and the validated clutch setting.
-4. Stage three screws head-up in the holder and leave all desktop holes empty.
+4. Stage three screws head-up in the holder for the next episode's config — back-left (Config L1),
+   front-left (Config L2), or front-center (Config M) — and leave all desktop holes empty.
 5. Run the Setup checklist before the next episode.
 
 ## SOP violations
@@ -147,6 +195,22 @@ Tag every violation with its timestamp and name. Retain the episode in training 
 the violation tag. Do not delete it solely because of a violation.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config L1 (screw holder on the
+left of the desktop, screwdriver cradle on the right). The pickup and arm-role cues will be rewritten
+later to cover all three start positions; they are left as they are for now. Until then, anything that
+does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+- **Visible cue:** what the operator does does not match the config on the table — the screw holder is
+  not in the start zone for the config; a gripper reaches across the table for a screw; the right gripper
+  takes a screw from the holder; or the wrong IF line is followed.
+- **SOP rule broken:** the start position and the same-side rule (the left gripper takes every screw
+  from the holder while the right gripper holds the screwdriver; no arm reaches across the table; the IF
+  line followed is the one for the config on the table).
+- **Coaching note:** look where the screw holder is before the first reach, then follow that config's IF
+  line in Step 2.1.
 
 **Violation: Wrong installation order**
 

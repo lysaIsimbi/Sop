@@ -1,7 +1,7 @@
 # Sort Salvaged Parts into Graded Bins SOP
 
-One episode empties one salvage tray. The tray is already sitting at the middle of the desk when
-recording starts, holding seven mixed parts pulled from a teardown: screws, connectors, and fine
+One episode empties one salvage tray. The tray is already sitting in its start zone when recording
+starts, holding seven mixed parts pulled from a teardown: screws, connectors, and fine
 parts, some of them damaged. Every part is graded where it lies, lifted once, and released into the
 bin that matches it. When the tray is bare, four count chips go onto the tally card, one for each
 bin. The tray is empty, the four bins hold the sorted parts, and four chips sit on the card when the
@@ -22,23 +22,53 @@ Fine parts are only ever taken with the tweezers. Screws and connectors are only
 bare gripper. One part moves at a time. The tray is never tipped, raked, shaken, or dragged to move
 parts, and no part is ever released above the rim of a bin.
 
+The desk is set up in one of three ways. Only the salvage tray moves; the bin row, the tweezer stand,
+the tally card, and the chip rack are in the same place in all three.
+
+* **Config M1:** the tray is at the middle of the desk, immediately left of the bin row.
+* **Config M2:** the tray is at the back-center, behind the middle of the desk.
+* **Config R:** the tray is at the back-right, behind the bin row.
+
+Where a step depends on the setup it says so on an **IF** line — look at the desk and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the tray starts at the middle of the desk (**Config M1**), the back-center
+  (**Config M2**), or the back-right (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** all three start zones are on the right arm's side, so the **right gripper** takes
+  every part in every config. No left zone is used, because the left gripper never takes a part: the
+  bins, the tweezer stand, and the tweezers are the right arm's, and a fine part moves only with the
+  tweezers. No arm reaches across the desk, and nothing is handed over.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper sorts and works
+  the tweezers, the left gripper works the chip rack and the tally card, and the bins, the tweezer
+  stand, the tally card, and the chip rack stay where they are.
+
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole desk: the salvage tray at the middle, the bin row on the
-   right, the tweezer stand at the front right, and the tally card and chip rack at the front left.
+2. The environment camera shows the whole desk: the salvage tray in the start zone for this episode's
+   config, the bin row on the right, the tweezer stand at the front right, and the tally card and chip
+   rack at the front left.
 3. The inside of the salvage tray is in frame from above, with all seven parts and the bare tray
    floor visible.
 4. The mouth of all four bins is in frame from above, so a part can be seen going in below the rim.
 5. The tweezer tips are in frame whenever the tweezers are in the gripper.
 6. Both arms are at home with grippers open.
 7. The desk is clear of anything but the zones listed below.
-8. The right gripper reaches every corner of the salvage tray, the tweezer stand, and the mouth of
-   all four bins, including the reject bin at the far right, without the arm leaning out.
+8. The right gripper reaches every corner of the salvage tray in the start zone for this episode's
+   config (Config M1, M2, or R), the tweezer stand, and the mouth of all four bins, including the
+   reject bin at the far right, without the arm leaning out.
 9. The left gripper reaches all four chip lanes and all four card slots without reaching a joint
    limit.
 10. The travel from the tray to the bin row is bare and level, and neither gripper enters the other
@@ -46,8 +76,12 @@ Complete both checklists before starting an episode.
 
 ### Materials checklist
 
-1. One **salvage tray** already resting in its printed outline at the middle of the desk, on a mat
-   that keeps it from sliding. Nothing else stands on the desk except the zones below.
+1. One **salvage tray** already resting in the printed outline for this episode's config, on a mat
+   that keeps it from sliding, with the other two outlines bare. Nothing else stands on the desk
+   except the zones below.
+   * **Config M1:** the middle of the desk, immediately left of the bin row
+   * **Config M2:** the back-center, behind the middle of the desk
+   * **Config R:** the back-right, behind the bin row
 2. The tray is shallow and open, with walls low enough that a gripper clears them on the way in and
    out, and its floor is bare except for the parts.
 3. **Seven parts** lie loose in the tray in one layer, none touching and none overlapping: three
@@ -74,24 +108,29 @@ Complete both checklists before starting an episode.
 
 ### Workspace layout
 
-* **Salvage tray:** the middle of the desk, in front of the right arm. The seven parts start here
-  and it is bare when the episode ends. The tray itself never moves.
-* **Bin row:** four bins in one straight line immediately right of the tray at the same depth, so
-  every carry is a short level move sideways and no gripper passes over another bin.
-* **Tweezer stand:** the front right, between the salvage tray and the front edge, clear of the bin
-  row. The tweezers rest here before Step 3 and again at the end of it.
+* **Salvage tray:** the start zone — the middle of the desk (**Config M1**), the back-center
+  (**Config M2**), or the back-right (**Config R**). The seven parts start here and it is bare when
+  the episode ends. The tray itself never moves.
+* **Bin row:** four bins in one straight line at the middle depth, immediately right of the Config M1
+  outline, so every carry is a short level move and no gripper passes over another bin.
+* **Tweezer stand:** the front right, between the middle of the desk and the front edge, clear of the
+  bin row. The tweezers rest here before Step 3 and again at the end of it.
 * **Tally card:** the front left, between the chip rack and the middle of the desk.
 * **Chip rack:** the front left corner, outboard of the tally card.
 
-The right arm's zones are the salvage tray, the bin row, and the tweezer stand. The left arm's zones
-are the tally card and the chip rack. Nothing is shared, and neither arm reaches past the middle of
+The right arm's zones are the salvage tray (in all three configs), the bin row, and the tweezer stand.
+The left arm's zones are the tally card and the chip rack. Nothing is shared, and neither arm reaches past the middle of
 the desk at any point in the episode.
 
 ## Vocabulary
 
-* **Arm assignment:** the right arm sorts every part and works the tweezers. The left arm counts the
-  bins and works the chip rack and the tally card. Neither arm takes the other's job, and the two
-  never work at the same time.
+* **Arm assignment:** the right arm sorts every part, from whichever start zone the tray is in, and
+  works the tweezers. The left arm counts the bins and works the chip rack and the tally card, and
+  never reaches for the tray in any config. Neither arm takes the other's job, and the two never work
+  at the same time.
+* **Start zone:** where the salvage tray sits for the whole episode — the middle of the desk
+  (**Config M1**), the back-center (**Config M2**), or the back-right (**Config R**). One per episode,
+  chosen before recording and never changed mid-episode.
 * **Screw:** a pan head machine screw. Taken by the bare gripper closing across the shank, never
   across the head.
 * **Connector:** a two pin plastic housing. Taken by the bare gripper closing across the body, never
@@ -131,18 +170,34 @@ the desk at any point in the episode.
 Steps 1 to 4 are one tray. The parts are already in the tray, so the episode starts with the first
 screw, not with a fetch.
 
+Only the reach into the tray and the carry to the bin in Steps 1, 2, and 3.2 depend on the config: the
+**right gripper** takes every part in all three, from the middle of the desk in Config M1, the
+back-center in Config M2, or the back-right in Config R. Every other line is the same in all three
+configs.
+
 ### Step 1: Sort the screws
 
 **Goal:** all three screws out of the tray and resting in their bins, with only the connectors and
 the fine parts left on the tray floor.
 
+Look where the tray is before the first reach.
+
 * Look over the tray and take the **screw nearest the front edge** first.
 * **Grade it where it lies:** a bent shank, a chewed head, or a stripped thread sends it to
   **REJECT**. Anything else goes to **SCREWS**.
-* The **right gripper** comes straight down onto the screw, closes across the **shank**, and lifts
-  it straight up until there is daylight under it.
-* Carry it level to the graded bin, lower the gripper **inside the bin mouth below the rim**, and
-  open.
+* **IF the tray is at the middle of the desk (Config M1):** the **right gripper** comes straight down
+  onto the screw, closes across the **shank**, lifts it straight up until there is daylight under it,
+  and carries it level a short way **sideways to the right** to the graded bin.
+* **IF the tray is at the back-center (Config M2):** the **right gripper** comes straight down onto
+  the screw, closes across the **shank**, lifts it straight up until there is daylight under it, and
+  carries it level **behind the bin row and then forward** over the graded bin, never over another bin.
+* **IF the tray is at the back-right (Config R):** the **right gripper** comes straight down onto the
+  screw, closes across the **shank**, lifts it straight up until there is daylight under it, and
+  carries it level a short way **forward** to the graded bin.
+
+Then, in all three:
+
+* Lower the gripper **inside the bin mouth below the rim**, and open.
 * Lift the gripper straight up out of the bin.
 * Work the remaining screws the same way, taking the one nearest the front edge each time.
 
@@ -165,8 +220,10 @@ the tray floor.
   **REJECT**. Anything else goes to **CONNECTORS**.
 * The **right gripper** comes straight down onto the connector, closes across the **body** clear of
   the pins, and lifts it straight up.
-* Carry it level to the graded bin, lower the gripper **inside the bin mouth below the rim**, and
-  open.
+* **IF Config M1:** carry it level sideways to the right to the graded bin. **IF Config M2:** carry it
+  level behind the bin row and then forward over the graded bin, never over another bin. **IF Config
+  R:** carry it level forward to the graded bin.
+* Lower the gripper **inside the bin mouth below the rim**, and open.
 * Lift the gripper straight up out of the bin, then work the second connector the same way.
 
 Never close on the pins and never drag a connector across the tray floor to get a better hold. If the
@@ -194,8 +251,10 @@ back in their stand.
   bent out of flat sends it to **REJECT**. Anything else goes to **FINE PARTS**.
 * Bring the tips down to the tray floor on either side of the part's rim, then **pinch** until the
   part is held between the tips.
-* Lift straight up, carry level to the graded bin, lower the tips **inside the bin mouth below the
-  rim**, and **spring open**.
+* Lift straight up. **IF Config M1:** carry level sideways to the right to the graded bin. **IF Config
+  M2:** carry level behind the bin row and then forward over the graded bin, never over another bin.
+  **IF Config R:** carry level forward to the graded bin.
+* Lower the tips **inside the bin mouth below the rim**, and **spring open**.
 * Lift the tweezers straight up out of the bin, then work the second fine part the same way.
 
 The tweezer grip is taken once and held for the whole step. Never take a fine part with the bare
@@ -247,8 +306,10 @@ This reset is not recorded.
    in its printed outline with its label readable.
 2. Lift the four chips out of the card slots and stand each one back in its own notch in its own
    lane, number up, with every lane holding chips 0 to 3 in number order.
-3. Lay seven parts in the salvage tray in one layer, none touching and none overlapping: three
-   screws, two connectors, and two fine parts.
+3. Seat the salvage tray on its mat in the printed outline for the next episode's config — the middle
+   of the desk (Config M1), the back-center (Config M2), or the back-right (Config R) — leaving the
+   other two outlines bare, then lay seven parts in it in one layer, none touching and none
+   overlapping: three screws, two connectors, and two fine parts.
 4. Vary which parts are damaged and how many between episodes rather than running the same mix every
    time. At least one and no more than three of the seven are damaged, so no bin count ever goes
    above 3.
@@ -277,6 +338,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config M1 (the tray at the
+middle of the desk, immediately left of the bin row). The pickup and arm-role cues will be rewritten
+later to cover all three start positions; they are left as they are for now. Until then, anything that
+does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the desk — the tray is not in
+  the start zone for the config; a gripper reaches across the desk for the tray; or the wrong IF line
+  is followed.
+* **SOP rule broken:** the start position and the same-side rule (the tray sits in one of the three
+  start zones for the whole episode, the right gripper takes every part from it in every config, no
+  arm reaches across the desk; the IF line followed is the one for the config on the desk).
+* **Coaching note:** look where the tray is before the first reach, then follow that config's IF lines
+  through Steps 1 to 3.
 
 **Violation: Wrong order**
 

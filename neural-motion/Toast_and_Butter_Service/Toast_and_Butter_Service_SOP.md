@@ -12,15 +12,45 @@ Four rules hold for the whole episode. Nothing but bread goes into a slot. No gr
 toaster while the cycle runs. One cycle per episode, and the lever is never forced up early. Nothing
 is passed hand to hand: every item that changes arms does so by sitting on a surface first.
 
+The table is set up in one of three ways. Only the bread rack moves; the toaster, the knife spot, the
+board, the butter tub, the plate spot, and the tray are in the same place in all three.
+
+* **Config L:** the bread rack stands in the front-left corner, against the left edge.
+* **Config R1:** the bread rack stands against the right edge, level with the board.
+* **Config R2:** the bread rack stands in the front-right corner, against the right edge.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the
+line that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the bread rack stands at the front-left (**Config L**), against the right edge
+  (**Config R1**), or at the front-right (**Config R2**). One config per episode, chosen before
+  recording and never changed mid-episode. There is no center zone: the center column is full, with
+  the toaster at the back, the board in the middle, and the plate spot and tray at the front, and the
+  back-left holds the butter tub. That is why the two right-side zones are numbered R1 and R2.
+* **Same-side rule:** the gripper on the bread rack's side loads the slices — the left gripper in
+  Config L, the right gripper in Config R1 and R2. No arm reaches across the table for a slice. The
+  toaster is within reach of both arms, so nothing is handed over.
+* **Fixed roles:** whichever gripper is not loading takes the steady hold in Step 1. From Step 2 on
+  nothing changes with the config: the right gripper works the lever, lifts the toast out, butters,
+  and plates; the left gripper steadies the toaster and holds the butter tub down; both carry the
+  plate.
+
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole tabletop: the bread rack on the right, the toaster at the
-   back, the knife spot, the board in the middle, the butter tub on the left, the plate spot, and
+2. The environment camera shows the whole tabletop: the bread rack in its start zone, the toaster at
+   the back, the knife spot, the board in the middle, the butter tub on the left, the plate spot, and
    the delivery tray at the front edge.
 3. Both arms are at home with grippers open.
 4. The tabletop is clear of anything but the zones listed below.
@@ -36,10 +66,13 @@ Complete both checklists before starting an episode.
 3. The toaster lifts the finished slices high enough that a good part of each slice stands above its
    slot, so a gripper can take the top edge without reaching into the slot.
 4. The toaster crumb tray is in place and empty.
-5. The bread rack sits against the right edge and holds two slices of bread standing on edge, their
-   faces parallel to the toaster slots, with the tops clear so a gripper can take each by its top
-   edge. The two slices are the same size, dry, and not torn.
-6. The knife lies flat in its knife spot, on the clear patch between the bread rack and the board,
+5. The bread rack stands in the zone for the episode's config and holds two slices of bread standing
+   on edge, their faces parallel to the toaster slots, with the tops clear so a gripper can take each
+   by its top edge. The two slices are the same size, dry, and not torn.
+   * **Config L:** front-left corner, against the left edge, within reach of the left gripper.
+   * **Config R1:** against the right edge, level with the board, within reach of the right gripper.
+   * **Config R2:** front-right corner, against the right edge, within reach of the right gripper.
+6. The knife lies flat in its knife spot, on the clear patch between the board and the right edge,
    with the whole handle clear of anything else so a gripper can take it from above. There is no
    rest, cradle, or slot: the knife is simply set down. Its handle is bulky enough to grasp off a
    flat surface. The blade is clean and dry.
@@ -52,11 +85,13 @@ Complete both checklists before starting an episode.
 
 ### Workspace layout
 
-* **Bread rack:** against the right edge, within reach of the right arm. It holds the two slices
-  standing on edge and is empty at the end of the episode.
+* **Bread rack:** front-left (Config L), against the right edge level with the board (Config R1), or
+  front-right (Config R2), within reach of the gripper on its side. It holds the two slices standing
+  on edge and is empty at the end of the episode.
 * **Toaster:** at the back of the tabletop, in the middle, reachable by both arms. The right arm
-  works the lever and the slots. The left arm only steadies the body.
-* **Knife spot:** the clear patch between the bread rack and the board, within reach of the right
+  works the lever and empties the slots. The slots are loaded by the right arm in Config R1 and R2
+  and by the left arm in Config L; the arm that is not loading steadies the body.
+* **Knife spot:** the clear patch between the board and the right edge, within reach of the right
   arm. The knife lies flat here whenever it is not in a gripper. It is a bare patch, not a rest or a
   holder.
 * **Board:** flat in the middle of the tabletop. Both slices are laid here and buttered here. It is
@@ -67,19 +102,28 @@ Complete both checklists before starting an episode.
 * **Delivery tray:** flat at the front edge, straight in front of the plate spot, so the plate
   travels toward the front edge and not sideways.
 
-**Ownership rule, stated once.** The right arm owns the bread, the toaster lever, the knife, and
-every slice move. The left arm steadies the toaster and holds the butter tub down. Both grippers
-share the plate, and only for the carry onto the tray. Neither arm takes over the other's work.
+**Ownership rule, stated once.** The right arm owns the toaster lever, the knife, and every slice
+move from the toaster on; it also loads the slices in Config R1 and R2. In Config L the left arm
+loads the slices and the right arm steadies the toaster, for Step 1 only. Otherwise the left arm
+steadies the toaster and holds the butter tub down. Both grippers share the plate, and only for the
+carry onto the tray. Neither arm takes over the other's work.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper moves every slice, works the lever, and holds the knife. The
-  left gripper steadies the toaster and holds the butter tub down, and it never picks up a slice,
-  never takes the knife, and never works the lever. Both grippers take the plate rim in Step 6.
+* **Arm assignment:** the right gripper works the lever, holds the knife, and moves every slice from
+  Step 3 on; in Config R1 and R2 it also loads the slices. The left gripper steadies the toaster in
+  Steps 2.1 and 3 and holds the butter tub down; in Config L it also loads the slices while the
+  right gripper steadies. The left gripper never takes the knife and never works the lever. Both
+  grippers take the plate rim in Step 6.
+* **Start zone:** where the bread rack stands at the start — front-left (**Config L**), against the
+  right edge level with the board (**Config R1**), or front-right (**Config R2**). One per episode,
+  chosen before recording and never changed mid-episode.
 * **Near slot and far slot:** the toaster slot nearer the front edge is the near slot. The one
   behind it is the far slot. The near slot is always filled and emptied first.
-* **Steady hold:** the left gripper, closed and empty, resting against the left side of the toaster
-  body so the toaster cannot shift. It rests against the body and takes no grip on it.
+* **Steady hold:** a gripper, closed and empty, resting against the side of the toaster body so the
+  toaster cannot shift. It rests against the body and takes no grip on it. It is the left gripper on
+  the left side, except in Step 1 of Config L, where it is the right gripper on the right side, clear
+  of the lever.
 * **Cycle done:** the lever has sprung back up on its own and both slices stand above their slots.
 * **Abnormal toaster condition:** smoke, a burning smell, flame, or a toaster that shifts off its
   spot while the cycle runs.
@@ -97,23 +141,41 @@ share the plate, and only for the carry onto the tray. Neither arm takes over th
 
 ## Steps
 
+Step 1 depends on where the bread rack is: in Config R1 and R2 the **right gripper** loads both
+slices while the left gripper steadies the toaster; in Config L the **left gripper** loads them while
+the right gripper steadies. Every other line, from the lever press in Step 2 to the plate carry in
+Step 6, is the same in all three configs.
+
 ### Step 1: Load the two slices
 
 **Goal:** both slices stand in the toaster, near slot first, and the toaster has not moved.
 
-* The **left gripper** takes the steady hold on the left side of the toaster body and keeps it for
-  the whole step.
-* The **right gripper** grips the first slice by its top edge, lifts it straight up clear of the
-  bread rack, and carries it level to the toaster.
+Look where the bread rack is before the first reach.
+
+* **IF the bread rack is at the front-left (Config L):** the **right gripper** takes the steady hold
+  on the right side of the toaster body, clear of the lever, and keeps it for the whole step. The
+  **left gripper** grips the first slice by its top edge, lifts it straight up clear of the bread
+  rack, and carries it level to the toaster.
+* **IF the bread rack is against the right edge (Config R1):** the **left gripper** takes the steady
+  hold on the left side of the toaster body and keeps it for the whole step. The **right gripper**
+  grips the first slice by its top edge, lifts it straight up clear of the bread rack, and carries it
+  level to the toaster.
+* **IF the bread rack is at the front-right (Config R2):** the **left gripper** takes the steady hold
+  on the left side of the toaster body and keeps it for the whole step. The **right gripper** grips
+  the first slice by its top edge, lifts it straight up clear of the bread rack, and carries it
+  level, straight back along the right side of the table, to the toaster.
+
+Then, in all three:
+
 * Center it over the **near slot**, lower it straight down until it rests in the slot, then release.
-* The **right gripper** takes the second slice the same way and lowers it into the **far slot**.
+* The loading gripper takes the second slice the same way and lowers it into the **far slot**.
 * One slice per trip. Never carry both.
 * Keep each slice standing on edge the whole way. Do not turn the wrist on this carry.
-* The **left gripper** lifts clear once both slices are in.
+* The steadying gripper lifts clear once both slices are in.
 
 **Check:** both slices stand down in their slots, the near slot was filled first, and neither slice
 leans out or rests across the mouth of a slot. The toaster is still on its spot. If a slice sits
-across the slot mouth instead of dropping in, the **right gripper** lifts it clear by the top edge
+across the slot mouth instead of dropping in, the loading gripper lifts it clear by the top edge
 and lowers it again.
 
 ### Step 2: Run one toasting cycle
@@ -273,8 +335,10 @@ This reset is not recorded.
 5. Pull the toaster crumb tray, empty it, and put it back. Check the toaster is cold, empty, and its
    lever is up.
 6. Check the browning dial is still on the same middle setting.
-7. Stand two fresh slices on edge in the bread rack with their faces parallel to the toaster slots.
-   Vary how the slices sit between episodes rather than rebuilding the same layout every time.
+7. Set the bread rack for the next episode's config — front-left (Config L), against the right edge
+   (Config R1), or front-right (Config R2) — and stand two fresh slices on edge in it with their faces
+   parallel to the toaster slots. Vary how the slices sit between episodes rather than rebuilding the
+   same layout every time.
 8. Replace any slice that is torn, stale, or dried hard.
 9. Top up the butter tub if it no longer holds enough to cover two slices, and leave it open on its
    tub spot with the lid off.
@@ -296,6 +360,24 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R1 (bread rack against
+the right edge, the right gripper loading and the left gripper steadying). The pickup and arm-role
+cues will be rewritten later to cover all three start positions; they are left as they are for now.
+Until then, anything that does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the bread rack is
+  not in the start zone for the config; a gripper reaches across the table for a slice; the steady
+  hold in Step 1 is taken on the wrong side of the toaster for the config; or the wrong IF line is
+  followed.
+* **SOP rule broken:** the start position and the same-side rule (the bread rack stands front-left,
+  against the right edge, or front-right, one config per episode; the gripper on the rack's side
+  loads the slices and the other gripper steadies the toaster; the IF line followed is the one for
+  the config on the table).
+* **Coaching note:** look where the bread rack is before the first reach, then follow that config's
+  IF line through Step 1.
 
 **Violation: Slices loaded in the wrong order or the wrong way**
 

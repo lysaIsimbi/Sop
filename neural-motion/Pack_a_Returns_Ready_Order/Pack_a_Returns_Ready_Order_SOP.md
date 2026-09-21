@@ -12,31 +12,62 @@ label, slide out. Nothing goes into the carton under something already in, no fl
 contents are confirmed, no strip comes out of the tape dispenser before all four flaps are in, and the
 shipping label goes on only after the seam strip is pressed flat.
 
-The right gripper takes the two items, the return label, the return tape strip, the presented tape
-strip, and the shipping label; folds the near, far, and right top flaps; presses the seam strip and the
-shipping label; and supplies the push on the final slide. The left gripper brings the instruction sheet
-in, folds the left top flap, steadies the carton for every insert, fold, and press the right gripper
-makes, and guides the slide. Nothing is turned in the air, and a gripper opens only over the spot the
-thing in it is going to.
+The right gripper takes the two items (in Config R), the return label, the return tape strip, the
+presented tape strip, and the shipping label; folds the near, far, and right top flaps; presses the seam
+strip and the shipping label; and supplies the push on the final slide. The left gripper brings the
+instruction sheet in and (in Config L and M) the two items, folds the left top flap, steadies the carton
+for every insert, fold, and press the right gripper makes, and guides the slide. Nothing is turned in the
+air, and a gripper opens only over the spot the thing in it is going to.
+
+The table is set up in one of three ways. Only the item tray moves; the carton, the finished spot, the
+instruction spot, the return kit spot, the label pad, the tape dispenser, and the tape scrap rest are in
+the same place in all three.
+
+* **Config L:** the item tray is at the back-left, behind the finished spot.
+* **Config M:** the item tray is at the front-center, in front of the pack spot.
+* **Config R:** the item tray is at the right edge.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the item tray starts at the back-left (**Config L**), the front-center
+  (**Config M**), or the right edge (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the gripper on the item tray's side takes each item and lowers it into the carton
+  — the left gripper in Config L and M, the right gripper in Config R — while the other gripper holds the
+  carton. No arm reaches across the table.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper fetches the
+  return label, the return tape strip, the seam strip, and the shipping label, folds the near, far, and
+  right flaps, presses, and pushes the slide; the left gripper brings the instruction sheet, folds the
+  left flap, holds, and guides the slide.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera shows the whole tabletop: the carton standing on the pack spot at the center,
-   the finished spot and the instruction spot on its left, and the item tray, return kit spot, label
-   pad, tape dispenser, and tape scrap rest on its right.
+   the finished spot and the instruction spot on its left, the return kit spot, label pad, tape
+   dispenser, and tape scrap rest on its right, and the item tray in the start zone for this episode's
+   config.
 3. The pack spot is visible from above, so every insert going into the carton, every flap fold, the
    strip landing on the seam, and the shipping label landing on the label panel can all be seen.
 4. Both arms are at home with grippers open.
 5. The tabletop is clear of anything but the zones listed below.
 6. Both arms reach the pack spot and the finished spot without crossing or reaching a joint limit. The
-   right arm also reaches the item tray, return kit spot, label pad, tape dispenser, and tape scrap
-   rest. The left arm also reaches the instruction spot. Neither arm needs the other's zones. Both
-   grippers can travel beside the carton through the slide without touching it anywhere but its walls.
+   right arm also reaches the return kit spot, label pad, tape dispenser, tape scrap rest, and
+   (Config R) the item tray. The left arm also reaches the instruction spot and (Config L and M) the
+   item tray. Neither arm needs the other's zones. Both grippers can travel beside the carton through
+   the slide without touching it anywhere but its walls.
 7. The straight path from the pack spot to the finished spot is bare.
 
 ### Materials checklist
@@ -45,11 +76,15 @@ Complete both checklists before starting an episode.
    Its bottom is already taped, it is empty, and all four **top flaps** stand up and clear of the
    opening. The outer face of its **right flap** carries a printed **label panel**, a plain rectangle
    large enough for the shipping label with room to spare.
-2. One **item tray** sits at the right edge holding two **items**, one per **cell**: **cell 1** in the
-   far position and **cell 2** in the near position. Each item is flat sided, light enough for one
-   gripper to lift from above, and small enough that both lie flat side by side on the carton floor
-   with clear space around them. Which two items are used varies between episodes. The count stays at
-   two.
+2. One **item tray** holds two **items**, one per **cell**: **cell 1** in the far position and **cell 2**
+   in the near position. Each item is flat sided, light enough for one gripper to lift from above, and
+   small enough that both lie flat side by side on the carton floor with clear space around them. Which
+   two items are used varies between episodes. The count stays at two. The tray stands in the start zone
+   for this episode's config:
+   * **Config L:** back-left, behind the finished spot
+   * **Config M:** front-center, in front of the pack spot, clear of the carton's near wall so the flat
+     hold still fits
+   * **Config R:** right edge
 3. One **return kit spot** sits at the front right holding two flat pieces side by side: the **return
    label**, a prepaid printed card lying printed face up on the far side of the spot, and the **return
    tape strip**, one length of tape still on its **backing card**, backing down and adhesive face up,
@@ -74,7 +109,8 @@ Complete both checklists before starting an episode.
 * **Finished spot:** the clear unmarked area immediately left of the pack spot. The packed carton stands
   here at the end of the episode.
 * **Instruction spot:** front left, one instruction sheet lying flat and printed face up.
-* **Item tray:** right edge, two cells, cell 1 far and cell 2 near.
+* **Item tray:** the start zone — back-left (**Config L**), front-center (**Config M**), or right edge
+  (**Config R**); two cells, cell 1 far and cell 2 near.
 * **Return kit spot:** front right, the return label on the far side and the return tape strip on its
   backing card on the near side.
 * **Label pad:** front right, right of the return kit spot, one liner square taped flat with one
@@ -83,17 +119,19 @@ Complete both checklists before starting an episode.
 * **Tape scrap rest:** beside the dispenser, where a damaged or badly laid strip is placed.
 
 Everything the right gripper fetches is staged on the right. The instruction sheet the left gripper
-brings is on the left. The pack spot and the finished spot are shared, and both grippers reach the
-carton in either position. No carried thing crosses the midline.
+brings is on the left, and in Config L and M the item tray is on the left gripper's side too. The pack
+spot and the finished spot are shared, and both grippers reach the carton in either position. No carried
+thing crosses the midline.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper fetches the two items, the return label, the return tape strip,
-  the presented tape strip, and the shipping label; folds the near, far, and right top flaps; presses
-  the seam strip and the shipping label; and supplies the push on the slide. The left gripper brings the
-  instruction sheet in, folds the left top flap, holds the carton for the right gripper's inserts,
-  folds, and presses, and guides the slide. The right gripper takes the hold only while the left gripper
-  lowers the instruction sheet in. Neither gripper takes over the other's work.
+* **Arm assignment:** the right gripper fetches the two items (Config R), the return label, the return
+  tape strip, the presented tape strip, and the shipping label; folds the near, far, and right top flaps;
+  presses the seam strip and the shipping label; and supplies the push on the slide. The left gripper
+  brings the instruction sheet in and the two items (Config L and M), folds the left top flap, holds the
+  carton for the right gripper's inserts, folds, and presses, and guides the slide. The right gripper
+  takes the hold only while the left gripper lowers something in: the instruction sheet, and in Config L
+  and M the two items. Neither gripper takes over the other's work.
 * **Carton:** the small open box standing on its taped bottom. Its **near wall** faces the front edge and
   its **far wall** faces away.
 * **Top flaps:** the four flaps standing up around the carton opening, named for the wall they hinge
@@ -104,6 +142,9 @@ carton in either position. No carried thing crosses the midline.
   seam and it is the only place the shipping label goes.
 * **Item:** one product going into the carton. Item 1 comes out of cell 1 and item 2 out of cell 2.
   Both lie flat on the carton floor side by side, and neither ever rides on the other.
+* **Start zone:** where the item tray stands at the start of the episode — back-left (**Config L**),
+  front-center (**Config M**), or right edge (**Config R**). One per episode, chosen before recording and
+  never changed mid-episode.
 * **Return label:** the prepaid printed card. It lies flat on the items, printed face up.
 * **Return tape strip:** one length of tape on its backing card. It goes in whole, backing down and
   adhesive face up, and it is carried and placed by its backing card. The tape is never lifted off the
@@ -147,27 +188,42 @@ carton in either position. No carried thing crosses the midline.
 ## Steps
 
 Steps 1 to 8 pack the carton, in that order. Step 9 ends the episode once the packed carton stands on
-the finished spot.
+the finished spot. Only Step 1 depends on the config: in Config L and M the **left gripper** takes each
+item from the item tray while the right gripper holds the carton; in Config R the **right gripper** takes
+each item while the left gripper holds. Every other line is the same in all three configs.
 
 ### Step 1: Load the two items
 
 **Goal:** both items lying flat on the carton floor side by side.
 
-The **left gripper** takes a **flat hold** on the carton's near wall before the first item and keeps it
-through both.
+Look where the item tray is before reaching for the first item. The holding gripper takes its **flat
+hold** on the carton's near wall before the first item and keeps it through both.
 
 #### 1.1 Item 1
 
-* The **right gripper** closes on **item 1** in **cell 1**, lifts it straight up, carries it level over
+* **IF the item tray is at the back-left (Config L):** the **right gripper** takes the flat hold. The
+  **left gripper** closes on **item 1** in **cell 1**, lifts it straight up, carries it level forward and
+  right over the carton opening, lowers it in until it is resting flat on the carton floor, and releases.
+* **IF the item tray is at the front-center (Config M):** the **right gripper** takes the flat hold. The
+  **left gripper** closes on **item 1** in **cell 1**, lifts it straight up, carries it level back over
   the carton opening, lowers it in until it is resting flat on the carton floor, and releases.
+* **IF the item tray is at the right edge (Config R):** the **left gripper** takes the flat hold. The
+  **right gripper** closes on **item 1** in **cell 1**, lifts it straight up, carries it level left over
+  the carton opening, lowers it in until it is resting flat on the carton floor, and releases.
+
+Then, in all three:
+
 * Item 1 goes to the far half of the carton floor, leaving the near half clear for item 2.
 
 #### 1.2 Item 2
 
-* The **right gripper** closes on **item 2** in **cell 2**, lifts it straight up, carries it level over
-  the carton opening, lowers it in until it is resting flat on the carton floor beside item 1, and
-  releases.
+* **IF Config L or M:** the **left gripper** closes on **item 2** in **cell 2**. **IF Config R:** the
+  **right gripper** closes on it. The holding gripper keeps its flat hold.
+* Lift it straight up, carry it level over the carton opening, lower it in until it is resting flat on
+  the carton floor beside item 1, and release.
 * Item 2 goes to the near half of the carton floor. It never lands on item 1.
+* **IF Config L or M:** once the left gripper is clear of the opening, the **right gripper** releases the
+  flat hold and the **left gripper** takes it on the near wall, ready for Step 2.
 
 Take one item per trip. Item 1 is fully in and released before item 2 is picked.
 
@@ -359,8 +415,9 @@ This reset is not recorded.
 4. Stand the carton square on the pack spot, empty, bottom taped, near wall toward the front edge, all
    four top flaps standing up and the label panel on the outer face of the right flap. Leave the path to
    the finished spot bare.
-5. Load the item tray, one item in cell 1 and one in cell 2, each lying flat and clear of the cell walls.
-   Replace any item that will not lie flat on the carton floor.
+5. Load the item tray, one item in cell 1 and one in cell 2, each lying flat and clear of the cell walls,
+   and stand it in the start zone for the next episode's config — back-left (Config L), front-center
+   (Config M), or right edge (Config R). Replace any item that will not lie flat on the carton floor.
 6. Lay a fresh return label on the far side of the return kit spot, printed face up, and a fresh return
    tape strip on its backing card on the near side, backing down and adhesive face up. Replace either if
    it is creased, torn, or curled, or if the tape has started to lift off its backing.
@@ -395,6 +452,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R (the item tray at the
+right edge, emptied by the right gripper). The pickup and arm-role cues will be rewritten later to cover
+all three start positions; they are left as they are for now. Until then, anything that does not match
+the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the item tray is not
+  in the start zone for the config; a gripper reaches across the table for an item; the gripper on the
+  tray's side takes the flat hold instead of the item; or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the left gripper takes each item in
+  Config L and M and the right gripper in Config R, while the other gripper holds the carton; no arm
+  reaches across the table; the IF line followed is the one for the config on the table).
+* **Coaching note:** look where the item tray is before the first reach, then follow that config's IF
+  lines through Step 1.
 
 **Violation: Wrong order**
 

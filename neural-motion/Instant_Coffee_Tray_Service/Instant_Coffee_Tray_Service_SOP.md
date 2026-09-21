@@ -1,28 +1,35 @@
 # Instant Coffee Tray Service SOP (1x Cup)
 
 Prepare one cup of instant coffee per episode. Work in this order: move the saucer, place the cup,
-add coffee, pour water, stir, return the spoon, then move the cup and saucer together to the tray.
+add coffee, pour water, stir, return the spoon, then move the cup and saucer simultaneously to the
+target tray.
 
 Arm assignments are fixed:
 
 - **Left gripper:** moves the cup to center, holds the sachet for handoff, lifts the spoon at its
-  middle for handoff, stabilizes the saucer during stirring, and returns the spoon to the plate.
+  middle for handoff, stabilizes the saucer during stirring, and returns the spoon to the staging
+  tray.
 - **Right gripper:** moves the saucer to center, takes, empties, and returns the sachet, handles the
   kettle, and takes the spoon at its handle end for stirring.
-- **Final transfer:** both arms move the service together. The left gripper holds the saucer and the
-  right gripper holds the cup handle.
+- **Final transfer:** both arms move the service simultaneously. The left gripper holds the saucer
+  and the right gripper holds the cup handle.
 
-Always grasp the cup by the middle of its handle. Never touch hot water or the kettle body, lid, or
-spout.
+Always grasp the cup by its handle. Never touch hot water or the kettle body, lid, or
+nozzle.
 
 ## Setup
 
-Start only after all input objects are separated on the left staging plate and both checklists pass.
+Start only after all input objects are separated on the left staging tray and both checklists pass.
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
-1. Cameras are recording. The staging plate, center, kettle, and tray are visible.
-2. The kettle spout and cup rim will remain visible during the pour.
+1. Cameras are recording. The staging tray, center, kettle, and target tray are visible.
+2. The kettle nozzle and cup rim will remain visible during the pour.
 3. Both arms are home with grippers open.
 4. The kettle is closed and seated on its stand, handle toward the right arm.
 5. The kettle contains at least 500 mL of water at 90–95 °C.
@@ -30,28 +37,27 @@ Start only after all input objects are separated on the left staging plate and b
 
 ### Materials checklist
 
-1. One clean, dry staging plate is on the left.
-2. These objects are separated on the plate with visible gaps and no overlap:
-   - one empty, dry 200 mL cup, upright with its handle facing right;
+1. One clean, dry staging tray is on the left.
+2. These objects are separated on the staging tray with visible gaps and no overlap:
+   - one empty, dry 200 mL cup, upright;
    - one dry saucer, face up;
    - one open coffee sachet, flat with its opening facing right; and
-   - one dry teaspoon, bowl down with its handle facing right.
-3. One empty, dry tray is in the right output zone.
-4. The cup fits the saucer, and the cup and saucer fit fully on the tray.
+   - one dry teaspoon, bowl down.
+3. One empty, dry target tray is in the right output zone.
+4. The cup fits the saucer, and the cup and saucer fit fully on the target tray.
 
 ### Workspace layout
 
-- **Left:** staging plate with the separated cup, saucer, sachet, and spoon
+- **Left:** staging tray with the separated cup, saucer, sachet, and spoon
 - **Center:** assembly and coffee-preparation area
 - **Back center:** kettle and stand
-- **Right:** serving tray
+- **Right:** target tray
 
 ## Vocabulary
 
-- **Cup-handle grasp:** grasp the middle of the handle; never grasp the cup rim or body.
+- **Cup-handle grasp:** grasp the handle; never grasp the cup rim or body.
 - **Centered cup:** an even ring of saucer is visible around the cup base.
-- **Pour position:** the kettle spout is above the cup with a visible gap from the rim.
-- **Correct fill:** liquid is 1–2 cm below the cup rim.
+- **Pour position:** the kettle nozzle is above the cup with a visible gap from the rim.
 - **Dissolved coffee:** no granules or clumps are visible.
 - **Unsafe spill:** hot water leaves the cup.
 
@@ -63,58 +69,58 @@ Start only after all input objects are separated on the left staging plate and b
 
 #### 1.1 Move the saucer
 
-- With the **right gripper**, grasp the near saucer rim, lift it from the staging plate, and place
+- With the **right gripper**, grasp the near saucer rim, lift it from the staging tray, and place
   it flat in the center.
 - Confirm the saucer is stable. Reseat it once if it rocks.
 
 #### 1.2 Place the cup
 
-- With the **left gripper**, grasp the middle of the cup handle.
-- Lift the cup from the staging plate and lower it into the saucer well.
+- With the **left gripper**, grasp the cup handle.
+- Lift the cup from the staging tray and lower it into the saucer well.
 
 **Check:** the saucer is stable and the cup is centered. Regrasp the cup handle and reseat the cup
 once if needed. Do not slide either object.
 
 ### Step 2: Hand off, empty, and return the sachet
 
-**Goal:** the coffee is in the cup and the empty sachet is back on the staging plate.
+**Goal:** the coffee is in the cup and the empty sachet is back on the staging tray.
 
 #### 2.1 Hold and hand off the sachet
 
-- With the **left gripper**, hold the sachet at its lower end on the staging plate, opening up.
+- With the **left gripper**, hold the sachet at its lower end on the staging tray, opening up.
 - With the **right gripper**, grasp the sachet body below the opening.
 - Release the left gripper only after the right gripper has a secure grasp.
 
 #### 2.2 Empty and return the sachet
 
-- With the right gripper, lift the sachet from the staging plate, keeping the opening up.
-- Center the sachet opening inside the cup rim, invert it, and use two short vertical flicks.
-- If granules remain, repeat the two flicks once.
-- With the right gripper, return the empty sachet flat to its original staging-plate position,
+- With the right gripper, lift the sachet from the staging tray, keeping the opening up.
+- Center the sachet opening inside the cup rim and tilt the sachet until the coffee pours out.
+- Hold the sachet tilted until the flow stops, then hold it 2 more seconds before righting it.
+- If granules remain in the sachet, tilt and pour once more. Never pour a third time.
+- With the right gripper, return the empty sachet flat to its original staging-tray position,
   opening facing right.
 
 **Check:** the sachet is empty and returned. Record any spill. Do not sweep granules into the cup.
 
 ### Step 3: Pour hot water
 
-**Goal:** fill the cup once to 1–2 cm below the rim and return the kettle.
+**Goal:** fill the cup and return the kettle.
 
 #### 3.1 Lift and position
 
 - With the **right gripper**, grasp the kettle handle and lift it straight off the stand.
-- Carry the kettle upright until the spout is in the pour position.
+- Carry the kettle upright until the nozzle is in the pour position.
 
 #### 3.2 Pour
 
-- Tilt and pour into the center of the cup. Stop at 1–2 cm below the rim.
-- Return the kettle upright over the cup and hold for 2 seconds. Do not top up.
+- Tilt and pour into the center of the cup until the cup is filled, stopping below the rim.
+- Return the kettle upright over the cup and let it drain before moving it away.
 
 #### 3.3 Return the kettle
 
 - Carry the kettle upright to its stand, seat it fully, then release it.
 
-**Check:** the kettle is stable and the fill is correct. Reseat a rocking kettle once. Do not
-correct an underfill or overfill.
+**Check:** the kettle is stable and the cup is filled. Reseat a rocking kettle once.
 
 **Spill branch:** if hot water leaves the cup, return the kettle upright and seat it if the path is
 safe. Clear both arms and end the episode. Do not move the cup or wipe hot water while recording.
@@ -122,11 +128,11 @@ Use the station emergency procedure if the return path is unsafe.
 
 ### Step 4: Stir and return the spoon
 
-**Goal:** dissolve the coffee and return the spoon to the staging plate.
+**Goal:** dissolve the coffee and return the spoon to the staging tray.
 
 #### 4.1 Lift and hand off the spoon
 
-- With the **left gripper**, grasp the middle of the spoon and lift it from the staging plate.
+- With the **left gripper**, grasp the middle of the spoon and lift it from the staging tray.
 - Present it at center. With the **right gripper**, grasp the end of the spoon handle.
 - Release the left gripper only after the right gripper has a secure grasp.
 
@@ -134,42 +140,44 @@ Use the station emergency procedure if the return path is unsafe.
 
 - With the **left gripper**, hold the far saucer rim.
 - With the **right gripper**, lower the spoon bowl into the coffee.
-- Stir five full circles in one direction without touching the cup, then lift and drain the spoon
-  over the cup for 2 seconds.
-- If granules remain, repeat five circles once. Never perform a third cycle.
+- Stir five full circles clockwise without touching the cup, then lift and drain the spoon over
+  the cup for 2 seconds.
+- If granules remain, repeat five clockwise circles once. Never perform a third cycle.
 
 #### 4.3 Hand back and return the spoon
 
 - Release the saucer with the **left gripper**, then grasp the middle of the spoon.
 - Release the right gripper only after the left gripper has a secure grasp.
-- With the left gripper, return the spoon bowl down to its original staging-plate position, handle
-  facing right.
+- With the left gripper, return the spoon bowl down to its original staging-tray position.
 
-**Check:** the coffee is dissolved, the cup remains centered, and the spoon is back on the plate.
+**Check:** the coffee is dissolved, the cup remains centered, and the spoon is back on the staging
+tray.
 
-### Step 5: Move the cup and saucer together
+### Step 5: Move the cup and saucer simultaneously
 
-**Goal:** the cup and saucer are stable on the tray.
+**Goal:** the cup and saucer are stable on the target tray.
 
 #### 5.1 Grasp and lift
 
-- With the **left gripper**, grasp the near saucer rim.
-- At the same time, with the **right gripper**, grasp the middle of the cup handle.
-- Lift the cup and saucer together. Keep the saucer level and cup upright.
+- Close both grippers simultaneously: the **left gripper** on the near saucer rim and the **right
+  gripper** on the cup handle.
+- Lift the cup and saucer simultaneously. Keep the saucer level and cup upright.
 
 #### 5.2 Transfer and release
 
-- Carry both objects to the tray on separate, non-crossing arm paths.
-- Lower the saucer into the marked tray position while the right gripper continues holding the cup.
+- Move both arms simultaneously, carrying the objects to the target tray on separate, non-crossing
+  paths.
+- Lower the saucer into the marked position on the target tray while the right gripper continues
+  holding the cup.
 - When the saucer is stable, release the saucer, then release the cup.
 
-**Check:** the cup is centered, the saucer is stable, and both are fully inside the tray. Reseat the
-service once if it overhangs.
+**Check:** the cup is centered, the saucer is stable, and both are fully inside the target tray.
+Reseat the service once if it overhangs.
 
 ### Step 6: End the episode
 
-1. Confirm the cup and saucer are stable on the tray.
-2. Confirm the kettle is seated and the sachet and spoon are back on the staging plate.
+1. Confirm the cup and saucer are stable on the target tray.
+2. Confirm the kettle is seated and the sachet and spoon are back on the staging tray.
 4. Return both arms home with grippers open, then end data collection.
 
 ## After the episode: reset the workspace
@@ -205,8 +213,9 @@ material failures separately.
 
 **Violation: Required sequence not followed**
 
-- **Visible cue:** the cup moves before the saucer; coffee, water, or stirring occurs out of order;
-  or the service moves before the spoon is returned.
+- **Visible cue:** the cup moves before the saucer is stable in the center; the cup and saucer are
+  moved from the staging tray at the same time; coffee, water, or stirring happens out of order; or
+  the service moves before the spoon is returned.
 - **SOP rule broken:** Steps 1–6 (saucer, cup, sachet, kettle, spoon, final transfer, then end).
 - **Coaching note:** follow the fixed sequence from saucer placement through final transfer.
 
@@ -220,16 +229,15 @@ material failures separately.
 
 **Violation: Object handled or transported incorrectly**
 
-- **Visible cue:** an object is dragged, tilted when prohibited, moved on a crossing path, or
-  released unstable.
+- **Visible cue:** an object is dragged, tilted when it should stay level, moved on a crossing path,
+  or released before it is stable.
 - **SOP rule broken:** Steps 1–5 (lift before moving, follow the stated path and orientation, and
   release only when stable).
 - **Coaching note:** use the stated grasp, path, orientation, and release condition.
 
-**Violation: Object dropped, collided, or released uncontrollably**
+**Violation: Object dropped or released uncontrollably**
 
-- **Visible cue:** an object falls, strikes another object or arm, or is released outside its
-  destination.
+- **Visible cue:** an object falls or is released outside its destination.
 - **SOP rule broken:** Steps 1–5 (maintain control and release only at the assigned destination).
 - **Coaching note:** confirm the grasp and landing area before moving.
 
@@ -242,16 +250,9 @@ material failures separately.
 
 **Violation: Cup not grasped by the handle**
 
-- **Visible cue:** a gripper closes on the cup rim or body, or away from the middle of its handle.
-- **SOP rule broken:** Steps 1.2 and 5.1, always grasp the middle of the cup handle.
-- **Coaching note:** always grasp the middle of the cup handle.
-
-**Violation: Saucer and cup moved in the wrong order**
-
-- **Visible cue:** the cup is moved before the saucer is stable in the center, or both are moved
-  together from the staging plate.
-- **SOP rule broken:** Steps 1.1–1.2 (place and stabilize the saucer before moving the cup).
-- **Coaching note:** place the saucer with the right gripper, then the cup with the left.
+- **Visible cue:** a gripper closes on the cup rim or body instead of its handle.
+- **SOP rule broken:** Steps 1.2 and 5.1, always grasp the cup handle.
+- **Coaching note:** always grasp the cup handle.
 
 **Violation: Cup or saucer placed incorrectly**
 
@@ -262,33 +263,37 @@ material failures separately.
 
 **Violation: Sachet handled incorrectly**
 
-- **Visible cue:** the opening points down before reaching the cup; granules empty outside the cup;
-  coffee remains inside; or the sachet is not returned flat.
-- **SOP rule broken:** Step 2.2 (use the right gripper to empty fully into the cup and return the
-  sachet to its original plate position).
-- **Coaching note:** keep the opening up during transit, empty over the cup, then return the sachet.
+- **Visible cue:** the opening points down before reaching the cup; the sachet is shaken or flicked
+  instead of poured; granules empty outside the cup; coffee remains inside; a third pour is made; or
+  the sachet is not returned flat.
+- **SOP rule broken:** Step 2.2 (use the right gripper to pour the sachet empty into the cup, with
+  one extension only when needed, and return the sachet to its original staging-tray position).
+- **Coaching note:** keep the opening up during transit, pour over the cup, then return the sachet.
 
 **Violation: Spill, debris, or waste handled incorrectly**
 
-- **Visible cue:** material lands outside the cup; granules are swept into the cup; or hot water is
-  wiped or the hot service is moved after a spill.
+- **Visible cue:** granules land outside the cup; granules are swept into the cup; or hot water is
+  wiped, or the hot service is moved, after a spill.
 - **SOP rule broken:** Step 2.2, Step 3 spill branch, and Step 4.2 (keep material in the cup and
-  follow the prescribed spill response).
+  follow the written spill response).
 - **Coaching note:** do not return spills; follow the hot-water spill branch.
 
 **Violation: Pour safety condition not followed**
 
-- **Visible cue:** the kettle tilts before reaching the cup, the spout touches the cup, or the
+- **Visible cue:** the kettle tilts before reaching the cup, the nozzle touches the cup, or the
   kettle is released before seating.
-- **SOP rule broken:** Steps 3.1–3.3 (carry upright, keep a spout gap, and seat the kettle before
+- **SOP rule broken:** Steps 3.1–3.3 (carry upright, keep a nozzle gap, and seat the kettle before
   release).
 - **Coaching note:** carry upright, keep a gap, and seat before release.
 
-**Violation: Fill level out of range or cup topped up**
+**Violation: Hot water spilled**
 
-- **Visible cue:** the liquid is outside the 1–2 cm range or a second pour is made.
-- **SOP rule broken:** Step 3.2 (make one pour and stop 1–2 cm below the rim).
-- **Coaching note:** stop in range on the first pour.
+- **Visible cue:** water leaves the cup at any point — during the pour, while stirring, or during
+  the final transfer — and lands on the saucer, the table, the target tray, or another object.
+- **SOP rule broken:** Step 3.2 and the Step 3 spill branch (all water stays in the cup; an unsafe
+  spill ends the episode).
+- **Coaching note:** pour slowly into the center of the cup and stop below the rim; if water leaves
+  the cup, seat the kettle, clear both arms, and end the episode.
 
 **Violation: Handoff not completed correctly**
 
@@ -301,49 +306,53 @@ material failures separately.
 
 **Violation: Stirring performed incorrectly**
 
-- **Visible cue:** the left gripper stirs; fewer than five circles are made; direction reverses; the
-  spoon touches the cup; the left gripper does not hold the saucer; or a third cycle is performed.
-- **SOP rule broken:** Step 4.2 (left stabilizes the saucer; right stirs five circles in one
-  direction, with one extension only when needed).
-- **Coaching note:** hold with the left, stir with the right, and extend only once if needed.
+- **Visible cue:** the left gripper stirs; fewer than five circles are made; any circle runs
+  counterclockwise; the spoon touches the cup; the left gripper does not hold the saucer; or a third
+  cycle is performed.
+- **SOP rule broken:** Step 4.2 (left stabilizes the saucer; right stirs five clockwise circles,
+  with one extension only when needed).
+- **Coaching note:** hold with the left, stir clockwise with the right, and extend only once if
+  needed.
 
 **Violation: Spoon not returned correctly**
 
 - **Visible cue:** the spoon remains in the cup or center, or is not bowl down in its original
-  staging-plate position with its handle right.
-- **SOP rule broken:** Step 4.3 (return the spoon bowl down to its original plate position, handle
-  facing right).
-- **Coaching note:** drain the spoon, then return it to its original plate position.
+  staging-tray position.
+- **SOP rule broken:** Step 4.3 (return the spoon bowl down to its original staging-tray
+  position).
+- **Coaching note:** drain the spoon, then return it to its original staging-tray position.
 
 **Violation: Final transfer not performed with both arms**
 
-- **Visible cue:** the cup and saucer move separately; one arm performs the transfer; the left
-  gripper does not hold the saucer; or the right gripper does not hold the cup handle.
-- **SOP rule broken:** Steps 5.1–5.2 (left holds the saucer and right holds the cup handle
-  throughout the final transfer).
-- **Coaching note:** grasp both objects and move them together with their assigned arms.
+- **Visible cue:** the cup and saucer move separately; one arm lifts or carries before the other;
+  one arm performs the transfer; the left gripper does not hold the saucer; or the right gripper
+  does not hold the cup handle.
+- **SOP rule broken:** Steps 5.1–5.2 (grasp, lift, and carry simultaneously, with left holding the
+  saucer and right holding the cup handle throughout the final transfer).
+- **Coaching note:** grasp both objects and move them simultaneously with their assigned arms.
 
-**Violation: Final transfer or tray placement incorrect**
+**Violation: Final transfer or target-tray placement incorrect**
 
 - **Visible cue:** the arm paths cross; the service tilts; the cup or saucer is released early; or
-  either object remains outside the tray.
+  either object remains outside the target tray.
 - **SOP rule broken:** Steps 5.1–5.2 (use separate paths, keep both objects controlled, and release
-  only after the saucer is stable on the tray).
-- **Coaching note:** keep both objects controlled until the saucer is stable on the tray.
+  only after the saucer is stable on the target tray).
+- **Coaching note:** keep both objects controlled until the saucer is stable on the target tray.
 
 **Violation: Workspace or tool state not restored**
 
-- **Visible cue:** the kettle is off its stand or the sachet or spoon is not in its plate position.
+- **Visible cue:** the kettle is off its stand or the sachet or spoon is not in its staging-tray
+  position.
 - **SOP rule broken:** Steps 2.2, 3.3, 4.3, and 6 (restore the sachet, kettle, and spoon before
   homing).
 - **Coaching note:** restore all required final states before homing.
 
 **Violation: Incorrect episode ending**
 
-- **Visible cue:** recording ends before final checks, with arms away from home, with closed
-  grippers, or without the 3-second hold.
+- **Visible cue:** recording ends before final checks, with arms away from home, or with closed
+  grippers.
 - **SOP rule broken:** Step 6 (complete final checks, home both arms with open grippers, then end).
-- **Coaching note:** complete final checks, hold, home both arms, then end.
+- **Coaching note:** complete final checks, home both arms, then end.
 
 **Non-violation failures:** log and discard an unusable episode for a recording, camera, robot,
 kettle, or fixture failure; defective material; or an unexpected safety hazard.
@@ -357,7 +366,7 @@ kettle, or fixture failure; defective material; or an unexpected safety hazard.
 5. Lift, pour, and return the kettle with the right gripper
 6. Hand the spoon from the left gripper to the right gripper
 7. Stir and inspect the coffee
-8. Hand the spoon back and return it to the staging plate
-9. Grasp and move the cup and saucer together
-10. Place the service on the tray
+8. Hand the spoon back and return it to the staging tray
+9. Grasp and move the cup and saucer simultaneously
+10. Place the service on the target tray
 11. Return both arms home and end the episode

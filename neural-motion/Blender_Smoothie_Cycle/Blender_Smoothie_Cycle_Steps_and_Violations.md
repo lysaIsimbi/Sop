@@ -319,6 +319,15 @@ Tag each violation with its timestamp and name. Retain the tagged episode in tra
   relock it on the blender base).
 - **Coaching note:** finish with the pitcher stable on the table.
 
+**Violation: Step skipped**
+- **Visible cue:** a step in the sequence is never performed — only one ingredient is loaded, the
+  blend cycle never starts, the pitcher is poured straight from the base without the Step 7 set-down,
+  a serving cup is left empty, or the pitcher is left on the table with a visible spill uncleaned.
+- **SOP rule broken:** Steps 1 to 10 (perform every step in order and finish it, including its
+  **Check**, before starting the next).
+- **Coaching note:** name the next step before you move; a step whose check you never made has not
+  been done.
+
 **Violation: Wrong arm used**
 - **Visible cue:** a motion assigned to one gripper is performed by the other, or the prescribed
   two-gripper lid or pitcher hold is replaced with a one-gripper motion.

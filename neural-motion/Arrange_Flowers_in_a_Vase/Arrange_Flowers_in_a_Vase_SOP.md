@@ -13,29 +13,34 @@ stripped, then stands it in the vase. The right gripper works the blade, pulls t
 waste, pours the water, and wipes. Neither gripper crosses to the other side of the table.
 
 Every flower is cut and stripped lying flat on the cutting board, never held up in the air. A flower is
-raised upright only at the moment it goes into the vase, and it is never held by its bloom. The blade
-only ever travels straight down and straight up over the trim line. The vase is never gripped, steadied,
-or nudged at any point in the episode.
+raised upright only at the moment it goes into the vase, and it is never held by its bloom. Every stem
+is cut with the blade drawn toward the front edge along the trim line, stroke after stroke on that same
+line until the stem parts. The number of strokes is not fixed and is never counted. The vase is never
+gripped, steadied, or nudged at any point in the episode.
 
 ## Setup
 
 Complete both checklists before starting an episode.
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera shows the whole table: the flower tray at the back left, the vase at the
    center back, the cutting board at the center front, the blade rest right of the cutting board, the
-   pitcher stand at the back right, the cloth rest at the front right, and the waste tray at the front
+   pitcher at the back right, the cloth rest at the front right, and the waste tray at the front
    right corner.
-3. The cutting board is visible from above, so the stem stop, the trim line, and every cut can be
-   seen.
-4. The vase is visible from the side, so the fill line and the water rising to it can be seen.
+3. The cutting board is visible from above, so the trim line and every cut can be seen.
+4. The vase is visible from the side, so the water rising inside it can be seen.
 5. Both arms are at home with grippers open.
 6. The table is clean, dry, and bare apart from the flower tray, the vase, the cutting board, the
    blade, the pitcher, the cloth, and the waste tray.
 7. The left arm reaches the flower tray, the cutting board, and the vase. The right arm reaches the
-   blade rest, the cutting board, the vase, the pitcher stand, the cloth rest, and the waste tray.
+   blade rest, the cutting board, the vase, the pitcher spot, the cloth rest, and the waste tray.
 
 ### Materials checklist
 
@@ -44,18 +49,18 @@ Complete both checklists before starting an episode.
    **middle flower**, and the **short flower**. Anyone looking at the tray can tell which is which.
 2. Every flower has leaves on the lower half of its stem, and a stem firm enough to lie straight
    rather than curl on the board.
-3. One **cutting board** sits at the center front, clean and dry, with the **stem stop** raised along
-   its right edge and the **trim line** marked across the board left of the stem stop. The board is
-   wide enough to hold all three flowers side by side without their blooms touching.
+3. One **cutting board** sits at the center front, clean and dry, with the **trim line** marked
+   across it a short way in from its right edge. The board is wide enough to hold all three flowers
+   side by side without their blooms touching.
 4. One **blade** lies flat on the blade rest right of the cutting board, edge down and handle toward
    the front edge. Its handle runs along its back so one gripper can close on it, and it is sharp
-   enough to part a sound stem in one press.
+   enough to part a sound stem cleanly rather than crush or tear it.
 5. One **vase** stands at the center back, empty and dry inside and out. Its base is wide and heavy
-   enough that it stands with three flowers in it and takes a pour without being held. Its **fill
-   line** is marked around the outside and faces the front edge.
+   enough that it stands with three flowers in it and takes a pour without being held, and its wall
+   is clear enough to show the water level from the side.
 6. The vase rim reaches no higher than the middle of the shortest stem once that stem is cut.
-7. One **pitcher** stands on the pitcher stand at the back right, handle toward the front edge,
-   holding enough water to fill the vase to the fill line with water to spare.
+7. One **pitcher** stands on the table at the back right, handle toward the front edge, holding
+   enough water to fill the vase to the fill level with water to spare.
 8. One folded dry **cloth** per episode lies on the cloth rest at the front right. A cloth is used for
    one episode and thrown away.
 9. One **waste tray**, empty, at the front right corner.
@@ -63,10 +68,10 @@ Complete both checklists before starting an episode.
 ### Workspace layout
 
 * **Flower tray:** back left, the three flowers lying flat, blooms left and stem ends right.
-* **Cutting board:** center front, the working area, carrying the stem stop and the trim line.
-* **Vase:** center back, empty, standing, marked with the fill line.
+* **Cutting board:** center front, the working area, carrying the trim line.
+* **Vase:** center back, empty, standing.
 * **Blade rest:** right of the cutting board, the blade lying flat.
-* **Pitcher stand:** back right, the pitcher of water.
+* **Pitcher spot:** back right, the pitcher of water standing on the table.
 * **Cloth rest:** front right, the folded cloth.
 * **Waste tray:** front right corner, holding the cut ends, the stripped leaves, and the used cloth.
 
@@ -86,13 +91,24 @@ the right arm carries is staged on the right. No carried thing crosses the midli
 * **Table hold:** the left gripper closed on a stem and holding it flat against the cutting board while
   the right gripper works on it. The hold sits on the bloom side of the trim line, clear of the blade
   path. The stem never leaves the board while it is held.
-* **Stem stop:** the raised edge along the right side of the cutting board. Every stem end is laid
-  against it, so every stem is cut the same length shorter and the three flowers keep their order of
-  height.
-* **Trim line:** the line marked across the cutting board. Every cut lands on it.
-* **Press cut:** one straight downward press of the blade through the stem onto the board, then one
-  straight lift clear. The blade never drags along the stem and never saws back and forth.
-* **Cut end:** the short piece of stem left between the trim line and the stem stop after a press cut.
+* **Stem end line-up:** the three stems lie with their stem ends level with one another at the right
+  edge of the cutting board, so every stem is cut the same length shorter and the three flowers keep
+  their order of height.
+* **Trim line:** the line marked across the cutting board. Every stroke of the blade lands on it.
+* **Slice stroke:** the edge set square across the stem on the trim line and drawn once toward the
+  front edge while it presses down into the stem, then lifted clear of the stem before it goes back for
+  the next stroke. The blade cuts on the draw only. It never saws back and forth, never cuts on the way
+  back, and never travels along the stem away from the trim line.
+* **Cutting a stem:** slice strokes repeated in the same cut on the trim line until the stem parts. How
+  many strokes a stem takes is not fixed and is never counted, because no single stroke parts a flower
+  stem. A thick stem takes more than a thin one. What matters is that every stroke lands in the same
+  cut, the table hold stays on the whole time, and the stem parts rather than crushes.
+* **Parted stem:** the stem separated at the trim line, the cut end lying free between the trim line
+  and the right edge of the board, its face square rather than crushed or torn.
+* **Stalled cut:** the strokes stop biting and the stem flattens, crushes, or tears at the trim line
+  instead of parting. A stalled cut ends the episode and is logged as a blade fault.
+* **Cut end:** the short piece of stem left between the trim line and the right edge of the board
+  once the stem parts.
 * **Low leaf:** any leaf on the lower half of the stem, counting from the cut end up to the bloom.
   Every low leaf comes off. Nothing above the halfway point is touched.
 * **Vase mouth:** the open top of the vase. It holds three places: the **back of the mouth** farthest
@@ -101,8 +117,8 @@ the right arm carries is staged on the right. No carried thing crosses the midli
 * **Stepped arrangement:** the tall flower at the back of the mouth, the middle flower in the middle,
   and the short flower at the front, so the blooms step down toward the front edge. No stem crosses
   another and no bloom leans on another.
-* **Fill line:** the mark around the outside of the vase. The pour stops the moment the water reaches
-  it.
+* **Fill level:** the water standing halfway up the vase, seen from the side. The pour stops the
+  moment the water reaches it.
 * **Unheld vase:** from setup to the end of the episode the vase is never gripped, steadied, or
   nudged. It stands on its own weight. If it is knocked out of place, end the episode and put it right
   during the reset, not while recording.
@@ -114,7 +130,7 @@ the right arm carries is staged on the right. No carried thing crosses the midli
 * **Lift:** coming straight down onto the grasp point, closing, and raising straight up until there is
   daylight under the thing, before anything moves sideways.
 * **Release point:** over the cutting board, over the vase mouth, over the blade rest, over the pitcher
-  stand, or over the waste tray. A gripper opens nowhere else.
+  spot, or over the waste tray. A gripper opens nowhere else.
 
 ## Steps
 
@@ -130,16 +146,18 @@ three cut ends in the waste tray.
 
 * The **left gripper** closes on the **stem** of the **tall flower** at its **grasp point** in the
   flower tray, lifts it straight up, carries it level to the **cutting board**, lays it flat with the
-  stem running left to right and the **stem end** against the **stem stop**, and releases.
+  stem running left to right and the **stem end** at the right edge of the board, and releases.
 * Lay it farthest from the front edge, leaving room for two more in front of it.
 * Repeat for the **middle flower** and then the **short flower**, laying each one nearer the front
-  edge than the last, stems parallel and stem ends against the stem stop.
+  edge than the last, stems parallel and stem ends level with one another at the right edge of the
+  board.
 
 Take each flower by the stem only. Never close on the bloom, never lift two flowers in one grasp, and
 never drag a flower across the table.
 
 **Expected state:** three flowers lie in a row on the cutting board, tall farthest from the front edge
-and short nearest it, every stem end touching the stem stop, no bloom touching another.
+and short nearest it, every stem end level with the others at the right edge of the board, no bloom
+touching another.
 
 #### 1.2 Take the blade
 
@@ -152,21 +170,26 @@ Carry the blade edge down and level. Never turn it in the gripper and never carr
 
 * The **left gripper** takes a **table hold** on the tall flower on the bloom side of the trim line.
 * The **right gripper** brings the blade over the stem where it crosses the **trim line**, square
-  across the stem, and makes one **press cut** straight down until the blade meets the board and the
-  stem parts.
-* Lift the blade straight up clear of the board. The **left gripper** releases.
+  across the stem, and takes a **slice stroke** toward the front edge.
+* Lift the edge clear of the stem, set it back into the same cut, and take another slice stroke.
+* Repeat slice strokes in that one cut until the stem parts. Do not count them and do not stop at a set
+  number.
+* Once the stem has **parted**, lift the blade clear and the **left gripper** releases. That flower is
+  done.
+* If the cut **stalls**, end the episode and log a blade fault.
 * Repeat for the middle flower, then the short flower.
 
-One press cut per stem, always on the trim line. The table hold stays on for the whole press and comes
-off only once the blade is clear. Never press where a gripper is, never cut a stem that is not held
-flat, and never make a second cut on a stem that has already parted.
+Every stroke lands in the same cut on the trim line. The table hold stays on from the first stroke until
+the stem has parted and the blade is clear. Never cut where a gripper is, never cut a stem that is not
+held flat, never saw the blade back and forth or cut on the way back, and never take another stroke on a
+stem that has already parted.
 
 #### 1.4 Return the blade and clear the cut ends
 
 * The **right gripper** carries the blade to the **blade rest**, lowers it flat with the edge down and
   the handle toward the front edge, and releases.
-* The **right gripper** then closes on each **cut end** between the trim line and the stem stop, lifts
-  it, carries it to the **waste tray**, and releases it over the tray.
+* The **right gripper** then closes on each **cut end** between the trim line and the right edge of the
+  board, lifts it, carries it to the **waste tray**, and releases it over the tray.
 * Repeat until no cut end is left on the board.
 
 **Check:** three flowers lie on the cutting board with every stem cut on the trim line and every cut end
@@ -189,7 +212,7 @@ table hold, never take a leaf above the halfway point, and never drop a leaf on 
 
 **Check:** no low leaf is left on the lower half of any of the three stems, no leaf base is left torn
 onto a stem, every stripped leaf is in the waste tray, and the three flowers still lie in their row with
-their stem ends against the stem stop.
+their stem ends level at the right edge of the board.
 
 ### Step 3: Set the flowers in the vase
 
@@ -211,20 +234,20 @@ touches the vase rim, the cutting board is clear, and the vase has not moved.
 
 ### Step 4: Pour water into the vase
 
-**Goal:** the water standing at the fill line and the pitcher back on its stand.
+**Goal:** the water standing at the fill level and the pitcher back at its spot.
 
-* The **right gripper** closes on the **pitcher** handle on the pitcher stand and lifts the pitcher
+* The **right gripper** closes on the **pitcher** handle at the pitcher spot and lifts the pitcher
   straight up.
 * Carry it upright to the vase and bring the spout over a gap in the **vase mouth** that is clear of
   the stems.
-* Tilt until the water runs into the vase, and stop the moment the water reaches the **fill line**.
+* Tilt until the water runs into the vase, and stop the moment the water reaches the **fill level**.
 * Bring the pitcher upright over the vase mouth and hold for 2 seconds so it stops dripping.
-* Carry it upright to the **pitcher stand**, lower it until it sits flat, and release.
+* Carry it upright to the **pitcher spot**, lower it until it sits flat, and release.
 
 Pour into the mouth only. Never pour onto a bloom or down the outside of the vase, never rest the spout
 on the vase rim, and never carry the pitcher away from the vase still tilted.
 
-**Check:** the water stands at the fill line, the pitcher sits upright on its stand, no flower has been
+**Check:** the water stands at the fill level, the pitcher stands upright at its spot, no flower has been
 pushed out of its place in the mouth, and the vase has not moved.
 
 ### Step 5: Wipe the drips
@@ -250,9 +273,9 @@ tray, the stepped arrangement is unchanged, and the vase has not moved.
 
 ### Step 6: Confirm the arrangement and end the episode
 
-* Confirm the vase holds three flowers in a stepped arrangement, the water stands at the fill line,
+* Confirm the vase holds three flowers in a stepped arrangement, the water stands at the fill level,
   the tabletop and the outside of the vase are dry, the flower tray and the cutting board are clear,
-  the blade is flat on the blade rest, the pitcher is upright on its stand, and the waste tray holds
+  the blade is flat on the blade rest, the pitcher is upright at its spot, and the waste tray holds
   the three cut ends, every stripped leaf, and the cloth.
 * Return both arms home, clear of the vase and the cutting board, then stop recording.
 
@@ -261,18 +284,17 @@ tray, the stepped arrangement is unchanged, and the vase has not moved.
 This reset is not recorded.
 
 1. Take the three flowers out of the vase and clear them away.
-2. Tip the water out of the vase, dry it inside and out, and stand it back at the center back with the
-   fill line facing the front edge.
+2. Tip the water out of the vase, dry it inside and out, and stand it back at the center back.
 3. Empty the waste tray of cut ends, leaves, and the used cloth, wipe it dry, and set it back at the
    front right corner.
 4. Lay three fresh flowers side by side in the flower tray at the back left, blooms toward the left
    edge and stem ends toward the right, one clearly tall, one clearly middle, one clearly short, and
    confirm each has leaves on the lower half of its stem.
 5. Wipe the cutting board clean and dry, clear it of stem pieces and leaf scraps, and set it back at
-   the center front with the stem stop along its right edge.
+   the center front with the trim line running across it.
 6. Lay the blade flat on the blade rest, edge down and handle toward the front edge, and confirm the
    edge is clean, dry, and undamaged.
-7. Refill the pitcher and set it on the pitcher stand at the back right, handle toward the front edge.
+7. Refill the pitcher and stand it back on the table at the back right, handle toward the front edge.
 8. Lay one folded dry cloth on the cloth rest at the front right.
 9. Wipe any water off the table and confirm the surface is clean and dry. A wet table lets the cutting
    board and the vase slide.
@@ -316,33 +338,37 @@ it just because a rule was broken.
 
 **Violation: Flowers laid out wrong**
 
-* **Visible cue:** at the end of Step 1.1 a stem end is not against the stem stop, a stem lies across
-  another, the three are not in tall to short order from the back edge to the front edge, a bloom
-  overlaps another, or a flower is dragged across the table instead of lifted.
-* **SOP rule broken:** Step 1.1, three flowers laid flat in a row, stems parallel, every stem end
-  against the stem stop, tall farthest from the front edge and short nearest it.
-* **Coaching note:** the stem stop is what makes every cut the same. Push the stem end to it before you
-  release.
+* **Visible cue:** at the end of Step 1.1 a stem end sits short of or past the right edge of the board
+  instead of level with the other two, a stem lies across another, the three are not in tall to short
+  order from the back edge to the front edge, a bloom overlaps another, or a flower is dragged across
+  the table instead of lifted.
+* **SOP rule broken:** Step 1.1, three flowers laid flat in a row, stems parallel, every stem end level
+  with the others at the right edge of the board, tall farthest from the front edge and short nearest
+  it.
+* **Coaching note:** the stem ends lining up is what makes every cut the same. Line the end up with the
+  other two before you release.
 
 **Violation: Stem cut wrong**
 
-* **Visible cue:** a cut lands off the trim line, the blade drags along the stem or saws back and
-  forth, a stem is cut while the left gripper is off it or while the stem shifts, a second cut is made
-  on a stem that already parted, a stem is crushed or torn rather than parted, or a cut end is left on
-  the board.
-* **SOP rule broken:** Steps 1.3 and 1.4, one press cut per stem straight down on the trim line with a
-  table hold on, and every cut end carried to the waste tray.
-* **Coaching note:** hold first, line the blade up on the trim line, then press straight down and lift
-  straight up.
+* **Visible cue:** a stroke lands off the trim line or opens a second cut beside the first, the blade
+  saws back and forth or cuts on the way back, the blade drags along the stem away from the trim line,
+  a stroke is taken while the left gripper is off the stem or while the stem shifts, the blade keeps
+  working a stem that has already parted, a stalled cut is worked on instead of ending the episode, a
+  stem is crushed or torn rather than parted, or a cut end is left on the board.
+* **SOP rule broken:** Steps 1.3 and 1.4, slice strokes repeated in one cut on the trim line with the
+  table hold on until the stem parts, and every cut end carried to the waste tray.
+* **Coaching note:** hold first, line the edge up on the trim line, then draw toward you and lift clear
+  before you come back. Keep every stroke in the same cut and stop the moment the stem parts.
 
 **Violation: Blade handled wrong**
 
 * **Visible cue:** the blade is carried edge up or tilted, turned in the gripper, carried over the
   vase, swung across the board between cuts, set down anywhere other than the blade rest, or left off
   the blade rest once the last stem is cut.
-* **SOP rule broken:** Steps 1.2 and 1.4, the blade is carried edge down and level, moves only straight
-  down and straight up over the trim line, and goes back flat on the blade rest.
-* **Coaching note:** edge down, straight down, straight up, straight back to the rest.
+* **SOP rule broken:** Steps 1.2 and 1.4, the blade is carried edge down and level, moves only along the
+  trim line while it cuts, and goes back flat on the blade rest.
+* **Coaching note:** edge down, draw along the line, lift clear, and straight back to the rest once the
+  last stem has parted.
 
 **Violation: Low leaves not stripped**
 
@@ -354,16 +380,6 @@ it just because a rule was broken.
   and every leaf is carried to the waste tray.
 * **Coaching note:** start at the lowest leaf and work up. Pull away from the bloom, then carry it to
   the tray.
-
-**Violation: Arrangement not stepped**
-
-* **Visible cue:** at the end of Step 3 a flower stands in the wrong place in the mouth, the blooms do
-  not step down toward the front edge, a stem crosses another, a bloom leans on another, two flowers
-  share one place, or a leaf sits inside the vase or on the vase rim.
-* **SOP rule broken:** Step 3, tall at the back of the mouth, middle in the middle, short at the front,
-  none crossed and none leaning.
-* **Coaching note:** place back to front. If a stem lands crossed, lift it straight out and lower it in
-  again.
 
 **Violation: Flower raised or carried wrong**
 
@@ -377,7 +393,7 @@ it just because a rule was broken.
 **Violation: Vase gripped or knocked out of place**
 
 * **Visible cue:** a gripper closes on the vase, steadies it, or nudges it, or the vase is struck and
-  shifts, rocks, or turns so the fill line no longer faces the front edge.
+  shifts, rocks, or turns out of its place at the center back.
 * **SOP rule broken:** Steps 3 to 5, the vase stands on its own weight and is never gripped, steadied,
   or nudged.
 * **Coaching note:** work around the vase. If it moves, end the episode and set it right during the
@@ -385,12 +401,12 @@ it just because a rule was broken.
 
 **Violation: Pour wrong**
 
-* **Visible cue:** the water goes past the fill line, water lands on a bloom, on the outside of the
-  vase, or on the table, the spout rests on the vase rim, the stream is broken and restarted, the
+* **Visible cue:** the water goes short of or past the fill level, water lands on a bloom, on the outside
+  of the vase, or on the table, the spout rests on the vase rim, the stream is broken and restarted, the
   pitcher is carried away still tilted, or a flower is pushed out of its place by the pour.
 * **SOP rule broken:** Step 4, one pour into the mouth clear of the stems, stopping the moment the
-  water reaches the fill line, with the pitcher upright before it leaves the vase.
-* **Coaching note:** watch the fill line, not the pitcher. Bring it upright over the mouth and hold
+  water reaches the fill level, with the pitcher upright before it leaves the vase.
+* **Coaching note:** watch the water rising, not the pitcher. Bring it upright over the mouth and hold
   before you carry it back.
 
 **Violation: Wipe skipped, misdirected, or drips left**
@@ -416,8 +432,9 @@ it just because a rule was broken.
 **Violation: Wrong episode ending**
 
 * **Visible cue:** the episode ends with a flower still in the flower tray or on the cutting board, the
-  water short of or past the fill line, water on the table or on the vase, a cut end or a leaf outside
-  the waste tray, the blade off its rest, the pitcher off its stand, the cloth on the table, an arm
+  water short of or past the fill level, water on the table or on the vase, a cut end or a leaf
+  outside the waste tray, the blade off its rest, the pitcher away from its spot, the cloth on the
+  table, an arm
   away from home, or an arm still over the vase.
 * **SOP rule broken:** Step 6, confirm the vase, the water, the dry table, and the clear zones; return
   both arms home clear of the scene; then stop recording.
@@ -433,26 +450,27 @@ and never use them for coaching.
 * **Hardware fault on an arm:** gripper failure, drift, controller caused collision, or motor error.
 * **Defective flower:** a stem bent, split, or too limp to lie straight on the board under a correct
   table hold, or a bloom that falls off the stem. Replace it before the next episode.
-* **Blade fault:** the edge will not part a sound stem in one correct press, the edge is chipped, or
-  the handle will not sit in one grasp. Replace it before the next episode.
+* **Blade fault:** the cut stalls, so correct slice strokes stop biting and the edge crushes or tears a
+  sound stem instead of parting it, the edge is chipped, or the handle will not sit in one grasp.
+  Replace it before the next episode.
 * **Defective vase:** chipped, leaking, rocking on the table, or so light that it shifts under a
   correct pour. Replace it before the next episode.
 * **Pitcher fault:** it will not pour a controllable stream, or it runs dry before the water reaches
-  the fill line. Refill or replace it before the next episode.
+  the fill level. Refill or replace it before the next episode.
 * **Defective cloth:** already wet, torn, or shedding fibre onto the table. Replace it before the next
   episode.
-* **Cutting board slides** under a correct press cut, or the flower tray or waste tray slides under a
+* **Cutting board slides** under a correct slice stroke, or the flower tray or waste tray slides under a
   correct pick, because the table is wet or slick. Wipe and dry the table before the next episode.
 
 ## Annotation subtasks (from SOP)
 
-1. Lay the three flowers in a row on the cutting board against the stem stop
+1. Lay the three flowers in a row on the cutting board with their stem ends level
 2. Cut the three stems on the trim line with the blade
 3. Clear the three cut ends to the waste tray
 4. Strip the low leaves off the three stems
 5. Set the tall flower at the back of the vase mouth
 6. Set the middle flower in the middle of the vase mouth
 7. Set the short flower at the front of the vase mouth
-8. Pour water into the vase to the fill line
+8. Pour water into the vase to the fill level
 9. Wipe the drips off the table and the vase
 10. Confirm the arrangement and end the episode

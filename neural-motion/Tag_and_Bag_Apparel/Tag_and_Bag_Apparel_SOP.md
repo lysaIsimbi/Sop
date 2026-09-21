@@ -3,39 +3,73 @@
 One episode tags, folds, bags, seals, and sorts two apparel items. Each garment comes off its stage
 into the working area, takes one swift tag at its seam from the mock tag gun, is folded into a packet
 on the table, is slid into a poly bag, is sealed at the flap, and goes onto the spot matching the size
-on its label. One garment is staged on the left and one on the right, and the left one is worked first.
+on its label. The **first garment** is staged wherever the episode's config puts it, the **second
+garment** at the right edge, and the first one is worked first.
 
 The order never changes within a garment: stage, tag, fold, bag, seal, tray. No garment is folded
 before it is tagged, no garment goes into a bag before it is folded, no bag is carried to the tray
 before its flap is sealed, and no bag goes down until the size on that garment's label has been
 read.
 
-The left gripper brings the left garment in, takes the poly bags, and holds whatever the right gripper
-is working on. The right gripper brings the right garment in and does the tagging, the folding, the
-insert, the seal, and the placing on the tray. Neither gripper takes the other's stage, nothing is folded or opened in the air, nothing is
-turned in the air, and a gripper opens only over the spot the thing in it is going to.
+The left gripper brings the first garment in when it starts on the left or at the front-center, takes
+the poly bags, and holds whatever the right gripper is working on. The right gripper brings the first
+garment in when it starts at the front-right, brings the second garment in, and does the tagging, the
+folding, the insert, the seal, and the placing on the tray. Neither gripper takes the other's stage,
+the two arms never cross each other, nothing is folded or opened in the air, nothing is turned in the
+air, and a gripper opens only over the spot the thing in it is going to.
+
+The table is set up in one of three ways. Only the first garment moves; the second garment stage, the
+bag stack, the tag gun spot, the working area, and the tray are in the same place in all three.
+
+* **Config L:** the first garment is at the left edge.
+* **Config M:** the first garment is at the front-center, in front of the working area.
+* **Config R:** the first garment is at the front-right corner.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the first garment starts at the left edge (**Config L**), the front-center
+  (**Config M**), or the front-right (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the gripper on the first garment's side brings it in — the left gripper in Config L
+  and M, the right gripper in Config R. No arm reaches across the table for it.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper brings the second
+  garment in from the right edge, the left gripper takes the bags and holds, and the right gripper tags,
+  folds, inserts, seals, and places.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole table: the left garment stage at the left edge, the right
-   garment stage at the right edge, the bag stack at the front left, the tag gun spot right of the
-   working area, the working area at the center, and the tray at the back center.
+2. The environment camera shows the whole table: the first garment in the start zone for this
+   episode's config, the second garment stage at the right edge, the bag stack at the front left, the
+   tag gun spot right of the working area, the working area at the center, and the tray at the back
+   center.
 3. The working area is visible from above, so every fold, every insert, and every seal can be seen.
 4. Both arms are at home with grippers open.
 5. The table is bare apart from the garments, the poly bags, the mock tag gun, and the tray.
-6. The left arm reaches the left garment stage, the bag stack, and the working area. The right arm
-   reaches the right garment stage, the tag gun spot, the working area, and the tray. Neither arm
-   needs the other's zones.
+6. The left arm reaches the bag stack, the working area, and (Config L and M) the first garment stage.
+   The right arm reaches the second garment stage, the tag gun spot, the working area, the tray, and
+   (Config R) the first garment stage. Neither arm needs the other's zones.
 
 ### Materials checklist
 
-1. Two **garments** of soft folded apparel, each lying flat and square: one at the left garment
-   stage and one at the right garment stage.
+1. Two **garments** of soft folded apparel, each lying flat and square: the **second garment** at the
+   second garment stage on the right edge, and the **first garment** in the start zone for this
+   episode's config, the other two zones bare:
+   * **Config L:** left edge
+   * **Config M:** front-center, in front of the working area, clear of the bag stack
+   * **Config R:** front-right corner, in front of the second garment stage and the tag gun spot
 2. Every garment lies hem edge toward the front edge, collar edge away, with its **size label** face
    up and readable from above.
 3. The two sizes vary between episodes. Both garments carrying the same size in one episode is
@@ -53,8 +87,10 @@ Complete both checklists before starting an episode.
 
 ### Workspace layout
 
-* **Left garment stage:** left edge, one garment lying flat.
-* **Right garment stage:** right edge, one garment lying flat.
+* **First garment stage:** the first garment (input) — left edge (**Config L**), front-center in front
+  of the working area (**Config M**), or front-right corner (**Config R**). One per episode. The zone is
+  bare once the first garment is in the working area.
+* **Second garment stage:** right edge, one garment lying flat, the same in all three configs.
 * **Bag stack:** front left, two poly bags flat in one stack.
 * **Tag gun spot:** the clear patch right of the working area, the mock tag gun lying flat with its
   tip toward the working area.
@@ -62,22 +98,31 @@ Complete both checklists before starting an episode.
 * **Tray:** back center, three unmarked size spots running left to right across it, taking S, M, and
   L in that order.
 
-Everything the right gripper works on is staged on the right or in the center. The garments and the
-bags the left gripper carries are staged on the left. No carried thing crosses the midline.
+The second garment, the tag gun, and the tray are staged on the right or in the center and the bags on
+the left; the first garment is brought in by the gripper on its side. No carried thing crosses the
+midline, and the two arms never cross each other. The left gripper stays left of the right gripper for the whole
+episode, and an arm with nothing to do waits on its own side, clear of the working area.
 
 ## Vocabulary
 
-* **Arm assignment:** the left gripper takes the left stage garment and the poly bags, and holds
-  whatever the right gripper is working on. The right gripper takes the right stage garment, works
-  the tag gun, makes both folds, slides the packet into the bag, seals the flap, and places the
-  sealed bag. Neither gripper takes the other's stage and neither takes over the other's work.
+* **Arm assignment:** the left gripper brings the first garment in (Config L and M), takes the poly
+  bags, and holds whatever the right gripper is working on. The right gripper brings the first garment
+  in (Config R), brings the second garment in, works the tag gun, makes both folds, slides the packet
+  into the bag, seals the flap, and places the sealed bag. Neither gripper takes the other's stage and
+  neither takes over the other's work.
 * **Garment:** one apparel item. Its **hem edge** is the edge nearest the front edge as it lies in
-  the working area and its **collar edge** is the edge farthest from it.
+  the working area and its **collar edge** is the edge farthest from it. The **first garment** starts
+  in the start zone and is worked first; the **second garment** starts at the right edge.
+* **Start zone:** where the first garment lies at the start of the episode — left edge (**Config L**),
+  front-center (**Config M**), or front-right (**Config R**). One per episode, chosen before recording
+  and never changed mid-episode.
 * **Size label:** the printed size on the outside of a garment. It is read once, in the working area
   before the folds, and it decides the size spot.
 * **Size spot:** the place on the tray a sealed bag belongs. Nothing marks the spots, so the spot
   comes from its position across the tray: the left third takes S, the middle third takes M, and the
   right third takes L. The order is the same in every episode and is never read off the tray.
+* **Seam:** a line where two pieces of cloth are joined together by stitches. On a garment it shows
+  as a raised stitched ridge running along an edge.
 * **Tag seam:** the side seam on the right edge of the garment as it lies in the working area, level
   with the middle of that edge. Every tag press is made there and nowhere else.
 * **Mock tag gun:** the plastic tool that carries the swift tags. It is held by the handle, taken
@@ -94,6 +139,11 @@ bags the left gripper carries are staged on the left. No carried thing crosses t
   flap stays down when the bag body is nudged.
 * **Folded packet:** the garment after both folds, lying flat on the table with no layer standing up
   or hanging loose, and no wider than the bag mouth.
+* **Crossing:** the two arms overlapping in the air. One gripper passing over, under, or around the
+  other, the two arms touching or stacked, or a gripper reaching past the other arm to get to
+  something. The arms never cross. On a shared thing the left gripper keeps to the left of the right
+  gripper, and when one gripper has to work the other's half, the other lifts clear and withdraws to
+  its own side first.
 * **Flat hold:** the left gripper closed and resting on a garment, a packet, or a bag body to keep
   it from sliding while the right gripper works. During a fold it lifts clear as the incoming layer
   reaches it, so the fold lands flat.
@@ -108,21 +158,38 @@ bags the left gripper carries are staged on the left. No carried thing crosses t
 
 ## Steps
 
-Steps 1 to 6 finish one garment. Run them twice, taking the left stage garment first, then the right
-stage garment. Step 7 ends the episode once the second sealed bag is on the tray.
+Steps 1 to 6 finish one garment. Run them twice, taking the first garment first, then the second
+garment. Only the first pick in Step 1 depends on the config: the **left gripper** brings the first
+garment in from the left edge (Config L) or the front-center (Config M), the **right gripper** from the
+front-right (Config R). Every other line is the same in all three configs. Step 7 ends the episode once
+the second sealed bag is on the tray.
 
 ### Step 1: Stage one garment in the working area
 
 **Goal:** one garment lying flat and square in the working area with its size label face up.
 
-* For the first garment, the **left gripper** closes on the garment at the **left garment stage**,
-  lifts it straight up, carries it level to the **working area**, lays it flat with the hem edge
-  toward the front edge, and releases.
-* For the second garment, the **right gripper** does the same from the **right garment stage**.
+Look where the first garment is before reaching for it.
+
+* **IF the first garment is at the left edge (Config L):** the **left gripper** closes on the garment
+  at the **first garment stage**, lifts it straight up, carries it level to the **working area**, lays
+  it flat with the hem edge toward the front edge, and releases.
+* **IF the first garment is at the front-center (Config M):** the **left gripper** closes on the
+  garment at the **first garment stage**, lifts it straight up, carries it level straight back from the
+  front edge into the **working area**, lays it flat with the hem edge toward the front edge, and
+  releases.
+* **IF the first garment is at the front-right (Config R):** the **right gripper** closes on the
+  garment at the **first garment stage**, lifts it straight up, carries it level to the **working
+  area**, lays it flat with the hem edge toward the front edge, and releases.
+
+Then, in all three:
+
+* For the second garment, the **right gripper** does the same from the **second garment stage** at the
+  right edge.
 * Read the size label before moving on. It decides the size spot in Step 6.
 
-Take one garment per trip and finish it before the next one comes in. Neither gripper reaches the other
-stage.
+Take one garment per trip and finish it before the next one comes in. Neither gripper reaches across the
+table for a garment. The gripper that is not carrying waits on its own side, clear of the working area,
+so the carrying arm never passes over it.
 
 **Check:** the garment lies flat and square in the working area, hem edge toward the front edge, no edge
 folded under itself, and the size label face up and readable. If it lands bunched or folded over
@@ -143,7 +210,8 @@ itself, lift it clear and lay it down again.
   whole press.
 * The **right gripper** sets the tip on the **tag seam**, presses it against the seam, holds for 2
   seconds, and lifts straight off.
-* Do not drag the tip along the seam, and press nowhere but the tag seam.
+* Do not drag the tip along the seam, and press nowhere but the tag seam. The left gripper stays on
+  the left edge and the right gripper on the right edge, so the arms never cross over the garment.
 
 #### 2.3 Return the gun
 
@@ -163,18 +231,21 @@ Both folds are made on the table. Never lift the garment to fold it in the air.
 #### 3.1 Fold right edge to left edge
 
 * The **left gripper** takes a **flat hold** at the garment's left edge.
+* The **left gripper** lifts clear as the incoming edge reaches it and withdraws to its own side,
+  out of the working area, before the right gripper arrives.
 * The **right gripper** pinches the middle of the right edge, drags it horizontally left across the
-  garment, and lays it on the left edge, then releases.
-* The **left gripper** lifts clear as the incoming edge reaches it.
+  garment, and lays it on the left edge, then releases. It reaches the left edge only once the left
+  gripper has withdrawn, and never passes over the left gripper.
 
 **Expected state:** a narrow rectangle with the folded spine on the left.
 
 #### 3.2 Fold collar edge to hem edge
 
-* The **left gripper** takes a **flat hold** on the near half.
+* The **left gripper** takes a **flat hold** on the left of the near half.
 * The **right gripper** pinches the middle of the collar edge, drags it toward the front edge over
-  the near half, and lays it on the hem edge, then releases.
-* The **left gripper** lifts clear as the incoming edge reaches it.
+  the near half, and lays it on the hem edge, then releases. It works the right of the packet and
+  does not pass over the left gripper.
+* The **left gripper** lifts clear as the incoming edge reaches it and withdraws to its own side.
 
 **Check:** the packet lies flat with no layer standing up or hanging loose and is no wider than the bag
 mouth. If a layer stands proud or the packet is too wide for the mouth, open the last fold, lay the
@@ -191,16 +262,18 @@ layer flat, and fold it again.
   away from the front edge, with the **bag mouth** and **bag flap** toward the front edge, then
   releases.
 
-Take one bag per trip. The flap stays lying back flat with its adhesive strip facing up until Step 5.
+Take one bag per trip. The **right gripper** waits on its own side while the bag comes in. The flap
+stays lying back flat with its adhesive strip facing up until Step 5.
 Nothing is set down on the strip.
 
 #### 4.2 Slide the packet in
 
-* The **left gripper** pinches the middle of the **top wall** at the bag mouth and lifts it just
+* The **left gripper** pinches the **top wall** at the left of the bag mouth and lifts it just
   enough for the mouth to stand open.
 * The **right gripper** closes on the near edge of the **folded packet**, lifts it, brings it level
-  to the open mouth, and slides it in away from the front edge until the whole packet is inside and
-  clear of the mouth, then releases inside the bag and withdraws.
+  to the open mouth from the right of the left gripper, and slides it in away from the front edge
+  until the whole packet is inside and clear of the mouth, then releases inside the bag and
+  withdraws. It never passes over or under the left gripper.
 * The **left gripper** lays the top wall back down flat and releases.
 
 **Check:** the whole packet is inside the bag with no part of it standing proud of the mouth, the bag
@@ -212,13 +285,14 @@ the way in.
 
 **Goal:** a sealed bag lying flat in the working area.
 
-* The **left gripper** takes a **flat hold** on the bag body beyond the mouth and keeps it for the
-  whole seal.
+* The **left gripper** takes a **flat hold** on the bag body beyond the mouth, on the left of the
+  bag, and keeps it for the whole seal.
 * The **right gripper** closes on the near edge of the **bag flap**, folds it away from the front
   edge over the **bag mouth**, and lays it down on the **top wall** so the adhesive strip meets the
   bag.
 * Press along the flap from one end to the other until the strip has taken hold across the full
-  width and no corner is lifting.
+  width and no corner is lifting. The right gripper stays on the flap and does not pass over the
+  left gripper.
 * Release the right gripper, then the left.
 
 The flap is folded once and laid down once. Do not lift a stuck flap to place it again, because the
@@ -241,7 +315,8 @@ up.
   bag already there.
 * Release once it is resting.
 
-The bag goes down the way it was sealed, flap face up. Nothing is turned in the air, and no bag is
+The **left gripper** waits on its own side while the bag is carried, so the arms do not cross on the
+way to the tray. The bag goes down the way it was sealed, flap face up. Nothing is turned in the air, and no bag is
 pressed down after it is resting.
 
 **Check:** the bag lies flat on the size spot for its size, counting from the left end of the tray, flap
@@ -253,7 +328,8 @@ disturbed.
 * Confirm the tray holds two sealed bags, each lying flat on the size spot for its size with the
   flap face up, and confirm both garment stages and the bag stack are empty, the mock tag gun lies
   flat on its spot with the tip toward the working area, and the working area is bare.
-* Return both arms home, clear of the tray and the working area, then stop recording.
+* Return both arms home, each to its own side, clear of the tray and the working area and not
+  crossing on the way, then stop recording.
 
 ## After the episode: reset the workspace
 
@@ -266,8 +342,10 @@ This reset is not recorded.
    the garment out.
 3. Shake each garment out flat and check it for tears and for a readable size label. Replace any
    garment that is torn or whose label cannot be read.
-4. Lay one garment flat at the left garment stage and one at the right garment stage, both hem edge
-   toward the front edge with the size label face up.
+4. Lay the second garment flat at the second garment stage on the right edge, and the first garment
+   flat in the start zone for the next episode's config — left edge (Config L), front-center
+   (Config M), or front-right (Config R) — both hem edge toward the front edge with the size label
+   face up, leaving the other two zones bare.
 5. Vary the sizes and which garment goes to which stage between episodes rather than running the
    same layout every time. The count stays at two garments and two bags.
 6. Stack two poly bags flat at the front left, both facing the same way, each flap lying back flat
@@ -296,6 +374,22 @@ not delete it just because a rule was broken.
 
 ### Violations
 
+**Note on the start position:** the violations below were written for Config L (the first garment
+starts at the left edge). The pickup and arm-role cues will be rewritten later to cover all three start
+positions; they are left as they are for now. Until then, anything that does not match the episode's
+config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the first garment
+  is not in the start zone for the config; a gripper reaches across the table for the first garment;
+  or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the left gripper brings the first
+  garment in in Config L and M, the right gripper in Config R; no arm reaches across the table for it;
+  the IF line followed is the one for the config on the table).
+* **Coaching note:** look where the first garment is before the first reach, then follow that config's
+  IF line through Step 1.
+
 **Violation: Wrong order**
 
 * **Visible cue:** a garment is folded before the tag press, a packet goes into a bag before both
@@ -322,7 +416,20 @@ not delete it just because a rule was broken.
 * **SOP rule broken:** Steps 1 to 6, the left gripper takes the left stage garment and the bags and
   holds what the right gripper works on, and the right gripper tags, folds, inserts, seals, and
   places.
-* **Coaching note:** each arm stays on its own side. Nothing crosses the midline.
+* **Coaching note:** each arm stays on its own side and keeps its own job. Nothing crosses the
+  midline. Reaching past the other arm is scored as **Arms crossed**.
+
+**Violation: Arms crossed**
+
+* **Visible cue:** one gripper passes over, under, or around the other, the two arms touch or stack
+  in the air, a gripper reaches past the other arm to get to something, or the left gripper ends up
+  right of the right gripper. Most often the right gripper reaches the left edge on the first fold
+  while the left gripper is still on it, or an idle arm is left sitting in the working area while
+  the other arm carries over it.
+* **SOP rule broken:** Steps 1 to 7, the two arms never cross, the left gripper stays left of the
+  right gripper, and an arm with nothing to do waits on its own side clear of the working area.
+* **Coaching note:** one arm at a time in shared space. If the other arm is in the way, wait for it
+  to withdraw to its own side before you move in.
 
 **Violation: More than one garment or bag handled at once**
 

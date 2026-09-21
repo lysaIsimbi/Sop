@@ -28,6 +28,11 @@ fold edge across one, and never drag a gripper over one.
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. The cameras are on and recording.

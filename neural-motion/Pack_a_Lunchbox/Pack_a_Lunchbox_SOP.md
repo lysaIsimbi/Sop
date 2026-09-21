@@ -22,6 +22,11 @@ Complete both checklists before the first episode of the session. Before episode
 Hardware checklist and confirm the remaining item sets, lunchbox bases, lids, and bags are in their
 expected states.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.

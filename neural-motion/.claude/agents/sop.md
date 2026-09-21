@@ -132,7 +132,8 @@ out exactly which gaps a rewrite still leaves open.
 1. **Establish the task and the setup.** What is being manipulated, how many
    objects/reps per session, the workspace layout (input / working / output
    zones), and the hardware state at start. If any of this is missing, ask before
-   writing — the Setup section depends on it.
+   writing — the Setup section depends on it. When the task states a count, that
+   whole count belongs to one episode (see the episode-scope rule under **Title**).
 2. **Walk the motion sequence with the user** if they haven't already given you a
    full leader-follower transcript. Elicit, per step: which gripper acts, what it
    grasps and where, the direction and shape of the motion, what "done" looks
@@ -167,7 +168,27 @@ them as a `###` subsection.
 **Title** — task name + session multiplier, e.g. `Towel Folding SOPs (Medium)`,
 `Medium Towels SOP (5x)`.
 
-**Setup** — two checklists to complete before any episode:
+**A count in the task is a count inside one episode.** If the task names a number of
+things to do — six napkins, four shirts, six terminals, two devices — all of them
+happen in a single recorded episode, not one episode per item. The episode ends when
+the last one is done. Title such a task
+`<Task> SOP (1x Episode: <count> <items>)`, open the document with one line saying
+so ("One episode wires all six terminals"), and write the Steps as a loop over the
+count with the episode ending after the final item. Never split a stated count across
+episodes, and never write a session multiplier that multiplies it (no `6x` for six
+napkins).
+
+**Setup** — a cell configuration block plus two checklists to complete before any
+episode:
+- *Cell configuration* — a fixed block that goes first, verbatim, in every SOP:
+
+  ```
+  ### Cell configuration
+
+  * **Environment camera:** 900 mm.
+  * **cell_type:** bimanual
+  ```
+
 - *Hardware checklist* — cameras on/recording; env camera framing (what must be in
   frame); arms at home with grippers open; surface clear of anything but the task
   objects.
@@ -254,20 +275,23 @@ tool. Structure it exactly like this:
     would be broken and restate the rule inline.
   - **Coaching note:** how to retrain (not an annotation label).
 
-  **Sizing rule.** The list is scoped to the task, not to the sentence count. Give
-  each numbered Step one violation covering the failure that step is really about,
-  and a second only if the step has two genuinely different failure modes. Add a
-  small tail of episode-wide ones: wrong arm used, object dropped or knocked over,
-  wrong episode ending. That lands near two per step and should not pass about
-  **fifteen** total. A six step task with thirty violations is wrong, however
-  faithfully each one traces to a sentence.
+  **Sizing rule.** Land the list at **20-25 violations** total. The list is scoped
+  to the task, not to the sentence count: give each numbered Step one violation
+  covering the failure that step is really about, and a second or third where the
+  step has genuinely different failure modes. Add a tail of episode-wide ones:
+  wrong arm used, object dropped or knocked over, wrong episode ending. If that
+  comes in under twenty, look for the failure modes the steps imply but do not
+  spell out — misordered work, a check performed but not confirmed, a fixture or
+  supply left disturbed — rather than padding by splitting one failure into
+  near-duplicate entries.
 
   Merge rather than split. Near duplicates ("dragged instead of carried" and "more
   than one moved at once", or four separate entries about one wipe pattern) belong
-  in one entry with a cue that lists both shapes. A reviewer who has to hold thirty
-  labels in mind uses none of them, so a violation earns its slot only if it names
-  a failure a reviewer would otherwise miss and could act on. Cover a step's minor
-  wording in the cue of its main violation instead of adding an entry.
+  in one entry with a cue that lists both shapes. A violation earns its slot only
+  if it names a failure a reviewer would otherwise miss and could act on. Cover a
+  step's minor wording in the cue of its main violation instead of adding an entry.
+  If honest merging leaves fewer than twenty, ship the shorter list — do not
+  re-split to hit the number.
 
   Keep outcome/quality judgments out; violations are process/step adherence.
 - **Non-violation failures** — episode failures that are **not** caused by how the

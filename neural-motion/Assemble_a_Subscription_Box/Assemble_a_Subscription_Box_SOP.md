@@ -12,31 +12,59 @@ are in, no sticker goes down before both tissue folds are made, no insert card g
 sticker is pressed, the lid never closes before the card is in, and the band is never fastened before
 the lid tab is tucked.
 
-The right gripper takes every item out of the item tray, folds the right tissue overhang and the right
-lid wing, places the seal sticker, closes the lid, tucks the tab, and fastens the band. The left gripper
-folds the left tissue overhang and the left lid wing, brings the insert card in, brings the left band
-end onto the lid, and holds whatever the right gripper is working on. Neither gripper takes the other's
-zones, nothing is folded or turned in the air, and a gripper opens only over the spot the thing in it is
-going to.
+The gripper on the item tray's side takes every item out of the tray. The right gripper folds the right
+tissue overhang and the right lid wing, places the seal sticker, closes the lid, tucks the tab, and
+fastens the band. The left gripper folds the left tissue overhang and the left lid wing, brings the
+insert card in, brings the left band end onto the lid, and holds whatever the right gripper is working
+on. Neither gripper takes the other's zones, nothing is folded or turned in the air, and a gripper opens
+only over the spot the thing in it is going to.
+
+The table is set up in one of three ways. Only the item tray moves; the box, the sticker pad, the card
+spot, and the two band ends are in the same place in all three.
+
+* **Config L:** the item tray is at the back-left, behind the left band end.
+* **Config M:** the item tray is at the front-center, in front of the box and clear of the near wall.
+* **Config R:** the item tray is at the back-right, behind the right band end.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the item tray starts at the back-left (**Config L**), the front-center
+  (**Config M**), or the back-right (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the gripper on the item tray's side takes each item — the left gripper in Config L
+  and M, the right gripper in Config R. No arm reaches across the table.
+* **Fixed roles:** the box, the sticker pad, the card spot, and the band ends never move, and everything
+  after Step 1 — the folds, the seal, the card, the lid, and the band — is done by the same gripper in
+  every config.
+* **Order:** load, wrap, seal, insert, lid, band, in every config.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole table: the box at the center, the item tray on the right, the
-   sticker pad at the front right, the card spot at the front left, and both ribbon band ends laid out
-   on the table to the left and right of the box.
+2. The environment camera shows the whole table: the box at the center, the item tray in the start zone
+   for this episode's config, the sticker pad at the front right, the card spot at the front left, and
+   both ribbon band ends laid out on the table to the left and right of the box.
 3. The box is visible from above, so every outline on the layout card, both tissue folds, the sticker
    press, and the card can be seen.
 4. Both arms are at home with grippers open.
 5. The table is bare apart from the box, the item tray, the sticker pad, the insert card, and the two
    band ends.
-6. The left arm reaches the card spot, the left tissue overhang, the left band end, and the box. The
-   right arm reaches the item tray, the sticker pad, the right tissue overhang, the right band end, the
-   lid, and the box. Neither arm needs the other's zones.
+6. The left arm reaches the card spot, the left tissue overhang, the left band end, the box, and
+   (Config L and M) every cell of the item tray. The right arm reaches the sticker pad, the right tissue
+   overhang, the right band end, the lid, the box, and (Config R) every cell of the item tray. Neither
+   arm needs the other's zones.
 
 ### Materials checklist
 
@@ -53,10 +81,14 @@ Complete both checklists before starting an episode.
 4. One **layout card** lies flat on the tissue in the bottom of the box, printed face up and square to
    the box. It carries six numbered **outlines** in two rows of three: outlines 1, 2, and 3 in the far
    row, left to right, and outlines 4, 5, and 6 in the near row, left to right.
-5. One **item tray** sits on the right side of the table, holding six **items**, one per **cell**. The
-   cells are numbered in the same arrangement as the outlines: cells 1, 2, and 3 in the far row, left to
-   right, and cells 4, 5, and 6 in the near row, left to right. Every item carries a **number label**
-   face up and readable from above.
+5. One **item tray** sits in the start zone for this episode's config, holding six **items**, one per
+   **cell**. The cells are numbered in the same arrangement as the outlines: cells 1, 2, and 3 in the
+   far row, left to right, and cells 4, 5, and 6 in the near row, left to right. Every item carries a
+   **number label** face up and readable from above.
+   * **Config L:** back-left, behind the left band end and clear of the card spot.
+   * **Config M:** front-center, in front of the box, clear of the near wall so the lid tab can fold
+     down, and between the card spot and the sticker pad.
+   * **Config R:** back-right, behind the right band end and clear of the sticker pad.
 6. Each item fits inside its outline with clear space around it and is light enough and small enough for
    one gripper to lift from above. The box is shallow, so no item stands taller than its walls, and the
    six items plus the tissue and the insert card sit below the rim with the lid able to lie flat.
@@ -77,23 +109,26 @@ Complete both checklists before starting an episode.
 
 * **Box spot:** the center of the table, where the box sits and every load, fold, press, and close
   happens.
-* **Item tray:** right side, six numbered cells in two rows of three, far row 1, 2, 3 and near row 4,
-  5, 6, left to right.
+* **Item tray:** the start zone — back-left (Config L), front-center (Config M), or back-right
+  (Config R) — six numbered cells in two rows of three, far row 1, 2, 3 and near row 4, 5, 6, left to
+  right.
 * **Sticker pad:** front right, one liner square taped flat with one seal sticker on it, near edge
   lifted free.
 * **Card spot:** front left, one insert card lying flat, printed face up.
 * **Band ends:** one on the table to the left of the box, one to the right, both flat.
 
-Everything the right gripper works on is staged on the right or at the center. The insert card and the
-left band end the left gripper carries are on the left. No carried thing crosses the midline.
+Apart from the item tray, everything the right gripper works on is staged on the right or at the
+center, and the insert card and the left band end the left gripper carries are on the left. The item
+tray is taken by the gripper on its side. No carried thing crosses the midline.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper lifts every item out of the item tray, folds the right tissue
-  overhang and the right lid wing, places the seal sticker, closes the lid, tucks the tab, and fastens
-  the band. The left gripper folds the left tissue overhang and the left lid wing, brings the insert
-  card in, brings the left band end onto the lid, and holds whatever the right gripper is working on.
-  Neither gripper takes the other's zones and neither takes over the other's work.
+* **Arm assignment:** the right gripper folds the right tissue overhang and the right lid wing, places
+  the seal sticker, closes the lid, tucks the tab, fastens the band, and in Config R lifts every item
+  out of the item tray. The left gripper folds the left tissue overhang and the left lid wing, brings
+  the insert card in, brings the left band end onto the lid, holds whatever the right gripper is
+  working on, and in Config L and M lifts every item out of the item tray. Neither gripper takes the
+  other's zones and neither takes over the other's work.
 * **Box:** the open corrugated mailer on the box spot. Its **near wall** is the wall nearest the front
   edge and its **far wall** is the one carrying the lid hinge.
 * **Lid:** the panel hinged to the far wall. It lies folded back flat on the table, printed inside face
@@ -106,10 +141,13 @@ left band end the left gripper carries are on the left. No carried thing crosses
 * **Layout card:** the printed card in the bottom of the box carrying the six numbered outlines. It
   stays in the box for the whole episode and is never lifted.
 * **Outline:** one printed shape on the layout card, numbered 1 to 6. Outlines 1 to 3 are the far row
-  and 4 to 6 are the near row, so loading in printed order fills the far row first and no gripper ever
-  travels over an item already in the box.
+  and 4 to 6 are the near row, so loading in printed order fills the far row first and the near row never
+  stands in the way of a reach to the far row.
 * **Item:** one product going into the box. Its **number label** is read in the item tray and it decides
   the outline: item N goes into outline N and nowhere else.
+* **Start zone:** where the item tray sits at the start of the episode — back-left (**Config L**),
+  front-center (**Config M**), or back-right (**Config R**). One per episode, chosen before recording
+  and never changed mid-episode.
 * **Tissue sheet:** the sheet under the layout card. Its **left overhang** and **right overhang** are
   the parts hanging over the left and right walls. The **tissue seam** is the line running front to back
   along the middle of the box where the two folds overlap.
@@ -134,19 +172,32 @@ left band end the left gripper carries are on the left. No carried thing crosses
 ## Steps
 
 Steps 1 to 6 assemble the box in one pass, in that order. Step 7 ends the episode once the band is
-fastened.
+fastened. Step 1 depends on where the item tray is: in Config L and M the **left gripper** loads the
+items; in Config R the **right gripper** does. Every other line, in Steps 1 to 7, is the same in all
+three configs.
 
 ### Step 1: Load the six items onto the layout card
 
 **Goal:** all six items resting inside their matching outlines, each number label face up.
 
-* The **right gripper** closes on the item in **cell 1** of the item tray, lifts it straight up, carries
-  it level over the box, lowers it into **outline 1** until it is resting on the layout card, and
-  releases.
+Look where the item tray is before reaching for the first item.
+
+* **IF the item tray is at the back-left (Config L):** the **left gripper** closes on the item in
+  **cell 1**, lifts it straight up, carries it level forward and to the right over the box, lowers it
+  into **outline 1** until it is resting on the layout card, and releases.
+* **IF the item tray is at the front-center (Config M):** the **left gripper** closes on the item in
+  **cell 1**, lifts it straight up, carries it level straight back over the box, lowers it into
+  **outline 1** until it is resting on the layout card, and releases.
+* **IF the item tray is at the back-right (Config R):** the **right gripper** closes on the item in
+  **cell 1**, lifts it straight up, carries it level forward and to the left over the box, lowers it
+  into **outline 1** until it is resting on the layout card, and releases.
+
+Then, in all three:
+
 * Do the same for the items in cells 2, 3, 4, 5, and 6, in that order. Item N always goes into outline N.
 * Take one item per trip and finish it before the next one comes out of the tray.
 * Read the number label in the tray before the lift. It is what picks the outline.
-* The left gripper stays clear of the box for the whole step.
+* The other gripper stays clear of the box for the whole step.
 
 **Check:** all six cells are empty, all six items are resting inside their matching outlines with their
 number labels face up, no item stands on another, no item rests on a box wall or on the tissue, and no
@@ -298,7 +349,9 @@ This reset is not recorded.
 4. Take the used seal sticker off the tissue and discard it. Stickers are single use.
 5. Open both tissue folds and lay each overhang back over its wall, free edge hanging down the outside
    and stopping short of the table.
-6. Lift the six items out and set each one back in its cell in the item tray, number label face up.
+6. Lift the six items out and set each one back in its cell in the item tray, number label face up, and
+   set the tray in the start zone for the next episode's config — back-left (Config L), front-center
+   (Config M), or back-right (Config R).
 7. Check the tissue sheet for tears and for a hole where the sticker was. Swap in a fresh sheet if it is
    torn, holed, or too creased to lie flat, and lay the layout card back on it, printed face up and
    square to the box.
@@ -326,6 +379,23 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R (item tray on the right
+side of the table, behind the right band end). The pickup and arm-role cues will be rewritten later to
+cover all three start positions; they are left as they are for now. Until then, anything that does not
+match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the item tray is not
+  in the start zone for the config; a gripper reaches across the table for an item; or the wrong IF
+  line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the item tray starts at the back-left,
+  the front-center, or the back-right, and the gripper on its side takes each item — the left gripper
+  in Config L and M, the right gripper in Config R; the IF line followed is the one for the config on
+  the table).
+* **Coaching note:** look where the item tray is before the first reach, then follow that config's IF
+  line through Step 1.
 
 **Violation: Wrong order**
 

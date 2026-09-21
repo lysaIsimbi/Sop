@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Report Draft</title>
+  <style>
+    @page { size: A4; margin: 15mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #172033;
+      font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 15px;
+      font-size: 10.4pt;
+      page-break-inside: avoid;
+    }
+    th, td {
+      border: 1px solid #aeb9c8;
+      padding: 8px 9px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.35;
+    }
+    th { background: #f2f5f9; color: #1d3557; font-weight: 700; }
+    .title { background: #1d3557; color: #fff; font-size: 20pt; padding: 13px; }
+    .date { background: #f7f9fc; color: #42526a; font-size: 11pt; }
+    .section { background: #dfe8f3; color: #1d3557; font-size: 14pt; padding: 9px; border-top: 2px solid #1d3557; }
+    .num { text-align: right; white-space: nowrap; }
+    .total td { background: #f2f5f9; font-weight: 700; border-top: 2px solid #1d3557; }
+    .target td { background: #edf5ec; font-weight: 700; border-top: 2px solid #557a50; }
+    .page-break { page-break-before: always; }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr><th class="title">Report Draft</th></tr>
+      <tr><td class="date">24 August 2026</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th class="section" colspan="2">Executive summary</th></tr>
+      <tr><th>Topic</th><th>Update</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>SOPs generated</td><td>118</td></tr>
+      <tr><td>SOPs complete</td><td>37</td></tr>
+      <tr><td>SOPs with samples</td><td>32</td></tr>
+      <tr><td>Data collection complete</td><td>18 Tabletop tasks</td></tr>
+      <tr><td>Data collection in progress</td><td>3 Tabletop tasks</td></tr>
+      <tr><td>In-situ work completed</td><td>0</td></tr>
+      <tr><td>Remaining SOP development</td><td>24 Tabletop Single-arm + 59 In-situ = 83 SOPs</td></tr>
+      <tr><td>SOP-generation rate</td><td>40 SOPs per week</td></tr>
+      <tr><td>SOP-generation completion</td><td>7 September 2026</td></tr>
+      <tr><td>Current collection cycle</td><td>8 tasks in parallel per 1-day batch</td></tr>
+      <tr><td>Current 37-SOP batch completion</td><td>27 August 2026; working target 28 August</td></tr>
+      <tr class="target"><td>Full data-collection target</td><td>1 October 2026</td></tr>
+      <tr><td>Capacity required for 1 October</td><td>8 tasks running in parallel</td></tr>
+    </tbody>
+  </table>
+
+  <table class="page-break">
+    <thead>
+      <tr><th class="section" colspan="4">Project status</th></tr>
+      <tr><th>Measure</th><th class="num">Tabletop</th><th class="num">In-situ</th><th class="num">Total</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Tasks in catalog</td><td class="num">141</td><td class="num">59</td><td class="num">200</td></tr>
+      <tr><td>SOPs generated</td><td class="num">118</td><td class="num">0</td><td class="num">118</td></tr>
+      <tr><td>SOPs complete</td><td class="num">37</td><td class="num">0</td><td class="num">37</td></tr>
+      <tr><td>SOPs with samples</td><td class="num">32</td><td class="num">0</td><td class="num">32</td></tr>
+      <tr><td>Data collection complete</td><td class="num">18</td><td class="num">0</td><td class="num">18</td></tr>
+      <tr><td>Data collection in progress</td><td class="num">3</td><td class="num">0</td><td class="num">3</td></tr>
+      <tr><td>SOPs still to develop</td><td class="num">24</td><td class="num">59</td><td class="num">83</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th class="section" colspan="2">Generated SOPs by arm type</th></tr>
+      <tr><th>Arm classification</th><th class="num">Generated SOPs</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Single-arm</td><td class="num">13</td></tr>
+      <tr><td>Bimanual required</td><td class="num">35</td></tr>
+      <tr><td>Both / dual-capable</td><td class="num">69</td></tr>
+      <tr><td>Arm type not provided</td><td class="num">1</td></tr>
+      <tr><td>Completed bimanually: tasks 11, 22 and 46</td><td class="num">Included above</td></tr>
+      <tr><td>Not completed: tasks 145 and 155</td><td class="num">Excluded</td></tr>
+      <tr class="total"><td>Total</td><td class="num">118</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th class="section" colspan="4">SOP-generation schedule</th></tr>
+      <tr><th>Production period</th><th class="num">Weekly target</th><th class="num">Cumulative total</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Week 1: 24–28 August</td><td class="num">40</td><td class="num">40</td><td>Planned</td></tr>
+      <tr><td>Week 2: 31 August–4 September</td><td class="num">40</td><td class="num">80</td><td>Planned</td></tr>
+      <tr><td>Monday, 7 September</td><td class="num">3</td><td class="num">83</td><td>Planned completion</td></tr>
+      <tr class="target"><td>Expected completion</td><td></td><td></td><td>7 September 2026</td></tr>
+    </tbody>
+  </table>
+
+  <table class="page-break">
+    <thead>
+      <tr><th class="section" colspan="2">Current data-collection batch</th></tr>
+      <tr><th>Measure</th><th>Value</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Completed SOPs available for the current set</td><td>37</td></tr>
+      <tr><td>Data collection complete</td><td>18</td></tr>
+      <tr><td>Currently active</td><td>3</td></tr>
+      <tr><td>Waiting to enter collection</td><td>16</td></tr>
+      <tr><td>Total unfinished, including active tasks</td><td>19</td></tr>
+      <tr><td>Parallel tasks per batch</td><td>8</td></tr>
+      <tr><td>Collection time per batch</td><td>1 day</td></tr>
+      <tr><td>Batches required</td><td>3</td></tr>
+      <tr><td>Estimated duration</td><td>3 working days</td></tr>
+      <tr><td>Expected completion</td><td>27 August 2026</td></tr>
+      <tr class="target"><td>Working target with buffer</td><td>28 August 2026</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th class="section" colspan="2">Full 200-task data-collection target</th></tr>
+      <tr><th>Measure</th><th>Value</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Total program target</td><td>200 tasks</td></tr>
+      <tr><td>Data collection complete</td><td>18 tasks</td></tr>
+      <tr><td>Remaining, including 3 active tasks</td><td>182 tasks</td></tr>
+      <tr class="target"><td>Planned completion</td><td>1 October 2026</td></tr>
+      <tr><td>Time available from 24 August</td><td>38 calendar days</td></tr>
+      <tr><td>Required average throughput</td><td>4.8 tasks per day</td></tr>
+      <tr><td>Required weekly throughput</td><td>About 34 tasks per week</td></tr>
+      <tr><td>Current parallel capacity</td><td>3 tasks</td></tr>
+      <tr><td>Planned parallel capacity</td><td>8 tasks</td></tr>
+      <tr><td>Additional parallel capacity required</td><td>5 tasks</td></tr>
+      <tr><td>Projected completion at 8 tasks per working day</td><td>24 September 2026</td></tr>
+    </tbody>
+  </table>
+
+  <table class="page-break">
+    <thead>
+      <tr><th class="section" colspan="3">Assumptions and actions</th></tr>
+      <tr><th>Type</th><th>Item</th><th>Owner / status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Assumption</td><td>Each eight-task parallel collection batch takes 1 day.</td><td>Monitor weekly</td></tr>
+      <tr><td>Assumption</td><td>In-situ collection can run at approximately the same rate as Tabletop.</td><td>Validate with first batch</td></tr>
+      <tr><td>Requirement</td><td>Increase collection from 3 concurrent tasks to 8.</td><td>____________________</td></tr>
+      <tr><td>Requirement</td><td>Maintain staffing, station uptime, and task readiness.</td><td>____________________</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

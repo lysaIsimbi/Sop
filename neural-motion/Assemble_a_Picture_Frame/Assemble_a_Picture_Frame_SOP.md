@@ -8,24 +8,52 @@ The order never changes: open both tabs, take the backing board out, put the gla
 on the glass, put the backing board back, close both tabs, attach the stand, set the frame upright,
 then wipe the glass. Nothing goes into the frame well while a tab is still over it.
 
-The right gripper does the main work: the glass, the photo, the stand, the lift that stands the frame
-up, and the wipe. The left gripper supports: it works the left tab, moves the backing board, and
-holds the frame steady. Neither gripper reaches across the table into the other one's zone.
+The right gripper does the main work: the stand, the lift that stands the frame up, and the wipe. The
+left gripper supports: it works the left tab, moves the backing board, and holds the frame steady.
+The glass and the photo go in with whichever gripper is on the parts shelf's side. Neither gripper
+reaches across the table into the other one's zone.
 
 The frame is never lifted off the work board. Every flat part is carried level and lowered into the
 frame well until it lies flat, never dropped in from above and never dragged. No gripper ever closes
 on the face of the glass.
 
+The table is set up in one of three ways. Only the parts shelf, with the glass and the photo on it,
+moves; the work board, the backing rest, the stand spot, and the cloth spot are in the same place in
+all three.
+
+* **Config L:** the parts shelf is at the back-left.
+* **Config M:** the parts shelf is at the front-center, in front of the work board.
+* **Config R:** the parts shelf is at the right, between the stand spot and the cloth spot.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the
+line that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the parts shelf starts at the back-left (**Config L**), the front-center
+  (**Config M**) or the right (**Config R**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the gripper on the parts shelf's side puts the glass and the photo in — the
+  left gripper in Config L and M, the right gripper in Config R. No arm reaches across the table.
+* **Fixed roles:** the left gripper works the left tab, carries the backing board, and holds the
+  frame; the right gripper works the right tab, attaches the stand, stands the frame up, and wipes.
+  These do not change with the config.
+
 ## Setup
 
 Complete both checklists before starting an episode.
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera shows the whole table: the work board at the center with the frame face
-   down on it, the backing rest at the left, the parts shelf at the right, the stand spot at the back
-   right, and the cloth spot at the front right.
+   down on it, the backing rest at the left, the parts shelf in the start zone for this episode's
+   config, the stand spot at the back right, and the cloth spot at the front right.
 3. The back of the frame is visible from above, so both tabs, the backing board, and the frame well
    can be seen.
 4. The work board is visible from the front, so the frame can be seen standing upright and the whole
@@ -33,9 +61,9 @@ Complete both checklists before starting an episode.
 5. Both arms are at home with grippers open.
 6. The table is clean, dry, and bare apart from the work board, the backing rest, the parts shelf,
    the stand spot, and the cloth spot.
-7. The left arm reaches the backing rest, the left tab, and the left side rail of the frame. The
-   right arm reaches the parts shelf, the stand spot, the cloth spot, the right tab, and the whole
-   frame.
+7. The left arm reaches the backing rest, the left tab, the left side rail of the frame, and
+   (Config L and M) the parts shelf. The right arm reaches the stand spot, the cloth spot, the right
+   tab, the whole frame, and (Config R) the parts shelf.
 
 ### Materials checklist
 
@@ -49,10 +77,14 @@ Complete both checklists before starting an episode.
    swings flat and is wide enough for a gripper to pinch.
 5. The backing board has a **pull tab** standing up at its center and a **stand slot** cut near the
    edge that faces the back of the table.
-6. One **parts shelf** stands at the right: a low flat block. The **glass** lies flat on its back
-   half. The **photo** lies flat on its front half, picture side down.
-7. The left edge of the glass and the left edge of the photo both hang past the left side of the
-   shelf, so a gripper can take an **edge grip** on each one.
+6. One **parts shelf**, a low flat block, stands in the start zone for this episode's config. The
+   **glass** lies flat on its back half. The **photo** lies flat on its front half, picture side down.
+   * **Config L:** back-left.
+   * **Config M:** front-center, in front of the work board.
+   * **Config R:** right, between the stand spot and the cloth spot.
+7. The glass and the photo both hang past one side of the shelf, so a gripper can take an **edge
+   grip** on each one: the left edge past the left side (Config M and R), or the right edge past the
+   right side (Config L).
 8. The glass is one clear pane, clean, dry, and smooth at the edges. It drops into the frame well
    with an easy fit and does not have to be pressed in.
 9. The photo is one print, cut a little smaller than the frame well, flat and uncreased.
@@ -67,18 +99,25 @@ Complete both checklists before starting an episode.
 
 * **Work board:** center, holding the frame face down with the top rail over the lift gap.
 * **Backing rest:** left, empty, where the backing board waits.
-* **Parts shelf:** right, holding the glass on its back half and the photo on its front half.
+* **Parts shelf (start zone):** back-left (Config L), front-center in front of the work board
+  (Config M), or right between the stand spot and the cloth spot (Config R), holding the glass on its
+  back half and the photo on its front half.
 * **Stand spot:** back right, holding the stand.
 * **Cloth spot:** front right, holding the folded cloth.
 
 Everything the right gripper carries stays on the right and the center. The left gripper works the
-left of the table and the center. Neither one crosses to the other side.
+left of the table, the front-center, and the center. Neither one crosses to the other side.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper puts the glass in, puts the photo in, works the right tab,
-  attaches the stand, stands the frame up, and wipes the glass. The left gripper works the left tab,
-  carries the backing board, and holds the frame steady. Neither gripper takes the other one's work.
+* **Arm assignment:** the right gripper works the right tab, attaches the stand, stands the frame
+  up, and wipes the glass, and puts the glass and the photo in when the parts shelf is at the right
+  (Config R). The left gripper works the left tab, carries the backing board, and holds the frame
+  steady, and puts the glass and the photo in when the parts shelf is at the back-left or the
+  front-center (Config L and M). Neither gripper takes the other one's work.
+* **Start zone:** where the parts shelf stands at the start of the episode — back-left (**Config
+  L**), front-center (**Config M**), or right (**Config R**). One per episode, chosen before recording
+  and never changed mid-episode.
 * **Frame well:** the shallow space inside the back of the frame where the glass, the photo, and the
   backing board sit. Its edge all the way round is the **frame lip**.
 * **Tab:** one of the two flat swivel tabs on the back of the frame. **Open** means the tab points
@@ -92,7 +131,7 @@ left of the table and the center. Neither one crosses to the other side.
 * **Edge grip:** the gripper closes on the edge of a flat part that hangs past the shelf, one finger
   above it and one below, so the part stays level. Used for the glass and the photo.
 * **Lying flat:** the part is down in the frame well, resting on what is under it, with no corner
-  riding up on the frame lip. The right gripper opens only once this is true.
+  riding up on the frame lip. The gripper opens only once this is true.
 * **Frame hold:** the left gripper closed on a rail of the frame and pressing it against the work
   board, so the frame cannot slide, turn, or tip while the right gripper works. The hold stays on for
   the whole step.
@@ -108,7 +147,9 @@ left of the table and the center. Neither one crosses to the other side.
 ## Steps
 
 Steps 1 to 3 fill the frame and close it. Step 4 attaches the stand. Step 5 stands the frame up. Step
-6 wipes the glass. Step 7 ends the episode.
+6 wipes the glass. Step 7 ends the episode. Only Step 2 depends on the config: in Config L and M the
+**left gripper** takes the glass and the photo from the parts shelf, in Config R the **right
+gripper** does. Every other line is the same in all three.
 
 ### Step 1: Open the tabs and take the backing board out
 
@@ -135,14 +176,22 @@ up.
 
 #### 2.1 Put the glass in
 
-* The **right gripper** takes an **edge grip** on the **glass** at the parts shelf and lifts it
-  straight up.
+* **IF the parts shelf is at the back-left (Config L):** the **left gripper** takes an **edge grip**
+  on the **glass** at the parts shelf and lifts it straight up.
+* **IF the parts shelf is at the front-center (Config M):** the **left gripper** takes an **edge
+  grip** on the **glass** at the parts shelf and lifts it straight up.
+* **IF the parts shelf is at the right (Config R):** the **right gripper** takes an **edge grip** on
+  the **glass** at the parts shelf and lifts it straight up.
+
+Then, in all three:
+
 * Carry it level to the frame, lower it into the **frame well**, and release once it is **lying
   flat**.
 
 #### 2.2 Put the photo in
 
-* The **right gripper** takes an **edge grip** on the **photo** and lifts it straight up.
+* **IF Config L or M:** the **left gripper** takes an **edge grip** on the **photo** and lifts it
+  straight up. **IF Config R:** the **right gripper** does the same.
 * Carry it level to the frame, lower it onto the glass, and release once it is **lying flat**.
 
 Glass first, then the photo. Never close on the face of the glass. Never let go of a part above the
@@ -252,17 +301,20 @@ This reset is not recorded.
 2. Pull the stand out of the stand slot and put it back on the stand spot at the back right.
 3. Open both tabs, lift the backing board out, and take the photo and the glass out of the frame
    well.
-4. Wipe both faces of the glass, dry it, and lay it flat on the back half of the parts shelf with its
-   left edge hanging past the side of the shelf.
-5. Lay the photo picture side down on the front half of the parts shelf, left edge hanging past the
-   side of the shelf.
-6. Put the backing board back into the empty frame well with the pull tab up and the stand slot near
+4. Put the parts shelf in the start zone for the next episode's config — back-left (Config L),
+   front-center in front of the work board (Config M), or right between the stand spot and the cloth
+   spot (Config R).
+5. Wipe both faces of the glass, dry it, and lay it flat on the back half of the parts shelf with its
+   left edge (Config M and R) or right edge (Config L) hanging past the side of the shelf.
+6. Lay the photo picture side down on the front half of the parts shelf, the same edge hanging past
+   the side of the shelf.
+7. Put the backing board back into the empty frame well with the pull tab up and the stand slot near
    the top rail, then close both tabs over it. The backing rest stays empty.
-7. Shake the cloth out, fold it back into a small square, and put it on the cloth spot. Swap in a dry
+8. Shake the cloth out, fold it back into a small square, and put it on the cloth spot. Swap in a dry
    cloth if it is damp or dirty.
-8. Wipe the table and the work board and confirm both are clean and dry. A wet board lets the frame
+9. Wipe the table and the work board and confirm both are clean and dry. A wet board lets the frame
    slide.
-9. Replace a cracked or chipped glass, a creased or torn photo, a tab that will not stay closed, a
+10. Replace a cracked or chipped glass, a creased or torn photo, a tab that will not stay closed, a
    split backing board, a pull tab that has come loose, and a stand whose tongue no longer grips the
    slot.
 
@@ -282,6 +334,23 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R (parts shelf at the
+right, the right gripper putting the glass and the photo in). The pickup and arm-role cues will be
+rewritten later to cover all three start positions; they are left as they are for now. Until then,
+anything that does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the parts shelf
+  is not in the start zone for the config; a gripper reaches across the table for the glass or the
+  photo; or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the gripper on the parts shelf's
+  side takes the glass and the photo, the left gripper in Config L and M and the right gripper in
+  Config R; no arm reaches across the table; the IF line followed is the one for the config on the
+  table).
+* **Coaching note:** look where the parts shelf is before the first reach, then follow that config's
+  IF lines through Step 2.
 
 **Violation: Wrong order**
 

@@ -19,15 +19,42 @@ the cup or supplies.
 Never touch hot water and never grip the kettle anywhere but the middle of its handle. Never press,
 stir, or tamp the grounds, and never squeeze the spent filter.
 
+The table is set up in one of three ways. Only the filter stack moves; the cup and dripper, the dripper
+tray, the bin, the grounds bowl and scoop rest, and the kettle stand are in the same place in all three.
+
+* **Config M:** the filter stack is front-centre, inboard of the cup between the cup and the grounds bowl.
+* **Config R1:** the filter stack is front-right, in front of the dripper tray.
+* **Config R2:** the filter stack is back-right, behind the dripper tray.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the filter stack starts front-centre (**Config M**), front-right (**Config R1**), or
+  back-right (**Config R2**). One config per episode, chosen before recording and never changed
+  mid-episode.
+* **Working arm:** the right gripper takes the filter in every config and the left arm stays at home, so
+  no left zone is used and the filter stack is never placed on the left side of the table. The config
+  changes only the direction of the first reach. Nothing is handed over.
+* **Fixed roles:** the cup and dripper stay directly in front of the arm, the tray and the bin stay
+  outboard of the cup, and the grounds bowl, scoop rest, and kettle stand stay inboard of it.
+
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole arc: the kettle stand, grounds bowl, and filter stack on
-   the inboard side, the cup and dripper in front of the arm, and the dripper tray and bin outboard.
+2. The environment camera shows the whole arc: the kettle stand and grounds bowl on the inboard side,
+   the filter stack in the zone for this episode's config, the cup and dripper in front of the arm, and
+   the dripper tray and bin outboard.
 3. The kettle spout and the inside of the filter cone stay visible for the whole pour, and the bed
    surface stays visible until the cone has drained.
 4. The body of the cup stays visible below the dripper, so the rising coffee level can be seen.
@@ -35,8 +62,9 @@ Complete both checklists before starting an episode.
 6. The right arm is at home with its gripper open.
 7. The left arm is at home, clear of the arc, and stays there for the whole episode.
 8. The tabletop is clear, dry, and free of anything but the zones below.
-9. Every zone sits within the right arm's comfortable reach, so no step needs the arm extended to
-   its limit or folded in on itself. Nothing obstructs the arm's path along the arc.
+9. Every zone, including the filter stack front-centre (Config M), front-right (Config R1), or
+   back-right (Config R2), sits within the right arm's comfortable reach, so no step needs the arm
+   extended to its limit or folded in on itself. Nothing obstructs the arm's path along the arc.
 
 ### Materials checklist
 
@@ -50,11 +78,15 @@ Complete both checklists before starting an episode.
    and dry, and steady enough to hold the dripper still while a filter is pulled out of it.
 4. The waste bin sits open at the outboard end of the arc, mouth clear and low enough to stay in
    camera view without the arm having to fold in to reach it.
-5. The filter stack sits on the inboard side nearest the cup: cone filters nested face up, folded
-   rims clear of the holder so the gripper can take the top one from above.
-6. The grounds bowl stands open inboard of the filter stack, holding enough for one full scoop with
-   room for the scoop to enter and be drawn up the inside wall. The scoop stands in its rest beside
-   it, handle up, clean and dry.
+5. The filter stack holds cone filters nested face up, folded rims clear of the holder so the gripper
+   can take the top one from above, in the zone for this episode's config:
+   * **Config M:** front-centre, inboard of the cup between the cup and the grounds bowl.
+   * **Config R1:** front-right, in front of the dripper tray, clear of the path from the tray to the
+     bin.
+   * **Config R2:** back-right, behind the dripper tray, clear of the path from the cup to the tray.
+6. The grounds bowl stands open inboard of the cup, between the kettle stand and the cup, holding
+   enough for one full scoop with room for the scoop to enter and be drawn up the inside wall. The
+   scoop stands in its rest beside it, handle up, clean and dry.
 7. The kettle is closed and seated on its stand at the inboard end of the arc, handle toward the
    arm, holding enough water at brewing temperature for one bloom and one spiral with water left
    over.
@@ -65,19 +97,25 @@ One arc, six zones. Reading from the inboard end (toward the middle of the table
 
 1. **Kettle stand** (inboard end)
 2. **Grounds bowl and scoop rest**
-3. **Filter stack**
+3. **Filter stack**, front-centre between the grounds bowl and the cup (Config M), front-right in front of
+   the tray (Config R1), or back-right behind the tray (Config R2).
 4. **Cup and dripper**, directly in front of the arm on the rubber ring. This is the work point and
    the arm returns to it every step.
 5. **Dripper tray**, just outboard of the cup. Empty until Step 5.
 6. **Waste bin** (outboard end)
 
-Supplies are all inboard of the cup and waste is all outboard of it, so the wet dripper and the spent
-filter never travel back over the filter stack, the grounds bowl, or the kettle.
+The grounds bowl and the kettle are inboard of the cup and waste is outboard of it, and in Config R1 and
+R2 the filter stack sits beside the tray, clear of the arc, so the wet dripper and the spent filter never
+travel back over the filter stack, the grounds bowl, or the kettle.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper performs every action in this SOP. The left arm never leaves
+* **Arm assignment:** the right gripper performs every action in this SOP, and takes the filter from
+  the inboard side in Config M or from the outboard side in Config R1 and R2. The left arm never leaves
   home. Only one object is held at a time, and nothing is handed between grippers.
+* **Start zone:** where the filter stack stands at the start of the episode — front-centre (**Config
+  M**), front-right (**Config R1**), or back-right (**Config R2**). One per episode, chosen before
+  recording and never changed mid-episode.
 * **Tool home:** the scoop's home is its rest, the kettle's is its stand. Each goes back to its home
   before anything else is picked up, and neither is ever set down anywhere else.
 * **Release point:** the gripper opens only inside the filter cone, over the bin, onto the dripper
@@ -108,15 +146,26 @@ filter never travel back over the filter stack, the grounds bowl, or the kettle.
 
 ## Steps
 
-Every step below is performed by the right gripper.
+Every step below is performed by the right gripper. Only the filter pick in Step 1 depends on the config:
+the filter is carried outboard to the dripper in Config M and inboard to it in Config R1 and R2. Every other
+line is the same in all three configs.
 
 ### Step 1: Seat the filter
 
 **Goal:** one filter sits open against the cone wall.
 
-* Take the top filter by its folded rim and lift it straight up.
-* Carry it outboard to the dripper, lower it into the cone until it sits against the wall, and
-  release.
+Look where the filter stack is before reaching for the filter.
+
+* **IF the filter stack is front-centre (Config M):** take the top filter by its folded rim, lift it
+  straight up, and carry it outboard to the dripper.
+* **IF the filter stack is front-right (Config R1):** take the top filter by its folded rim, lift it
+  straight up, and carry it inboard, clear of the tray, to the dripper.
+* **IF the filter stack is back-right (Config R2):** take the top filter by its folded rim, lift it
+  straight up, and carry it forward and inboard, clear of the tray, to the dripper.
+
+Then, in all three:
+
+* Lower it into the cone until it sits against the wall, and release.
 
 Take the filter by its rim only. Never reach inside the cone.
 
@@ -222,7 +271,8 @@ This reset is not recorded.
    stand with the handle toward the arm.
 6. Top up the grounds bowl to hold one full scoop with room for the scoop, and leave it open.
    Replace grounds that have clumped or dried out.
-7. Restock the filter stack, nested face up with rims clear.
+7. Restock the filter stack, nested face up with rims clear, and stand it in the start zone for the
+   next episode's config — front-centre (Config M), front-right (Config R1), or back-right (Config R2).
 8. Empty the bin if the used filters are stacking near its mouth.
 9. Wipe the tabletop and run both Setup checklists again.
 
@@ -242,6 +292,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 not delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config M (filter stack inboard of
+the cup, between the cup and the grounds bowl). The pickup and arm-role cues will be rewritten later to
+cover all three start positions; they are left as they are for now. Until then, anything that does not
+match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the filter stack is
+  not in the start zone for the config; the filter is carried to the dripper from the wrong side; or the
+  wrong IF line is followed.
+* **SOP rule broken:** the start position (the filter stack stands front-centre in Config M, front-right
+  in Config R1, or back-right in Config R2, one config per episode; the IF line followed is the one for
+  the config on the table).
+* **Coaching note:** look where the filter stack is before the first reach, then follow that config's IF
+  line in Step 1.
 
 **Violation: Left arm used**
 

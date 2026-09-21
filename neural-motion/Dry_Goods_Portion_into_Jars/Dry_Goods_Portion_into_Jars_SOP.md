@@ -8,6 +8,11 @@ the jar in the output row, and wipe the table. Never mix the three products.
 
 Complete both checklists below before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.

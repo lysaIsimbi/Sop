@@ -1,0 +1,127 @@
+batch,date,month,day,item,sop_name,source_path,status
+1,2026-08-19,August,19,1,Apply a Screen Film to a Device,Apply_a_Screen_Film_to_a_Device/Apply_a_Screen_Film_to_a_Device_SOP.md,Planned
+1,2026-08-19,August,19,2,Arrange Flowers in a Vase,Arrange_Flowers_in_a_Vase/Arrange_Flowers_in_a_Vase_SOP.md,Planned
+1,2026-08-19,August,19,3,Assemble a Battery Holder Pack,Assemble_a_Battery_Holder_Pack/Assemble_a_Battery_Holder_Pack_SOP.md,Planned
+1,2026-08-19,August,19,4,Assemble a Flat Pack Drawer Box,Assemble_a_Flat_Pack_Drawer_Box/Assemble_a_Flat_Pack_Drawer_Box_SOP.md,Planned
+1,2026-08-19,August,19,5,Assemble a Flat Pack Stool,Assemble_a_Flat_Pack_Stool/Assemble_a_Flat_Pack_Stool_SOP.md,Planned
+1,2026-08-19,August,19,6,Assemble a Four Gear Train,Assemble_a_Four_Gear_Train/Assemble_a_Four_Gear_Train_SOP.md,Planned
+1,2026-08-19,August,19,7,Assemble a Gasketed Enclosure,Assemble_a_Gasketed_Enclosure/Assemble_a_Gasketed_Enclosure_SOP.md,Planned
+1,2026-08-19,August,19,8,Assemble a Picture Frame,Assemble_a_Picture_Frame/Assemble_a_Picture_Frame_SOP.md,Planned
+2,2026-08-20,August,20,9,Assemble a Printed Gearbox Kit,Assemble_a_Printed_Gearbox_Kit/Assemble_a_Printed_Gearbox_Kit_SOP.md,Planned
+2,2026-08-20,August,20,10,Assemble a Six Ingredient Salad,Assemble_a_Six_Ingredient_Salad/Assemble_a_Six_Ingredient_Salad_SOP.md,Planned
+2,2026-08-20,August,20,11,Assemble a Subscription Box,Assemble_a_Subscription_Box/Assemble_a_Subscription_Box_SOP.md,Planned
+2,2026-08-20,August,20,12,Assemble a Valve,Assemble_a_Valve/Assemble_a_Valve_SOP.md,Planned
+2,2026-08-20,August,20,13,Assemble and Wrap a Burrito,Assemble_and_Wrap_a_Burrito/Assemble_and_Wrap_a_Burrito_SOP.md,Planned
+2,2026-08-20,August,20,14,Assemble Four Pipe Fittings,Assemble_Four_Pipe_Fittings/Assemble_Four_Pipe_Fittings_SOP.md,Planned
+2,2026-08-20,August,20,15,Assemble Six Bolt Washer and Nut Stacks,Assemble_Six_Bolt_Washer_and_Nut_Stacks/Assemble_Six_Bolt_Washer_and_Nut_Stacks_SOP.md,Planned
+2,2026-08-20,August,20,16,Attach Four Legs to a Panel,Attach_Four_Legs_to_a_Panel/Attach_Four_Legs_to_a_Panel_SOP.md,Planned
+3,2026-08-21,August,21,17,Audit and Replace Shelf Labels,Audit_and_Replace_Shelf_Labels_SOP.pdf,Planned
+3,2026-08-21,August,21,18,Bag Twelve Grocery Items,Bag_Twelve_Grocery_Items/Bag_Twelve_Grocery_Items_SOP.md,Planned
+3,2026-08-21,August,21,19,Blender Smoothie Cycle,Blender_Smoothie_Cycle/Blender_Smoothie_Cycle_SOP.md,Planned
+3,2026-08-21,August,21,20,Bubble Wrap and Box a Fragile Item,Bubble_Wrap_and_Box_a_Fragile_Item/Bubble_Wrap_and_Box_a_Fragile_Item_SOP.md,Planned
+3,2026-08-21,August,21,21,Build a Five Wire Harness,Build_a_Five_Wire_Harness/Build_a_Five_Wire_Harness_SOP.md,Planned
+3,2026-08-21,August,21,22,Build a Multipack on a Tray,Build_a_Multipack_on_a_Tray/Build_a_Multipack_on_a_Tray_SOP.md,Planned
+3,2026-08-21,August,21,23,Bus a Dinner Table,Bus_a_Dinner_Table/Bus_a_Dinner_Table_SOP.md,Planned
+3,2026-08-21,August,21,24,Button and Fold a Dress Shirt,Button_and_Fold_a_Dress_Shirt/Button_and_Fold_a_Dress_Shirt_SOP.md,Planned
+4,2026-08-22,August,22,25,Cable Coil and Stow,Cable_Coil_and_Stow/Cable_Coil_and_Stow_SOP.md,Planned
+4,2026-08-22,August,22,26,Care for Three Houseplants,Care_for_Three_Houseplants/Care_for_Three_Houseplants_SOP.md,Planned
+4,2026-08-22,August,22,27,Compose a Breakfast Tray,Compose_a_Breakfast_Tray/Compose_a_Breakfast_Tray_SOP.md,Planned
+4,2026-08-22,August,22,28,Consolidate Two Partial Bins,Consolidate_Two_Partial_Bins/Consolidate_Two_Partial_Bins_SOP.md,Planned
+4,2026-08-22,August,22,29,Countertop Reset,Countertop_Reset/Countertop_Reset_SOP.md,Planned
+4,2026-08-22,August,22,30,Decant a Carton into Totes,Decant_a_Carton_into_Totes/Decant_a_Carton_into_Totes_SOP.md,Planned
+4,2026-08-22,August,22,31,Decant Groceries and Label,Decant_Groceries_and_Label/Decant_Groceries_and_Label_SOP.md,Planned
+4,2026-08-22,August,22,32,Desk Reset,Desk_Reset/Desk_Reset_SOP.md,Planned
+5,2026-08-23,August,23,33,Drive Three Machine Screws into a Tapped Desktop,Drive_Three_Machine_Screws_into_a_Tapped_Desktop/Drive_Three_Machine_Screws_into_a_Tapped_Desktop_SOP.md,Planned
+5,2026-08-23,August,23,34,Dry Goods Portion into Jars,Dry_Goods_Portion_into_Jars/Dry_Goods_Portion_into_Jars_SOP.md,Planned
+5,2026-08-23,August,23,35,Dunk Leak Test a Part,Dunk_Leak_Test_a_Part/Dunk_Leak_Test_a_Part_SOP.md,Planned
+5,2026-08-23,August,23,36,End of Shift Station 5S,End_of_Shift_Station_5S/End_of_Shift_Station_5S_SOP.md,Planned
+5,2026-08-23,August,23,37,Erect and Tape a Carton,Erect_and_Tape_a_Carton/Erect_and_Tape_a_Carton_SOP.md,Planned
+5,2026-08-23,August,23,38,Fabric Wrap a Gift Order,Fabric_Wrap_a_Gift_Order/Fabric_Wrap_a_Gift_Order_SOP.md,Planned
+5,2026-08-23,August,23,39,Fasten a Closure Series and Fold a Garment,Fasten_a_Closure_Series_and_Fold_a_Garment/Fasten_a_Closure_Series_and_Fold_a_Garment_SOP.md,Planned
+5,2026-08-23,August,23,40,Feed a Conveyor Line Station,In_Situ_SOPs/Feed_a_Conveyor_Line_Station/Feed_a_Conveyor_Line_Station_SOP.md,Planned
+6,2026-08-24,August,24,41,Fill a Seven Day Pill Organizer,Fill_a_Seven_Day_Pill_Organizer/Fill_a_Seven_Day_Pill_Organizer_SOP.md,Planned
+6,2026-08-24,August,24,42,Fold a Fitted Sheet,Fold_a_Fitted_Sheet/Fold_a_Fitted_Sheet_SOP.md,Planned
+6,2026-08-24,August,24,43,Fold and Polybag Apparel,Fold_and_Polybag_Apparel/Fold_and_Polybag_Apparel_SOP.md,Planned
+6,2026-08-24,August,24,44,Fold Six Napkins Decoratively,Fold_Six_Napkins_Decoratively/Fold_Six_Napkins_Decoratively_SOP.md,Planned
+6,2026-08-24,August,24,45,Four Place Dinner Table Setting,Four_Place_Dinner_Table_Setting/Four_Place_Dinner_Table_Setting_SOP.md,Planned
+6,2026-08-24,August,24,46,Gift Wrap a Box,Gift_Wrap_a_Box/Gift_Wrap_a_Box_SOP.md,Planned
+6,2026-08-24,August,24,47,Grease a Machine Round,In_Situ_SOPs/Grease_a_Machine_Round/Grease_a_Machine_Round_SOP.md,Planned
+6,2026-08-24,August,24,48,Hang a Cabinet Door on Hinges,Hang_a_Cabinet_Door_on_Hinges/Hang_a_Cabinet_Door_on_Hinges_SOP.md,Planned
+7,2026-08-25,August,25,49,Hang Four Shirts on a Garment Rack,Hang_Four_Shirts_on_a_Garment_Rack/Hang_Four_Shirts_on_a_Garment_Rack_SOP.md,Planned
+7,2026-08-25,August,25,50,Inspect Five Parts with Calipers,Inspect_Five_Parts_with_Calipers_SOP.pdf,Planned
+7,2026-08-25,August,25,51,Install a Belt Drive,Install_a_Belt_Drive/Install_a_Belt_Drive_SOP.md,Planned
+7,2026-08-25,August,25,52,Instant Coffee Tray Service,Instant_Coffee_Tray_Service/Instant_Coffee_Tray_Service_SOP.md,Planned
+7,2026-08-25,August,25,53,Kit Four SKUs into a Bundle,Kit_Four_SKUs_into_a_Bundle/Kit_Four_SKUs_into_a_Bundle_SOP.md,Planned
+7,2026-08-25,August,25,54,Kit Line Side Parts from Bins,Kit_Line_Side_Parts_from_Bins/Kit_Line_Side_Parts_from_Bins_SOP.md,Planned
+7,2026-08-25,August,25,55,Lace and Tie a Shoe,Lace_and_Tie_a_Shoe/Lace_and_Tie_a_Shoe_SOP.md,Planned
+7,2026-08-25,August,25,56,Load the Dishwasher,In_Situ_SOPs/Load_the_Dishwasher/Load_the_Dishwasher_SOP.md,Planned
+8,2026-08-26,August,26,57,Manifest Ten Parcels,Manifest_Ten_Parcels/Manifest_Ten_Parcels_SOP.md,Planned
+8,2026-08-26,August,26,58,Mate Six Connector Types,Mate_Six_Connector_Types/Mate_Six_Connector_Types_SOP.md,Planned
+8,2026-08-26,August,26,59,Meal Prep Four Containers,Meal_Prep_Four_Containers/Meal_Prep_Four_Containers_SOP.md,Planned
+8,2026-08-26,August,26,60,Microwave Heating Cycle,Microwave_Heating_Cycle/Microwave_Heating_Cycle_SOP.md,Planned
+8,2026-08-26,August,26,61,Mop a Floor Zone,In_Situ_SOPs/Mop_a_Floor_Zone/Mop_a_Floor_Zone_SOP.md,Planned
+8,2026-08-26,August,26,62,Mount a Motor and Coupling,Mount_a_Motor_and_Coupling/Mount_a_Motor_and_Coupling_SOP.md,Planned
+8,2026-08-26,August,26,63,Mount a PCB on Standoffs,Mount_a_PCB_on_Standoffs/Mount_a_PCB_on_Standoffs_SOP.md,Planned
+8,2026-08-26,August,26,64,Mount Drawer Slides to a Panel,Mount_Drawer_Slides_to_a_Panel/Mount_Drawer_Slides_to_a_Panel_SOP.md,Planned
+9,2026-08-27,August,27,65,Nest and Stage Empty Totes,Nest_and_Stage_Empty_Totes/Nest_and_Stage_Empty_Totes_SOP.md,Planned
+9,2026-08-27,August,27,66,Open and Sort Mail,Open_and_Sort_Mail/Open_and_Sort_Mail_SOP.md,Planned
+9,2026-08-27,August,27,67,Organize Spice Rack,Organize_Spice_Rack/Organize_Spice_Rack_SOP.md,Planned
+9,2026-08-27,August,27,68,Organize the Freezer,Organize_the_Freezer/Organize_the_Freezer_SOP.md,Planned
+9,2026-08-27,August,27,69,Pack a Carry On Suitcase,Pack_a_Carry_On_Suitcase/Pack_a_Carry_On_Suitcase_SOP.md,Planned
+9,2026-08-27,August,27,70,Pack a Cold Chain Tote,Pack_a_Cold_Chain_Tote/Pack_a_Cold_Chain_Tote_SOP.md,Planned
+9,2026-08-27,August,27,71,Pack a Lunchbox,Pack_a_Lunchbox/Pack_a_Lunchbox_SOP.md,Planned
+9,2026-08-27,August,27,72,Pack a Multi Item Order,Pack_a_Multi_Item_Order/Pack_a_Multi_Item_Order_SOP.md,Planned
+10,2026-08-28,August,28,73,Pack a Returns Ready Order,Pack_a_Returns_Ready_Order/Pack_a_Returns_Ready_Order_SOP.md,Planned
+10,2026-08-28,August,28,74,Pack a School Backpack,Pack_a_School_Backpack/Pack_a_School_Backpack_SOP.md,Planned
+10,2026-08-28,August,28,75,Pack Groceries from Crates,Pack_Groceries_from_Crates/Pack_Groceries_from_Crates_SOP.md,Planned
+10,2026-08-28,August,28,76,Pack Out a Finished Unit,Pack_Out_a_Finished_Unit/Pack_Out_a_Finished_Unit_SOP.md,Planned
+10,2026-08-28,August,28,77,Peel and Plate Fruit,Peel_and_Plate_Fruit/Peel_and_Plate_Fruit_SOP.md,Planned
+10,2026-08-28,August,28,78,Pick a High Value Item with Dual Scan,Pick_a_High_Value_Item_with_Dual_Scan_SOP.pdf,Planned
+10,2026-08-28,August,28,79,Pick and Protect Fragile Glassware,Pick_and_Protect_Fragile_Glassware/Pick_and_Protect_Fragile_Glassware_SOP.md,Planned
+10,2026-08-28,August,28,80,Populate a Through Hole Board,Populate_a_Through_Hole_Board/Populate_a_Through_Hole_Board_SOP.md,Planned
+11,2026-08-29,August,29,81,Pour Over Coffee Brew,Pour_Over_Coffee_Brew/Pour_Over_Coffee_Brew_SOP.md,Planned
+11,2026-08-29,August,29,82,Prepare a Pet Feeding Station,Prepare_a_Pet_Feeding_Station/Prepare_a_Pet_Feeding_Station_SOP.md,Planned
+11,2026-08-29,August,29,83,Prepare and Plate a Sandwich,Prepare_and_Plate_a_Sandwich/Prepare_and_Plate_a_Sandwich_SOP.md,Planned
+11,2026-08-29,August,29,84,Press Fit Four Bushings,Press_Fit_Four_Bushings/Press_Fit_Four_Bushings_SOP.md,Planned
+11,2026-08-29,August,29,85,Process an Electronics Return,Process_an_Electronics_Return_SOP.pdf,Planned
+11,2026-08-29,August,29,86,Pull Expired Lots FEFO,Pull_Expired_Lots_FEFO_SOP.pdf,Planned
+11,2026-08-29,August,29,87,Receive and Check In a Carton,Receive_and_Check_In_a_Carton/Receive_and_Check_In_a_Carton_SOP.md,Planned
+11,2026-08-29,August,29,88,Refill the Kettle and Dispenser at the Sink,In_Situ_SOPs/Refill_the_Kettle_and_Dispenser_at_the_Sink/Refill_the_Kettle_and_Dispenser_at_the_Sink_SOP.md,Planned
+12,2026-08-30,August,30,89,Refurbish a Returned Unit,Refurbish_a_Returned_Unit/Refurbish_a_Returned_Unit_SOP.md,Planned
+12,2026-08-30,August,30,90,Remove Supports from 3D Prints,Remove_Supports_from_3D_Prints/Remove_Supports_from_3D_Prints_SOP.md,Planned
+12,2026-08-30,August,30,91,Replace a Filter Cartridge,Replace_a_Filter_Cartridge/Replace_a_Filter_Cartridge_SOP.md,Planned
+12,2026-08-30,August,30,92,Restock a Condiment Caddy,Restock_a_Condiment_Caddy/Restock_a_Condiment_Caddy_SOP.md,Planned
+12,2026-08-30,August,30,93,Restock a First Aid Kit,Restock_a_First_Aid_Kit/Restock_a_First_Aid_Kit_SOP.md,Planned
+12,2026-08-30,August,30,94,Restock Bathroom Caddy,Restock_Bathroom_Caddy/Restock_Bathroom_Caddy_SOP.md,Planned
+12,2026-08-30,August,30,95,Restock the Refrigerator,Restock_the_Refrigerator/Restock_the_Refrigerator_SOP.md,Planned
+12,2026-08-30,August,30,96,Restock the Refrigerator In Situ,In_Situ_SOPs/Restock_the_Refrigerator_In_Situ/Restock_the_Refrigerator_In_Situ_SOP.md,Planned
+13,2026-08-31,August,31,97,Rework a Faulty Unit,Rework_a_Faulty_Unit/Rework_a_Faulty_Unit_SOP.md,Planned
+13,2026-08-31,August,31,98,Route and Tie a Cable Run,Route_and_Tie_a_Cable_Run/Route_and_Tie_a_Cable_Run_SOP.md,Planned
+13,2026-08-31,August,31,99,Run a Go and No Go Gauge Battery,Run_a_Go_and_No_Go_Gauge_Battery_SOP.pdf,Planned
+13,2026-08-31,August,31,100,Run a Microwave Heating Cycle,In_Situ_SOPs/Run_a_Microwave_Heating_Cycle/Run_a_Microwave_Heating_Cycle_SOP.md,Planned
+13,2026-08-31,August,31,101,Scan In and License Plate a Carton,Scan_In_and_License_Plate_a_Carton/Scan_In_and_License_Plate_a_Carton_SOP.md,Planned
+13,2026-08-31,August,31,102,Snap Fit Four Housings,Snap_Fit_Four_Housings/Snap_Fit_Four_Housings_SOP.md,Planned
+13,2026-08-31,August,31,103,Sort and Bundle Market Produce,Sort_and_Bundle_Market_Produce/Sort_and_Bundle_Market_Produce_SOP.md,Planned
+13,2026-08-31,August,31,104,Sort and Flatten Dunnage,Sort_and_Flatten_Dunnage/Sort_and_Flatten_Dunnage_SOP.md,Planned
+14,2026-09-01,September,1,105,Sort Dispositions to Four Bins,Sort_Dispositions_to_Four_Bins/Sort_Dispositions_to_Four_Bins_SOP.md,Planned
+14,2026-09-01,September,1,106,Sort Green Coffee Beans by Grade,Sort_Green_Coffee_Beans_by_Grade_SOP.pdf,Planned
+14,2026-09-01,September,1,107,Sort Mixed Recycling into Four Bins,Sort_Mixed_Recycling_into_Four_Bins/Sort_Mixed_Recycling_into_Four_Bins_SOP.md,Planned
+14,2026-09-01,September,1,108,Sort Salvaged Parts into Graded Bins,Sort_Salvaged_Parts_into_Graded_Bins/Sort_Salvaged_Parts_into_Graded_Bins_SOP.md,Planned
+14,2026-09-01,September,1,109,Squeegee a Mirror Panel,In_Situ_SOPs/Squeegee_a_Mirror_Panel/Squeegee_a_Mirror_Panel_SOP.md,Planned
+14,2026-09-01,September,1,110,Stage a Table Centerpiece,Stage_a_Table_Centerpiece/Stage_a_Table_Centerpiece_SOP.md,Planned
+14,2026-09-01,September,1,111,Stuff Inserts into a Carton,Stuff_Inserts_into_a_Carton/Stuff_Inserts_into_a_Carton_SOP.md,Planned
+14,2026-09-01,September,1,112,Stuff Inserts into Ten Cartons,Stuff_Inserts_into_Ten_Cartons/Stuff_Inserts_into_Ten_Cartons_SOP.md,Planned
+15,2026-09-02,September,2,113,Surface Wipe Down,Surface_Wipe_Down/Surface_Wipe_Down_SOP.md,Planned
+15,2026-09-02,September,2,114,Swap Batteries in Two Devices,Swap_Batteries_in_Two_Devices/Swap_Batteries_in_Two_Devices_SOP.md,Planned
+15,2026-09-02,September,2,115,Tag and Bag Apparel,Tag_and_Bag_Apparel/Tag_and_Bag_Apparel_SOP.md,Planned
+15,2026-09-02,September,2,116,Tear Down a Scrap Device,Tear_Down_a_Scrap_Device/Tear_Down_a_Scrap_Device_SOP.md,Planned
+15,2026-09-02,September,2,117,Tend a 3D Printer,In_Situ_SOPs/Tend_a_3D_Printer/Tend_a_3D_Printer_SOP.md,Planned
+15,2026-09-02,September,2,118,Tidy a Bookshelf,In_Situ_SOPs/Tidy_a_Bookshelf/Tidy_a_Bookshelf_SOP.md,Planned
+15,2026-09-02,September,2,119,Toast and Butter Service,Toast_and_Butter_Service/Toast_and_Butter_Service_SOP.md,Planned
+15,2026-09-02,September,2,120,Triage Damaged Goods,Triage_Damaged_Goods/Triage_Damaged_Goods_SOP.md,Planned
+16,2026-09-03,September,3,121,Unload Dish Rack to Cabinet Organizer,Unload_Dish_Rack_to_Cabinet_Organizer/Unload_Dish_Rack_to_Cabinet_Organizer_SOP.md,Planned
+16,2026-09-03,September,3,122,Unpack a Suitcase,Unpack_a_Suitcase/Unpack_a_Suitcase_SOP.md,Planned
+16,2026-09-03,September,3,123,Wash and Dry Produce,Wash_and_Dry_Produce_SOP.pdf,Planned
+16,2026-09-03,September,3,124,Wash and Rack Dishes,Wash_and_Rack_Dishes_SOP.pdf,Planned
+16,2026-09-03,September,3,125,Wire a Lamp Circuit on a Board,Wire_a_Lamp_Circuit_on_a_Board/Wire_a_Lamp_Circuit_on_a_Board_SOP.md,Planned
+16,2026-09-03,September,3,126,Wire Six Terminal Blocks,Wire_Six_Terminal_Blocks/Wire_Six_Terminal_Blocks_SOP.md,Planned

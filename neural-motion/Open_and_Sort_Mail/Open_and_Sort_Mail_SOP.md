@@ -15,38 +15,75 @@ Every envelope is opened with the opener. Nothing is ever torn, ripped, or pulle
 slit lying flat on the desk, never held up in the air, and the opener goes back to the opener rest before
 either gripper touches anything else.
 
-The right gripper does the primary work: it takes each envelope to the work spot, works the opener, slits,
-draws the contents out, clears the empty envelope, unfolds the sheet, and folds and presses the box. The
-left gripper supports: it pins the envelope, the sheet, and the box while the right gripper works, folds
-the left top flap of the box, and carries the card and the sheet to the trays on the left. Both grippers
-together carry the flat box. Neither gripper takes the other's jobs.
+The right gripper does the primary work: it takes each envelope to the work spot (in Config R1 and R2,
+below), works the opener, slits, draws the contents out, clears the empty envelope, unfolds the sheet, and
+folds and presses the box. The left gripper supports: it takes each envelope to the work spot in Config M,
+pins the envelope, the sheet, and the box while the right gripper works, folds the left top flap of the box,
+and carries the card and the sheet to the trays on the left. Both grippers together carry the flat box.
+Neither gripper takes the other's jobs.
+
+The desk is set up in one of three ways. Only the mail holder with its three envelopes moves; the opener
+rest, the work spot, the box spot, the sheet tray, and the card tray are in the same place in all three.
+The recycling tray moves only in Config M, where the mail holder takes its place.
+
+* **Config M:** the mail holder stands at the front center, in front of the work spot, and the recycling
+  tray is at the front right.
+* **Config R1:** the mail holder stands at the front right.
+* **Config R2:** the mail holder stands at the back right.
+
+Where a step depends on the setup it says so on an **IF** line — look at the desk and follow the line that
+matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the mail holder starts at the front center (**Config M**), the front right
+  (**Config R1**), or the back right (**Config R2**). One config per episode, chosen before recording and
+  never changed mid-episode. The left side is not used: both left corners are the left gripper's trays, and
+  the sheet tray, which takes a fully open sheet, leaves no left corner free for the mail holder.
+* **Same-side rule:** the gripper on the mail holder's side takes each envelope to the work spot — the
+  **left gripper** in Config M, the **right gripper** in Config R1 and R2. No arm reaches across the desk
+  for an envelope.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper works the opener,
+  slits, draws the contents out, clears the empty envelope, unfolds the sheet, and folds and presses the
+  box; the left gripper pins, folds the left top flap, and carries the card and the sheet to the trays on
+  the left; both grippers carry the flat box.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole desk: the mail holder at the back right, the opener rest right
-   of the work spot, the work spot at the center, the box spot at the back center, the sheet tray at the
-   back left, the card tray at the front left, and the recycling tray at the front center.
+2. The environment camera shows the whole desk: the mail holder in the start zone for this episode's
+   config, the opener rest right of the work spot, the work spot at the center, the box spot at the back
+   center, the sheet tray at the back left, the card tray at the front left, and the recycling tray at the
+   front center (front right in Config M).
 3. The overhead view shows the whole work spot, so the flap edge of an envelope, the slit running along
    it, and every panel of an unfolded sheet can be read.
 4. Both arms are at home with grippers open.
 5. The desk is clear of anything but the mail holder and its three envelopes, the opener on its rest, the
    box, and the three trays.
-6. The right gripper reaches the front envelope in the mail holder, the opener rest, the whole work spot
-   including the left end of an envelope lying there, the box spot, and the recycling tray, without the
-   arm leaning out or reaching a joint limit.
-7. The left gripper reaches the whole work spot, the sheet tray, the card tray, the box spot, and the
-   recycling tray, without the arm leaning out or reaching a joint limit.
+6. The right gripper reaches (Config R1 and R2) the front envelope in the mail holder, the opener rest,
+   the whole work spot including the left end of an envelope lying there, the box spot, and the recycling
+   tray, without the arm leaning out or reaching a joint limit.
+7. The left gripper reaches (Config M) the front envelope in the mail holder, the whole work spot, the
+   sheet tray, the card tray, the box spot, and the recycling tray, without the arm leaning out or reaching
+   a joint limit.
 
 ### Materials checklist
 
-1. Three sealed **envelopes**, all the same size, standing upright in the **mail holder** at the back
-   right, leaning back, **flap side toward the front edge**, in a fixed order. Envelope 1 is the one
-   nearest the front edge, then envelope 2, then envelope 3.
+1. Three sealed **envelopes**, all the same size, standing upright in the **mail holder** in the start
+   zone for this episode's config, leaning back, **flap side toward the front edge**, in a fixed order.
+   Envelope 1 is the one nearest the front edge, then envelope 2, then envelope 3.
+   * **Config M:** front center, in front of the work spot, where the recycling tray normally sits
+   * **Config R1:** front right, in front of the opener rest
+   * **Config R2:** back right
 2. Each envelope is plain, uncrushed, dry, and unslit, with its **flap** sealed along its long top edge
    and lying flat.
 3. Each envelope is sealed so that the **corner gap** at the right end of the flap edge stays open, wide
@@ -75,15 +112,16 @@ Complete both checklists before starting an episode.
 11. The **sheet tray** at the back left and the **card tray** at the front left are empty, square to the
     desk, and each is large enough to hold three of its item lying flat with clear tray all round. The
     sheet tray takes an unfolded sheet without any part of it overhanging.
-12. The **recycling tray** at the front center is empty, square to the desk, and large enough to hold the
-    three slit envelopes and the flat box lying flat with clear tray all round.
+12. The **recycling tray** at the front center (front right in Config M) is empty, square to the desk, and
+    large enough to hold the three slit envelopes and the flat box lying flat with clear tray all round.
 13. The mail holder, the opener rest, and all three trays sit firmly enough that a gripper coming down on
     them does not shift them.
 
 ### Workspace layout
 
-* **Mail holder:** back right. Holds the three loaded envelopes upright and in order. The right gripper's
-  zone.
+* **Mail holder:** the start zone — front center (**Config M**), front right (**Config R1**), or back
+  right (**Config R2**). Holds the three loaded envelopes upright and in order. The left gripper's zone in
+  Config M, the right gripper's zone in Config R1 and R2.
 * **Opener rest:** right of the work spot. Holds the opener and nothing else. The right gripper's zone.
 * **Work spot:** center of the desk. Every slit, every draw, and every unfold happens here. Both grippers
   reach it, one to pin and one to work.
@@ -91,18 +129,22 @@ Complete both checklists before starting an episode.
   grippers reach it.
 * **Sheet tray:** back left. Receives the three unfolded sheets and nothing else. The left gripper's zone.
 * **Card tray:** front left. Receives the three cards and nothing else. The left gripper's zone.
-* **Recycling tray:** front center. Receives the three slit empty envelopes, then the flat box on top of
-  them. Both grippers reach it.
+* **Recycling tray:** front center, or front right in Config M, where the mail holder takes the front
+  center. Receives the three slit empty envelopes, then the flat box on top of them. Both grippers reach it.
 
 Everything the right gripper picks up is staged on the right or at the center. The card and the sheet, the
-only things the left gripper carries, move along the left. Nothing is carried over the box.
+only things the left gripper carries to a tray, move along the left. Nothing is carried over the box.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper takes each envelope to the work spot, works the opener, slits,
-  draws the contents out, clears the empty envelope, unfolds the sheet, and folds and presses the box. The
-  left gripper pins, folds the left top flap of the box, and carries the card and the sheet to their
-  trays. Both grippers together carry the flat box. Neither gripper takes the other's jobs.
+* **Arm assignment:** the right gripper takes each envelope to the work spot in Config R1 and R2, works
+  the opener, slits, draws the contents out, clears the empty envelope, unfolds the sheet, and folds and
+  presses the box. The left gripper takes each envelope to the work spot in Config M, pins, folds the left
+  top flap of the box, and carries the card and the sheet to their trays. Both grippers together carry the
+  flat box. Neither gripper takes the other's jobs.
+* **Start zone:** where the mail holder stands at the start of the episode — front center (**Config M**),
+  front right (**Config R1**), or back right (**Config R2**). One per episode, chosen before recording and
+  never changed mid-episode.
 * **Flap:** the sealed leaf along the long top edge of the envelope. The **flap edge** is the line it is
   sealed along, and the **corner gap** is the short unsealed opening at the right end of that line.
 * **Slit:** the seal parted along the whole flap edge by one draw of the opener under the flap. Nothing is
@@ -152,17 +194,34 @@ Steps 1 to 6 are one envelope. Run them in full three times, taking the envelope
 holder each time. Steps 7 to 9 are the box and run once, after all three envelopes are done. Step 10 ends
 the episode.
 
+Only the pick in Step 1 depends on the config: the **left gripper** takes the envelope from the front
+center in Config M, the **right gripper** from the front right in Config R1 or the back right in Config R2.
+Every other line is the same in all three configs; in Config M the recycling tray stands at the front right
+and Steps 3 and 9 carry to it there.
+
 ### Step 1: Take an envelope to the work spot
 
 **Goal:** one envelope lying flat and square at the work spot, flap side up, flap edge away from the front
 edge.
 
-* The **right gripper** closes on the **top edge** of the front envelope in the **mail holder** and
-  **lifts** it straight up until it is clear of the holder.
-* The **right gripper** carries the envelope upright to the **work spot** and **lays it down**: it lowers
-  the envelope until its bottom edge rests on the desk, then swings its top edge away from the front edge
+Look where the mail holder is before reaching for the envelope.
+
+* **IF the mail holder is at the front center (Config M):** the **left gripper** closes on the **top
+  edge** of the front envelope in the **mail holder** and **lifts** it straight up until it is clear of the
+  holder.
+* **IF the mail holder is at the front right (Config R1):** the **right gripper** closes on the **top
+  edge** of the front envelope in the **mail holder** and **lifts** it straight up until it is clear of the
+  holder.
+* **IF the mail holder is at the back right (Config R2):** the **right gripper** closes on the **top
+  edge** of the front envelope in the **mail holder** and **lifts** it straight up until it is clear of the
+  holder.
+
+Then, in all three:
+
+* The same gripper carries the envelope upright to the **work spot** and **lays it down**: it lowers the
+  envelope until its bottom edge rests on the desk, then swings its top edge away from the front edge
   until the envelope lies flat, and releases once it is resting.
-* The **right gripper** lifts clear.
+* The same gripper lifts clear.
 
 The envelope goes down onto the desk and tips over there. Turning it over in the air needs a wrist twist
 the arm does not have, and the envelope slides in the fingers instead.
@@ -373,11 +432,13 @@ This reset is not recorded.
    lay one card on top of the sheet, and seal the flap so that the corner gap at the right end of the flap
    edge stays open.
 6. Stand the three loaded envelopes in the mail holder, flap side toward the front edge, in order, and
-   confirm the holder stands square.
+   stand the holder in the start zone for the next episode's config — front center (Config M), front right
+   (Config R1), or back right (Config R2). Confirm the holder stands square.
 7. Wipe the opener and check its tip and blade. Replace an opener whose tip is bent, burred, or too blunt
    to part a seal. Lay it on the opener rest along the desk, handle at the right end and blade pointing
    left.
-8. Confirm the sheet tray, the card tray, and the recycling tray are empty and square to the desk.
+8. Confirm the sheet tray, the card tray, and the recycling tray are empty and square to the desk, with the
+   recycling tray at the front center, or at the front right for Config M.
 9. Wipe the desk and clear away any paper scrap.
 10. Run both Setup checklists again.
 
@@ -396,6 +457,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R2 (mail holder at the back
+right, recycling tray at the front center). The pickup and arm-role cues will be rewritten later to cover
+all three start positions; they are left as they are for now. Until then, anything that does not match the
+episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the desk — the mail holder is not in
+  the start zone for the config, or the recycling tray is not where that config puts it; a gripper reaches
+  across the desk for an envelope; or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the left gripper takes each envelope to
+  the work spot in Config M, the right gripper in Config R1 and R2; no arm reaches across the desk; the IF
+  line followed is the one for the config on the desk).
+* **Coaching note:** look where the mail holder is before the first reach, then follow that config's IF
+  line through Step 1.
 
 **Violation: Envelopes taken out of order**
 

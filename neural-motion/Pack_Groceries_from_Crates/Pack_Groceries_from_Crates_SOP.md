@@ -27,39 +27,44 @@ This is the reverse of the Unpack Groceries and Sort to Crates SOP.
 
 Go through both checklists before starting the episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
-- [ ] Cameras are on and recording
-- [ ] Env camera frame includes both crate openings and labels, both bag positions and mouths, and
+- Cameras are on and recording
+- Env camera frame includes both crate openings and labels, both bag positions and mouths, and
   both grippers
-- [ ] Both arms are at the home position with grippers open
-- [ ] Table surface is clean, dry, stable, and clear of unrelated objects
-- [ ] Both crates and both bags are stable and fully reachable
-- [ ] Each crate and the bag beside it are reachable by that side's loading arm, and each bag is
+- Both arms are at the home position with grippers open
+- Table surface is clean, dry, stable, and clear of unrelated objects
+- Both crates and both bags are stable and fully reachable
+- Each crate and the bag beside it are reachable by that side's loading arm, and each bag is
   reachable by the opposite arm for holding
 
 ### Materials checklist
 
-- [ ] Bag A stands open, empty, and upright in its marked center-left position; Bag B stands open,
+- Bag A stands open, empty, and upright in its marked center-left position; Bag B stands open,
   empty, and upright in its marked center-right position
-- [ ] Each bag holds its own shape open without support and stands clear of its crate and the other
+- Each bag holds its own shape open without support and stands clear of its crate and the other
   bag
-- [ ] Crate 1 sits on the left of the table and Crate 2 on the right, outside the two bags, both
+- Crate 1 sits on the left of the table and Crate 2 on the right, outside the two bags, both
   open, stable, and visibly labeled
-- [ ] Crate 1 holds only the Bag A groceries; Crate 2 holds only the Bag B groceries
-- [ ] Inside each crate, groceries are grouped into two marked lanes — non-fragile and fragile —
+- Crate 1 holds only the Bag A groceries; Crate 2 holds only the Bag B groceries
+- Inside each crate, groceries are grouped into two marked lanes — non-fragile and fragile —
   running front to back
-- [ ] The session manifest lists every grocery, its handling class, its handling attributes, the
+- The session manifest lists every grocery, its handling class, its handling attributes, the
   count per crate, and the total count N
-- [ ] The two crates together hold exactly the N manifest items, and each crate is nonempty
-- [ ] Each grocery sits in the orientation it will be packed in, on its widest flat face where it
+- The two crates together hold exactly the N manifest items, and each crate is nonempty
+- Each grocery sits in the orientation it will be packed in, on its widest flat face where it
   has one, without touching another grocery
-- [ ] Every item is within the tested gripper payload and size limits and fits through the crate and
+- Every item is within the tested gripper payload and size limits and fits through the crate and
   bag openings
-- [ ] Each bag can hold its crate's groceries with the contents sitting below the bag rim
-- [ ] All packages are closed, dry, undamaged, and free from leaks
-- [ ] Produce is clean, dry, sound, and free from loose dirt
-- [ ] No item is hot, open, leaking, sharp, hazardous, contaminated, excessively fragile, or
+- Each bag can hold its crate's groceries with the contents sitting below the bag rim
+- All packages are closed, dry, undamaged, and free from leaks
+- Produce is clean, dry, sound, and free from loose dirt
+- No item is hot, open, leaking, sharp, hazardous, contaminated, excessively fragile, or
   ambiguous
 
 ### Workspace layout

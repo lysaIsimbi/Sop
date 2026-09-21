@@ -12,41 +12,74 @@ all three units are on the tray, the sleeve is not squared before it is seated, 
 on before the sleeve is seated and squared, and the multipack is not lifted to the stack before the
 label is pressed.
 
-The right gripper loads every unit, draws the sleeve on, seats and squares it, and presses the label.
-The left gripper holds the tray down while the sleeve comes on, holds the pack while the label is
-pressed, squares the sleeve back only in the one case named in Step 3, and takes the left end of the
-tray for the stack lift. Every zone the right gripper works from is on the right or at the center, the
-left gripper works only at the center and the front center, and nothing is folded, turned, or
-regripped in the air.
+The right gripper draws the sleeve on, seats and squares it, presses the label, and loads the units in
+Config R. The left gripper holds the tray down while the sleeve comes on, holds the pack while the label
+is pressed, squares the sleeve back only in the one case named in Step 3, takes the left end of the tray
+for the stack lift, and loads the units in Config L and M. Every zone the right gripper works from is on
+the right or at the center, the left gripper works only at the center, the front center, and the front
+left, and nothing is folded, turned, or regripped in the air.
+
+The table is set up in one of three ways. Only the unit lane moves; the tray on the build spot, the
+sleeve spot, the label pad, and the stack spot are in the same place in all three.
+
+* **Config L:** the unit lane is at the front left, left of the stack spot.
+* **Config M:** the unit lane is at the center of the table, directly in front of the build spot and
+  behind the stack spot.
+* **Config R:** the unit lane is at the front right, left of the label pad.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the unit lane is at the front left (**Config L**), the center (**Config M**), or
+  the front right (**Config R**). One config per episode, chosen before recording and never changed
+  mid-episode.
+* **Same-side rule:** the gripper on the unit lane's side loads the three units — the left gripper in
+  Config L and M, the right gripper in Config R. No arm reaches across the table.
+* **Fixed roles:** everything else is the same in all three configs — the right gripper draws the sleeve
+  on, seats and squares it, and presses the label; the left gripper holds the tray during the draw and
+  the press and squares the sleeve back only in the case named in Step 3.2; both grippers take the tray
+  ends for the stack lift.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera shows the whole table: the build spot at the back center, the sleeve spot
-   to its right, the unit lane at the front right, the label pad at the front right corner, and the
-   stack spot at the front center.
+   to its right, the unit lane in the zone for this episode's config, the label pad at the front right
+   corner, and the stack spot at the front center.
 3. The build spot is visible from above, so all three position outlines on the tray, the sleeve draw,
    the label patch, and the label press can be seen. The near window of the sleeve is visible from the
    front edge.
 4. Both arms are at home with grippers open.
 5. The table is bare apart from the tray, the three units, the sleeve, the label pad, and whatever
    multipacks are already on the stack spot.
-6. The right arm reaches the unit lane, the sleeve spot, the label pad, the whole build spot, and the
-   right half of the stack spot. The left arm reaches the left end of the build spot and the left half
-   of the stack spot. Neither arm needs the other's zones.
+6. The right arm reaches the sleeve spot, the label pad, the whole build spot, the right half of the
+   stack spot, and (Config R) the unit lane at the front right. The left arm reaches the left end of the
+   build spot, the left half of the stack spot, and (Config L and M) the unit lane and the whole build
+   spot. Neither arm needs the other's zones.
 
 ### Materials checklist
 
 1. One empty **tray** sits square on the **build spot** at the back center of the table, its long
    edges running left to right and clear table around it. Its floor carries three printed **position
    outlines** in one row, numbered 1, 2, and 3 from left to right.
-2. Three **units** stand upright in the **unit lane** at the front right, one per **cell**. The cells
-   are numbered 1, 2, and 3 from left to right, matching the position outlines. Every unit stands on
-   its base with its **face label** toward the front edge.
+2. Three **units** stand upright in the **unit lane**, one per **cell**. The cells are numbered 1, 2,
+   and 3 from left to right, matching the position outlines. Every unit stands on its base with its
+   **face label** toward the front edge. The lane sits in the zone for this episode's config and the
+   other two zones are bare:
+   * **Config L:** front left, left of the stack spot
+   * **Config M:** center of the table, in front of the build spot and behind the stack spot
+   * **Config R:** front right, left of the label pad
 3. The three units are the same size and shape, each one fits inside its position outline with clear
    space around it, and each is light enough and narrow enough for one gripper to lift from above.
 4. One **overwrap sleeve** stands on the **sleeve spot** to the right of the build spot, in line with
@@ -69,27 +102,34 @@ Complete both checklists before starting an episode.
   happens.
 * **Sleeve spot:** right of the build spot and in line with it, one sleeve standing with its open end
   facing the tray.
-* **Unit lane:** front right, three numbered cells in one row, 1, 2, and 3 from left to right.
+* **Unit lane:** three numbered cells in one row, 1, 2, and 3 from left to right — front left, left of
+  the stack spot (**Config L**), the center of the table between the build spot and the stack spot
+  (**Config M**), or front right, left of the label pad (**Config R**). One per episode; the lane is
+  empty when the episode ends.
 * **Label pad:** front right corner, one liner square taped flat with one label on it, near edge
   lifted free.
 * **Stack spot:** front center, printed stack outline, holding the multipacks finished so far.
 
-Everything the right gripper takes is staged on the right. The build spot and the stack spot sit at
-the center, where both arms reach without stretching.
+The sleeve and the label are staged on the right; the unit lane is on the side of the gripper that
+loads it. The build spot and the stack spot sit at the center, where both arms reach without stretching.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper lifts every unit out of the unit lane, draws the sleeve on,
-  seats it, squares it left, takes the label off the liner, presses it, and takes the right end of the
-  tray for the stack lift. The left gripper holds the tray down during the draw, holds the pack during
-  the label press, squares the sleeve back in the one case named in Step 3.2, and takes the left end
-  of the tray for the stack lift. Neither gripper takes over the other's work.
+* **Arm assignment:** the right gripper lifts every unit out of the unit lane in Config R, draws the
+  sleeve on, seats it, squares it left, takes the label off the liner, presses it, and takes the right
+  end of the tray for the stack lift. The left gripper lifts every unit out of the unit lane in Config L
+  and M, holds the tray down during the draw, holds the pack during the label press, squares the sleeve
+  back in the one case named in Step 3.2, and takes the left end of the tray for the stack lift. Neither
+  gripper takes over the other's work.
 * **Tray:** the open tray on the build spot. Its **ends** are the short left and right sides that stay
   outside the sleeve once the sleeve is on, and they are the only grip points for the stack lift.
 * **Position outline:** one printed shape on the tray floor, numbered 1 to 3 from left to right. Unit
   N goes into position N and nowhere else.
 * **Unit:** one product going into the multipack. It stands on its base with its **face label** toward
   the front edge, in the cell and on the tray alike.
+* **Unit lane:** the row of three numbered cells the units start in — front left (**Config L**), the
+  center of the table in front of the build spot (**Config M**), or front right (**Config R**). One per
+  episode, chosen before recording and never changed mid-episode.
 * **Overwrap sleeve:** the card cover on the sleeve spot. It has a **top panel**, a **near wall**, and
   a **far wall**, it is open at both ends and open at the bottom, and it comes on by being drawn along
   the table, never lifted over the units.
@@ -118,22 +158,39 @@ the center, where both arms reach without stretching.
 
 ## Steps
 
-Steps 1 to 5 build the multipack in one pass, in that order. Step 6 ends the episode once the
-multipack is on the stack.
+Steps 1 to 5 build the multipack in one pass, in that order. Only the pick in Step 1 and the carry in
+Step 5.2 depend on the config: the gripper on the lane's side loads the units — the **left gripper** in
+Config L and M, the **right gripper** in Config R — and in Config M the multipack passes over the empty
+lane on its way to the stack. Every other line is the same in all three configs. Step 6 ends the episode
+once the multipack is on the stack.
 
 ### Step 1: Load the three units onto the tray
 
 **Goal:** all three units standing upright inside their matching position outlines, face labels toward
 the front edge.
 
-* The **right gripper** closes on the unit in **cell 1** across its narrow sides, lifts it straight up,
-  carries it level over the tray, lowers it into **position 1** until it is resting on the tray floor,
-  and releases.
-* Do the same for the units in cells 2 and 3, in that order. Unit N always goes into position N.
+Look where the unit lane is before reaching for the first unit.
+
+* **IF the unit lane is at the front left (Config L):** the **left gripper** closes on the unit in
+  **cell 1** across its narrow sides, lifts it straight up, carries it level back and to the right,
+  behind the stack spot, to the tray, lowers it into **position 1** until it is resting on the tray
+  floor, and releases.
+* **IF the unit lane is at the center, in front of the build spot (Config M):** the **left gripper**
+  closes on the unit in **cell 1** across its narrow sides, lifts it straight up, carries it level
+  straight back to the tray, lowers it into **position 1** until it is resting on the tray floor, and
+  releases.
+* **IF the unit lane is at the front right (Config R):** the **right gripper** closes on the unit in
+  **cell 1** across its narrow sides, lifts it straight up, carries it level over the tray, lowers it
+  into **position 1** until it is resting on the tray floor, and releases.
+
+Then, in all three:
+
+* Do the same for the units in cells 2 and 3, in that order, with the same gripper. Unit N always goes
+  into position N.
 * Take one unit per trip and finish it before the next one comes out of the lane.
 * Carry each unit the way it stood in its cell, face label toward the front edge. Nothing is turned in
   the air.
-* The left gripper stays clear of the build spot for the whole step.
+* The other gripper stays clear of the build spot for the whole step.
 
 **Check:** all three cells are empty, all three units stand upright inside their matching position
 outlines with their face labels toward the front edge, no unit leans on another or on a tray wall, and
@@ -230,6 +287,9 @@ up and window toward the front edge.
 
 #### 5.2 Set it on the stack
 
+* **IF Config M:** the empty unit lane lies between the build spot and the stack spot; both arms lift
+  the multipack high enough to clear it before carrying it forward. **IF Config L or R:** the path to
+  the stack spot is bare table.
 * Both arms carry the multipack level toward the front edge to the **stack spot** and lower it straight
   down onto the pack already on the stack, or onto the printed stack outline if the stack is empty,
   until it is resting.
@@ -260,7 +320,9 @@ This reset is not recorded.
    spot with its open end facing the build spot.
 3. Take the used label off the top panel and discard it. Labels are single use.
 4. Lift the three units out and stand each one back in its cell in the unit lane, on its base with the
-   face label toward the front edge.
+   face label toward the front edge, with the lane set for the next episode's config — front left
+   (Config L), the center in front of the build spot (Config M), or front right (Config R) — and the
+   other two zones bare.
 5. Set the empty tray back on the build spot, square, long edges running left to right, with clear
    table around it.
 6. Check the sleeve for a crushed wall, a torn window, or a wall that will not stand wide enough to
@@ -289,6 +351,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R (unit lane at the front
+right, loaded by the right gripper). The pickup and arm-role cues will be rewritten later to cover all
+three start positions; they are left as they are for now. Until then, anything that does not match the
+episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the unit lane is not
+  in the zone for the config; a gripper reaches across the table for a unit; or the wrong IF line is
+  followed.
+* **SOP rule broken:** the start position and the same-side rule (the left gripper loads the units in
+  Config L and M, the right gripper in Config R; no arm reaches across the table; the IF line followed
+  is the one for the config on the table).
+* **Coaching note:** look where the unit lane is before the first reach, then follow that config's IF
+  lines through Steps 1 and 5.
 
 **Violation: Wrong order**
 

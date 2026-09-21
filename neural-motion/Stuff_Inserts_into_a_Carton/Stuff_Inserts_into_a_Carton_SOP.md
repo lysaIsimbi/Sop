@@ -14,22 +14,51 @@ flaps, makes the seal press, and supplies the push on the final slide. The left 
 flap, steadies the carton for every insert, every fold, and the press, and guides the slide. Nothing is
 turned in the air, and a gripper opens only over the spot the thing in it is going to.
 
+The table is set up in one of three ways. Only the flyer spot and the sample spot move; the carton on the
+stuffing spot, the finished spot, the tape dispenser, and the tape scrap rest are in the same place in all
+three.
+
+* **Config M:** the inserts are at the back-center, behind the stuffing spot.
+* **Config R1:** the inserts are at the front-right, the sample at the right edge.
+* **Config R2:** the inserts are at the back-right, behind the tape dispenser.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line that
+matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the flyer and the sample start at the back-center (**Config M**), the front-right
+  (**Config R1**), or the back-right (**Config R2**). One config per episode, chosen before recording and
+  never changed mid-episode.
+* **Same-side rule:** the **right gripper** takes the flyer and the sample in all three configs. There is no
+  left config: the left gripper is on its flat hold through both inserts, and the left of the table is the
+  finished spot and the slide path, which stay bare. The back-center counts as the right gripper's side. No
+  arm reaches across the table.
+* **Fixed roles:** the arm assignment above, the order flyer, sample, confirm, close, seal, slide out, and the
+  slide left onto the finished spot do not change with the config.
+
 ## Setup
 
 Complete both checklists before starting an episode.
+
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
 
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera shows the whole tabletop: the carton standing on the stuffing spot at the
-   center, the finished spot on its left, and the flyer spot, sample spot, tape dispenser, and tape scrap
-   rest on its right.
+   center, the finished spot on its left, the tape dispenser and tape scrap rest on its right, and the flyer
+   spot and sample spot in the start zone for this episode's config.
 3. The stuffing spot is visible from above, so the flyer face, the standing sample, every flap fold, and
    the strip landing on the seam can all be seen.
 4. Both arms are at home with grippers open.
 5. The tabletop is clear of anything but the zones listed below.
 6. Both arms reach the stuffing spot and the finished spot without crossing or reaching a joint limit.
-   The right arm also reaches the flyer spot, sample spot, tape dispenser, and tape scrap rest. Both
+   The right arm also reaches the tape dispenser, the tape scrap rest, and the flyer spot and sample spot
+   in every config (back-center, front-right, or back-right) without stretching or leaning out. Both
    grippers can travel beside the carton through the slide without touching it anywhere but its walls.
 7. The straight path from the stuffing spot to the finished spot is bare.
 
@@ -38,10 +67,14 @@ Complete both checklists before starting an episode.
 1. One small **carton** stands square on the **stuffing spot** with its **near wall** toward the front
    edge. Its bottom is already taped, it is empty, and all four **top flaps** stand up and clear of the
    opening.
-2. One **flyer**, a flat printed sheet, lies on the **flyer spot** at the front right, printed face up.
-   It fits flat on the carton floor with room to spare.
-3. One **sample**, a capped unit that stands on its own, sits upright on the **sample spot** at the right
-   edge, cap up, with clear space around it so a gripper can take it from above.
+2. One **flyer**, a flat printed sheet, lies on the **flyer spot**, printed face up. It fits flat on the
+   carton floor with room to spare. The flyer spot and the sample spot sit side by side in one of three
+   places:
+   * **Config M:** back-center, behind the stuffing spot, clear of the far flap
+   * **Config R1:** front-right, with the sample spot at the right edge
+   * **Config R2:** back-right, behind the tape dispenser
+3. One **sample**, a capped unit that stands on its own, sits upright on the **sample spot** beside the
+   flyer spot, cap up, with clear space around it so a gripper can take it from above.
 4. One tabletop **tape dispenser** stands to the right of the stuffing spot. It contains enough tape for
    the episode and any retries and automatically presents one strip at a time cut to length, adhesive
    face down, with a stiff **grab tab** accessible to the right gripper. Its stock is not counted during
@@ -57,18 +90,23 @@ Complete both checklists before starting an episode.
   stands here at the end of the episode.
 * **Tape dispenser:** right of the stuffing spot, presenting one cut strip at a time by its grab tab.
 * **Tape scrap rest:** beside the dispenser, where a damaged or badly laid strip is placed.
-* **Flyer spot:** front right, one flyer lying flat and printed face up.
-* **Sample spot:** right edge, one sample standing upright with its cap up.
+* **Flyer spot** and **sample spot:** side by side — back-center behind the stuffing spot (**Config M**),
+  front-right with the sample at the right edge (**Config R1**), or back-right behind the tape dispenser
+  (**Config R2**). One flyer lying flat and printed face up; one sample standing upright with its cap up.
 
-Everything the right gripper fetches is staged on the right. The stuffing spot and the finished spot are
-shared, and both grippers reach the carton in either position.
+Everything the right gripper fetches is staged on the right or behind the carton, never on the left. The
+stuffing spot and the finished spot are shared, and both grippers reach the carton in either position.
 
 ## Vocabulary
 
 * **Arm assignment:** the right gripper fetches the flyer, the sample, and the presented tape strip,
   folds the near, far, and right top flaps, presses the seal, and supplies the push on the slide. The
   left gripper folds the left top flap, holds the carton for every insert and fold, and guides the slide.
-  Neither gripper takes over the other's work.
+  Neither gripper takes over the other's work. The right gripper takes the flyer and the sample from the
+  insert spots in every config; the left gripper stays on its flat hold and never fetches an insert.
+* **Insert spots:** the flyer spot and the sample spot, side by side, where the inserts lie at the start of
+  the episode — back-center (**Config M**), front-right (**Config R1**), or back-right (**Config R2**). One
+  per episode, chosen before recording and never changed mid-episode.
 * **Carton:** the small open box standing on its taped bottom. Its **near wall** faces the front edge and
   its **far wall** faces away.
 * **Top flaps:** the four flaps standing up around the carton opening, named for the wall they hinge
@@ -109,7 +147,9 @@ shared, and both grippers reach the carton in either position.
 ## Steps
 
 Steps 1 to 5 finish the carton, in that order. Step 6 ends the episode once the sealed carton stands on
-the finished spot.
+the finished spot. Step 1 depends on where the inserts are: the **right gripper** takes the flyer and the
+sample from the back-center (Config M), the front-right (Config R1), or the back-right (Config R2). Every
+other line, and Steps 2 to 6, are the same in all three configs.
 
 ### Step 1: Load the flyer and the sample
 
@@ -121,15 +161,28 @@ through both inserts.
 
 #### 1.1 The flyer
 
-* The **right gripper** closes on the near edge of the **flyer** on the flyer spot, lifts it straight up,
-  carries it level over the carton opening, lowers it in until it is resting on the carton floor, and
-  releases.
+Look where the inserts are before the first reach.
+
+* **IF the inserts are at the back-center (Config M):** the **right gripper** reaches behind the carton,
+  closes on the near edge of the **flyer** on the flyer spot, lifts it straight up, and carries it level
+  straight forward over the carton opening.
+* **IF the inserts are at the front-right (Config R1):** the **right gripper** closes on the near edge of the
+  **flyer** on the flyer spot, lifts it straight up, and carries it level left over the carton opening.
+* **IF the inserts are at the back-right (Config R2):** the **right gripper** reaches behind the tape
+  dispenser, closes on the near edge of the **flyer** on the flyer spot, lifts it straight up, and carries it
+  level forward and left over the carton opening.
+
+Then, in all three:
+
+* Lower it in until it is resting on the carton floor, and release.
 * The flyer goes in printed face up, the way it lay on its spot. It is not turned, folded, or curled on
   the way in.
 
 #### 1.2 The sample
 
-* The **right gripper** closes on the **sample** on the sample spot, lifts it straight up, carries it
+* **IF Config M:** the **right gripper** reaches behind the carton for the **sample**. **IF Config R1:** it
+  takes the **sample** from the right edge. **IF Config R2:** it reaches behind the tape dispenser for the
+  **sample**. In all three it closes on the sample on the sample spot, lifts it straight up, carries it
   level and upright over the carton opening, lowers it in until it is standing on the carton floor beside
   the flyer, and releases once it is standing.
 * The sample stays upright the whole way and never rides on top of the flyer.
@@ -248,8 +301,9 @@ This reset is not recorded.
    will not stand square with its flaps standing up.
 4. Stand the carton square on the stuffing spot, empty, bottom taped, near wall toward the front edge, all
    four top flaps standing up. Leave the path to the finished spot bare.
-5. Lay the flyer flat on the flyer spot, printed face up. Replace it if it is creased or torn.
-6. Stand the sample upright on the sample spot with its cap up. Replace it if it will not stand on its own
+5. Lay the flyer flat on the flyer spot for the next episode's config — back-center (Config M), front-right
+   (Config R1), or back-right (Config R2) — printed face up. Replace it if it is creased or torn.
+6. Stand the sample upright on the sample spot beside the flyer spot with its cap up. Replace it if it will not stand on its own
    or its cap is loose.
 7. Remove all tape scraps from the scrap rest. Check that the tape dispenser contains enough tape for one
    episode and retries, cuts each strip to the full seam length, and presents the next strip by a clean
@@ -276,6 +330,22 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R1 (the flyer at the front
+right and the sample at the right edge). The pickup and arm-role cues will be rewritten later to cover all
+three start positions; they are left as they are for now. Until then, anything that does not match the
+episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the flyer or the sample
+  is not in the start zone for the config; the left gripper leaves its flat hold to fetch an insert, or a
+  gripper reaches across the table for one; or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the right gripper takes the flyer and the
+  sample from the insert spots in every config while the left gripper holds the carton; no arm reaches
+  across the table; the IF line followed is the one for the config on the table).
+* **Coaching note:** look where the inserts are before the first reach, then follow that config's IF lines
+  through Step 1.
 
 **Violation: Wrong order**
 

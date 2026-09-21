@@ -36,25 +36,30 @@ place after the gripper has opened.
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
 2. The environment camera is centered on the tray and its frame includes the build spot, the linen
-   mat, the staging shelf, and the delivery mat.
+   mat, the staging shelf, and the delivery zone.
 3. All four liner marks, both condiment labels, the fill line on the cup, and the delivery outline are
    readable on camera.
 4. Both arms are at home with grippers open.
 5. The table holds nothing but the tray on its build spot, the linen mat with its three pieces, the
-   staging shelf with its four items, and the empty delivery mat.
+   staging shelf with its four items, and the bare delivery zone.
 6. The left arm reaches the whole linen mat, the napkin outline, and the left tray rail at both the
-   build spot and the delivery mat, without extending to a joint limit, and reaches nothing on the
+   build spot and the delivery zone, without extending to a joint limit, and reaches nothing on the
    right side of the table.
 7. The right arm reaches the whole staging shelf, the plate outline, the cup outline, both condiment
-   circles, and the right tray rail at both the build spot and the delivery mat, without extending to
+   circles, and the right tray rail at both the build spot and the delivery zone, without extending to
    a joint limit, and reaches nothing on the left side of the table.
 8. Each arm comes onto the tray straight down from above, without reaching past the back table edge,
    and both grippers stand on their own rail at the same time without the arms fouling each other.
-9. The path from the build spot to the delivery mat is clear of everything, and neither arm collides
+9. The path from the build spot to the delivery zone is clear of everything, and neither arm collides
    with the tray on the way into the center. If a zone cannot be reached, move it toward the arm that
    cannot reach it until lines 6 to 8 hold.
 
@@ -65,7 +70,8 @@ Complete both checklists before starting an episode.
 2. The tray has a raised lip all round and one grip rail at each end, and each rail is deep enough for
    a gripper to close on it with the tray flat on the table.
 3. The tray slides across the bare table under a straight push, without catching or tipping, and stays
-   put when an item is set down on it straight from above.
+   put when an item is set down on it straight from above. It slides over the delivery outline without
+   catching a taped edge, and the tape stays stuck down and flat.
 4. The printed liner lies flat inside the tray, fully under the lip, and does not slide or lift when an
    item is set on it.
 5. The liner carries exactly four marks and nothing else: the napkin outline across the left end, the
@@ -89,8 +95,9 @@ Complete both checklists before starting an episode.
     edge, and fits fully inside the napkin outline.
 14. The fork and the spoon are clean and dry, lie flat on a bare surface without rocking, and both fit
     fully on the folded napkin side by side without touching.
-15. The delivery mat sits at the center front of the table, carries one printed outline the tray fits
-    fully inside, and holds nothing else.
+15. The delivery outline is marked directly on the bare tabletop at the center front, in flat tape
+    laid flush with the table, and the tray fits fully inside it. Nothing sits on it or inside it, and
+    there is no mat, cloth, or liner of any kind between the build spot and the delivery outline.
 
 ### Workspace layout
 
@@ -101,7 +108,7 @@ table edges and the tray itself.
 * **Back table edge:** the far edge of the table. The tray is squared to it at the build spot and
   nothing overhangs it.
 * **Front table edge:** the near edge of the table. The tray is squared to it once it reaches the
-  delivery mat.
+  delivery zone.
 * **Build spot:** the area at the center back of the table where the tray sits while it is loaded. The
   tray straddles the table midline here, so the left gripper reaches its left end and the right gripper
   reaches its center and right end.
@@ -122,8 +129,9 @@ table edges and the tray itself.
   episode start, empty at episode end. Left gripper only.
 * **Staging shelf:** the shelf to the right of the tray holding the plate, both condiment pots, and the
   filled cup at episode start, empty at episode end. Right gripper only.
-* **Delivery mat:** the mat at the center front of the table carrying the delivery outline. It is empty
-  at episode start and holds the loaded tray at episode end. Both grippers reach it without extending.
+* **Delivery zone:** the area at the center front of the table carrying the delivery outline, taped
+  flat on the bare tabletop. It is bare at episode start and holds the loaded tray at episode end. Both
+  grippers reach it without extending.
 * **Arm home:** the resting pose for each arm, gripper open and clear of the table.
 
 ## Vocabulary
@@ -306,7 +314,7 @@ its own end.
   rails, with the tray still flat on the table.
 * Slide the tray straight toward the front table edge in one continuous run, both grippers travelling
   together at the same speed, keeping the tray flat on the table and square to the front table edge.
-* Slow the run as the tray comes onto the delivery mat and stop both grippers together once the tray
+* Slow the run as the tray comes onto the delivery outline and stop both grippers together once the tray
   sits fully inside the delivery outline.
 * Open both grippers, lift both clear straight up, and return both arms to home.
 
@@ -343,13 +351,14 @@ This reset is not recorded.
    and lay it flat on the staging shelf.
 3. Take the fork and the spoon off the napkin and lay them on their own spots on the linen mat. Take the
    napkin off the tray and lay it flat and folded on the linen mat.
-4. Wipe and dry the liner and the tray, and wipe up any juice on the table, the shelf, or the mat.
+4. Wipe and dry the liner and the tray, and wipe up any juice on the table, the shelf, or the linen mat.
 5. Slide the empty tray back to the build spot, squared to the back table edge, with its liner lying
    flat inside it.
 6. Replace a napkin that no longer holds its fold, a condiment pot with a broken or loosened lid, a cup
    that rocks when full, and a plate that rocks on a flat surface.
 7. Replace a liner that is stained, curled, or torn so a mark cannot be read on camera.
-8. Clear any debris off the table so the tray slides clean, then run both Setup checklists again.
+8. Clear any debris off the table so the tray slides clean, and press down or replace any delivery
+   outline tape that has lifted, curled, or torn, then run both Setup checklists again.
 
 ## SOP violations
 
@@ -456,7 +465,7 @@ it just because a rule was broken.
 * **SOP rule broken:** Steps 4 and 5, keep the juice in the cup with a level carry and a steady slide,
   and never top up or pour out of the cup.
 * **Coaching note:** the whole task is judged on the juice staying in the cup. Slow the lift, slow the
-  set down, and slow the slide as the tray comes onto the mat.
+  set down, and slow the slide as the tray comes onto the delivery outline.
 
 **Violation: Tray not slid by both grippers together**
 
@@ -471,7 +480,7 @@ it just because a rule was broken.
 
 * **Visible cue:** the tray lifts off the table at any point in the run, is jerked into motion, is
   stopped and restarted part way, is turned, is pushed past the delivery outline or into the front
-  table edge, or ends short of the outline, crooked to the front table edge, or partly off the mat; or
+  table edge, or ends short of the outline, crooked to the front table edge, or partly outside it; or
   the tray is pushed, dragged, turned, or lifted during Steps 1 to 4.
 * **SOP rule broken:** Steps 1 to 5, the tray stays flat on the table and still until Step 5, then goes
   to the delivery outline in one continuous run.
@@ -481,7 +490,7 @@ it just because a rule was broken.
 **Violation: Bad pick, carry, or release**
 
 * **Visible cue:** two or more items are carried in one trip; an item is pushed, slid, or scraped across
-  the shelf, the mat, or the liner instead of being lifted clear; an item is turned in the air to change
+  the shelf, the linen mat, or the liner instead of being lifted clear; an item is turned in the air to change
   the way it faces; a gripper opens over the bare liner, over another item, or over a mark the held item
   does not belong on; a gripper nudges, pats, or slides an item into position after releasing it; or a
   failed check is answered with a recovery the SOP does not write.

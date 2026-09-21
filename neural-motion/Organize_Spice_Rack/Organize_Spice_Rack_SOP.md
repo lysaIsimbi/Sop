@@ -21,30 +21,64 @@ lean. Never grip a jar by its cap. Never lift a jar to turn it in the air. Never
 steady the rack with the
 gripper: it stands where it was set for the whole episode.
 
+The table is set up in one of three ways. Only the rack moves, and the staging area and the cloth park
+lie along the arc on whichever side of it is free; the jar set, the cloth, and the work are the same in
+all three.
+
+* **Config M:** the rack stands at the back-centre, at the inboard end of the arc, with the staging
+  area and the cloth park outboard of it.
+* **Config R1:** the rack stands at the front-right, with the staging area and the cloth park inboard
+  of it.
+* **Config R2:** the rack stands at the back-right, with the staging area and the cloth park inboard
+  of it.
+
+Where a step depends on the setup it says so on an **IF** line — look at the table and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the rack, with all twelve jars on it, stands at the back-centre (**Config M**),
+  the front-right (**Config R1**) or the back-right (**Config R2**). One config per episode, chosen
+  before recording and never changed mid-episode.
+* **Single arm:** the right gripper does every step in every config and the left arm stays at home, so
+  no left zone is used: the whole arc sits inside the right arm's reach, and the config changes only
+  the direction the jars travel along it. Nothing is ever handed over.
+* **Fixed roles:** the step order, the tier for each height, the label order, the wipe direction, and
+  the release points are the same in all three configs.
+
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera is centered on the rack and its frame includes all three tiers, the
-   staging area, and the cloth park.
+2. The environment camera frames the whole arc, so the rack in this episode's config with all three
+   tiers, the staging area, and the cloth park are in frame.
 3. Every label is legible on camera when a jar is faced, and the dust or spill on each shelf strip
    is visible before the wipe.
 4. The right arm is at home with its gripper open.
 5. The left arm is at home, clear of the arc, and stays there for the whole episode.
 6. The tabletop is clear of anything but the rack, the twelve jars, and the cloth.
-7. The right arm reaches every slot on all three tiers, the whole staging area, and the cloth park
-   without extending to a joint limit or folding in on itself. Move the rack forward or narrow the
+7. The right arm reaches every slot on all three tiers (back-centre in Config M, front-right in
+   Config R1, back-right in Config R2), the whole staging area, and the cloth park without extending
+   to a joint limit or folding in on itself. Move the rack forward within its zone or narrow the
    staging area until this is true.
 8. The arm's path along the arc is unobstructed, and the back tier can be approached from above
    without the arm passing through the middle or front tier.
 
 ### Materials checklist
 
-1. The rack stands at the inboard end of the arc, set back and square to the front table edge, with
-   four slots on each of its three tiers.
+1. The rack stands square to the front table edge, with four slots on each of its three tiers, in the
+   position for this episode's config:
+   * **Config M:** back-centre, at the inboard end of the arc, staging area and cloth park outboard of it
+   * **Config R1:** front-right, staging area and cloth park inboard of it
+   * **Config R2:** back-right, staging area and cloth park inboard of it
 2. The rack stands steady on its own. It does not rock, slide, or tip when a strip is wiped or when
    a jar is set into a slot. Weight it or replace it if it moves.
 3. All twelve jars stand on the rack, four per tier, caps on tight.
@@ -58,20 +92,31 @@ Complete both checklists before starting an episode.
 ### Workspace layout
 
 One arc, three zones, all on the right arm's side of the table and all inside its comfortable reach.
-Reading from the inboard end (toward the middle of the table) to the outboard end:
+The rack stands at one end of the arc and the staging area and the cloth park follow it, in that order,
+on its **staging side**:
 
-1. **Rack position** (inboard end), set back and square to the front table edge. The rack is both
-   the input and the output, and it stays where it was set for the whole episode.
-2. **Staging area**, outboard of the rack, holding the twelve jars between the unload and the load.
-3. **Cloth park** (outboard end), where the folded cloth rests when it is not in use.
+1. **Rack position** (the start zone), square to the front table edge — back-centre, at the inboard
+   end of the arc (**Config M**); front-right (**Config R1**); or back-right (**Config R2**). The rack
+   is both the input and the output, and it stays where it was set for the whole episode.
+2. **Staging area**, beside the rack on its staging side, holding the twelve jars between the unload
+   and the load.
+3. **Cloth park** (the far end of the arc), where the folded cloth rests when it is not in use.
 
-Jars travel outboard from the rack to the staging area and inboard again on the load. No carry
-passes over a loaded tier or over a jar already standing in the staging area.
+Jars travel along the arc from the rack to the staging area and back again on the load: outboard and
+then inboard in Config M, inboard and then outboard in Config R1 and R2. No carry passes over a loaded
+tier or over a jar already standing in the staging area.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper performs every action in this SOP. The left arm never leaves
-  home, never enters the workspace, and never steadies a jar, the cloth, or the rack.
+* **Arm assignment:** the right gripper performs every action in this SOP. In Config M it carries
+  every jar outboard to the staging area and inboard back to the rack; in Config R1 and R2 the other
+  way round. The left arm never leaves home, never enters the workspace, and never steadies a jar,
+  the cloth, or the rack.
+* **Start zone:** where the rack, and so the twelve jars, stands at the start of the episode —
+  back-centre (**Config M**), front-right (**Config R1**), or back-right (**Config R2**). One per
+  episode, chosen before recording and never changed mid-episode.
+* **Staging side:** the side of the rack the staging area and the cloth park lie on — outboard of the
+  rack in Config M, inboard of it in Config R1 and R2.
 * **Jar:** one capped spice jar to be sorted and placed. **Tall**, **medium**, and **short** jars
   are the four tallest, the four mid height, and the four shortest in the set.
 * **Label:** the printed face carrying the spice name. This is the face that must end up forward.
@@ -97,22 +142,34 @@ passes over a loaded tier or over a jar already standing in the staging area.
 
 ## Steps
 
-Every step below is performed by the right gripper.
+Every step below is performed by the right gripper. Only the first pick in Step 1, the cloth pick in
+Step 2.1, and the carry in Step 4 depend on the config: in Config M the jars travel outboard to the
+staging area and inboard back to the rack, in Config R1 and R2 the other way round, and the cloth park
+is at the far end of the arc either way. Every other line is the same in all three configs.
 
 ### Step 1: Unload the twelve jars
 
 **Goal:** all three shelf strips are empty and the twelve jars stand separated in the staging area.
 
 Work one jar per pick, front tier first, then the middle tier, then the back tier, so no reach
-passes over a loaded tier.
+passes over a loaded tier. Look where the rack is before reaching for the first jar.
 
-* Approach the leftmost jar on the front tier from above and close on the jar body below the cap,
-  with the gripper square to the jar so it hangs upright rather than tilted.
-* Lift it straight up clear of the shelf strip, carry it outboard to the staging area, and set it
-  down upright.
+* **IF the rack is at the back-centre (Config M):** approach the leftmost jar on the front tier from
+  above and close on the jar body below the cap, with the gripper square to the jar so it hangs upright
+  rather than tilted. Lift it straight up clear of the shelf strip, carry it **outboard** to the
+  staging area, and set it down upright.
+* **IF the rack is at the front-right (Config R1):** approach the leftmost jar on the front tier from
+  above and close on the jar body below the cap the same way. Lift it straight up clear of the shelf
+  strip, carry it **inboard** to the staging area, and set it down upright.
+* **IF the rack is at the back-right (Config R2):** approach the leftmost jar on the front tier from
+  above and close on the jar body below the cap the same way. Lift it straight up clear of the shelf
+  strip, carry it **inboard** to the staging area, and set it down upright.
+
+Then, in all three:
+
 * Release once it stands on its own, clear of the jars already there and clear of the table edge.
 * Work left to right across the front tier, then the middle tier, then the back tier, one jar at a
-  time, until the rack is empty.
+  time, carrying every jar the same way along the arc, until the rack is empty.
 
 Never close on the cap, never lift two jars in one pick, and never slide a jar along the strip to
 get at it.
@@ -132,6 +189,8 @@ is back on its park.
 
 #### 2.1 Take the cloth
 
+* **IF Config M:** the cloth park is at the outboard end of the arc, beyond the staging area.
+  **IF Config R1 or R2:** it is at the inboard end of the arc, beyond the staging area.
 * Approach the cloth on its park from above and close on it so it is held flat, with enough of it
   below the gripper to meet the strip.
 
@@ -197,6 +256,8 @@ tier.
 Load the back tier first, then the middle tier, then the front tier, so no reach passes over a
 loaded tier.
 
+* **IF Config M:** carry each jar inboard from the staging area to the rack. **IF Config R1 or R2:**
+  carry each jar outboard.
 * Take the leftmost jar of the tall group and place it upright in the leftmost slot of the back
   tier.
 * Work left to right, filling the four slots of the back tier in the same order the tall group
@@ -257,8 +318,9 @@ This reset is not recorded.
 3. Put dirt back on each shelf strip so the next episode has something to wipe.
 4. Fold a fresh dry cloth flat and lay it on the cloth park. Replace a cloth that is damp, shedding,
    or loaded with dust.
-5. Stand the rack back at the inboard end of the arc, square to the front table edge, and confirm it
-   does not rock or slide.
+5. Stand the rack square to the front table edge in the position for the next episode's config —
+   back-centre (Config M), front-right (Config R1), or back-right (Config R2) — with the staging area
+   and the cloth park on its staging side, and confirm it does not rock or slide.
 6. Clear any spill off the tabletop and leave the staging area empty.
 7. Run both Setup checklists again.
 
@@ -278,6 +340,24 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 Do not delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config M (rack at the
+back-centre, staging area and cloth park outboard of it). The pickup and carry-direction cues will be
+rewritten later to cover all three start positions; they are left as they are for now. Until then,
+anything that does not match the episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the table — the rack is not in
+  the start zone for the config, or the staging area and the cloth park are not on its staging side; a
+  jar or the cloth is carried the wrong way along the arc or over the rack; or the wrong IF line is
+  followed.
+* **SOP rule broken:** the start position and the staging side (the rack stands at the back-centre,
+  the front-right, or the back-right for the whole episode, the staging area and the cloth park lie on
+  its free side, and every jar travels along the arc between them; the IF line followed is the one for
+  the config on the table).
+* **Coaching note:** look where the rack is before the first reach, then follow that config's IF lines
+  through Steps 1, 2.1, and 4.
 
 **Violation: Left arm used**
 

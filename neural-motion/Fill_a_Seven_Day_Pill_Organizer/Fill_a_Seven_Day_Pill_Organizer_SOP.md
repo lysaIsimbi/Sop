@@ -2,11 +2,11 @@
 
 One episode fills a seven day pill organizer from four bottles, following a printed dose chart. The
 organizer is standing at the center of the desk with all seven lids shut when recording starts, the
-four bottles stand capped in the bottle row at the back right, and the chart lies flat at the back
-left. All seven lids are opened first. Then each bottle in turn is taken to the dispense spot, its
-cap is taken off, its tablets are put in the compartments the chart calls for, its cap goes back on,
-and it returns to its slot. When all four bottles are back, the seven lids are closed and the filled
-row is checked against the chart through the clear lids.
+four bottles stand capped in the bottle row in one corner of the desk, and the chart lies flat at the
+chart spot along the back edge. All seven lids are opened first. Then each bottle in turn is taken to
+the dispense spot, its cap is taken off, its tablets are put in the compartments the chart calls for,
+its cap goes back on, and it returns to its slot. When all four bottles are back, the seven lids are
+closed and the filled row is checked against the chart through the clear lids.
 
 The order never changes. Seven lids open, then bottle A, then B, then C, then D, then seven lids
 closed, then the check. Within one bottle the compartments are filled in day order, Monday first
@@ -17,33 +17,67 @@ spot and is never lifted, carried, tilted, or moved while its cap is off. Tablet
 at a time, taken by a gripper, and are never poured, tipped, or shaken out. A tablet that has left
 its bottle never goes back into a bottle, whatever happens to it.
 
-The right gripper does the primary work: it carries every bottle out and back, takes every cap off
-and puts every cap on, fills Thursday through Sunday, and opens and closes the Thursday through
-Sunday lids. The left gripper supports: it fills Monday through Wednesday, opens and closes the
-Monday through Wednesday lids, holds the bottle while the right gripper works its cap, and pins the
-organizer while the right gripper works a lid. Neither gripper takes the other's jobs.
+The right gripper does the primary work: it takes every cap off and puts every cap on, fills Thursday
+through Sunday, opens and closes the Thursday through Sunday lids, and carries every bottle out and
+back when the bottle row is on the right. The left gripper supports: it fills Monday through
+Wednesday, opens and closes the Monday through Wednesday lids, holds the bottle while the right
+gripper works its cap, pins the organizer while the right gripper works a lid, and carries every
+bottle out and back when the bottle row is on the left. Neither gripper takes the other's jobs.
+
+The desk is set up in one of four ways. Only the bottle row moves; the organizer, the dispense spot,
+the cap spot, the lid band, and the discard cup are in the same place in all four. Both center zones
+are taken, by the dispense spot at the back and the discard cup at the front, so the bottle row uses
+the four corners.
+
+* **Config L1:** the bottle row is at the back left, and the chart lies at the back right.
+* **Config L2:** the bottle row is at the front left.
+* **Config R1:** the bottle row is at the back right.
+* **Config R2:** the bottle row is at the front right.
+
+Where a step depends on the setup it says so on an **IF** line — look at the desk and follow the line
+that matches.
+
+What stays constant across all sessions:
+
+* **Start position:** the bottle row starts at the back left (**Config L1**), the front left
+  (**Config L2**), the back right (**Config R1**), or the front right (**Config R2**). One config per
+  episode, chosen before recording and never changed mid-episode.
+* **Same-side rule:** the gripper on the bottle row's side carries each bottle out to the dispense
+  spot and back to its slot — the left gripper in Config L1 and L2, the right gripper in Config R1 and
+  R2. No arm reaches across the desk for a bottle. Both grippers reach the dispense spot, so nothing
+  is ever handed over.
+* **Fixed roles:** everything else is the same in all four configs — the right gripper works every cap
+  at the cap spot, fills Thursday through Sunday, and works their lids; the left gripper fills Monday
+  through Wednesday, works their lids, holds the bottle while its cap is worked, and pins the
+  organizer while the right gripper works a lid.
 
 ## Setup
 
 Complete both checklists before starting an episode.
 
+### Cell configuration
+
+* **Environment camera:** 900 mm.
+* **cell_type:** bimanual
+
 ### Hardware checklist
 
 1. Cameras are on and recording.
-2. The environment camera shows the whole desk: the chart spot at the back left, the dispense spot at
-   the back center, the bottle row at the back right, the cap spot on the right side, the organizer
-   at the center, the lid band in front of it, and the discard cup at the front center.
+2. The environment camera shows the whole desk: the chart spot at the back left (the back right in
+   Config L1), the dispense spot at the back center, the bottle row in this episode's corner, the cap
+   spot on the right side, the organizer at the center, the lid band in front of it, and the discard
+   cup at the front center.
 3. The overhead view reads the printed chart cell by cell, reads the day name printed on every
    compartment, and reads the inside of every compartment, so the count and the color of the tablets
    in each one can be told apart with the lids open and again with the lids closed.
 4. Both arms are at home with grippers open.
 5. The desk is clear of anything but the chart, the organizer, the four bottles, and the discard cup.
-6. The right gripper reaches all four bottle slots, the dispense spot, the cap spot, the Thursday,
-   Friday, Saturday, and Sunday compartments and their lids, the organizer back rail at its right
-   end, and the discard cup, without the arm leaning out or reaching a joint limit.
-7. The left gripper reaches the dispense spot, the Monday, Tuesday, and Wednesday compartments and
-   their lids, the organizer back rail at its left end, and the discard cup, without the arm leaning
-   out or reaching a joint limit.
+6. The right gripper reaches (Config R1 and R2) all four bottle slots, the dispense spot, the cap
+   spot, the Thursday, Friday, Saturday, and Sunday compartments and their lids, the organizer back
+   rail at its right end, and the discard cup, without the arm leaning out or reaching a joint limit.
+7. The left gripper reaches (Config L1 and L2) all four bottle slots, the dispense spot, the Monday,
+   Tuesday, and Wednesday compartments and their lids, the organizer back rail at its left end, and
+   the discard cup, without the arm leaning out or reaching a joint limit.
 
 ### Materials checklist
 
@@ -57,9 +91,14 @@ Complete both checklists before starting an episode.
 3. Each lid seats under a steady press and stays down on its own. No lid needs a turn, a catch, or a
    second hand to hold it shut.
 4. The organizer sits firmly enough that a gripper pressing a lid shut does not slide it.
-5. Four **bottles** stand capped in the **bottle row** at the back right, in a line running toward the
-   right edge: **bottle A** nearest the dispense spot, then **B**, then **C**, then **D** nearest the
-   right edge. Each bottle is printed with its letter in large type on the side facing the front edge.
+5. Four **bottles** stand capped in the **bottle row** in the corner for this episode's config, in a
+   line running from the desk midline toward the near side edge: **bottle A** nearest the midline,
+   then **B**, then **C**, then **D** nearest the side edge. Each bottle is printed with its letter in
+   large type on the side facing the front edge.
+   * **Config L1:** back left, where the chart spot otherwise is
+   * **Config L2:** front left, clear of the lid band and the discard cup
+   * **Config R1:** back right, right of the dispense spot
+   * **Config R2:** front right, clear of the cap spot, the lid band, and the discard cup
 6. Each bottle is short, flat based, and stands on its own without leaning. Its body is narrow enough
    for the gripper to close on it and lift it without the bottle turning in the fingers.
 7. The mouth of each bottle is wide enough that a gripper comes straight down inside it and closes on
@@ -74,8 +113,9 @@ Complete both checklists before starting an episode.
     small enough that two of them sit in a compartment without touching a lid.
 12. Each bottle holds at least four more tablets than the chart calls for, so a dropped tablet never
     empties a bottle mid episode.
-13. One printed **dose chart** lies flat at the **chart spot** at the back left, square to the desk,
-    printed side up. It has four rows marked A, B, C, D, one per bottle, and seven columns marked
+13. One printed **dose chart** lies flat at the **chart spot** at the back left (the back right in
+    Config L1), square to the desk, printed side up. It has four rows marked A, B, C, D, one per
+    bottle, and seven columns marked
     **Monday through Sunday** in the same order as the compartments, one per compartment. Every cell
     gives a count of **0, 1, or 2**, and the counts across the whole chart add up to no more than 20
     tablets.
@@ -88,12 +128,14 @@ Complete both checklists before starting an episode.
 
 ### Workspace layout
 
-* **Chart spot:** back left. The printed dose chart lies flat here all episode and is never touched by
-  either gripper.
+* **Chart spot:** back left, or back right in Config L1 when the bottle row takes the back left. The
+  printed dose chart lies flat here all episode and is never touched by either gripper.
 * **Dispense spot:** back center, on the desk midline, just behind the organizer. One open bottle at a
   time stands here. Both grippers reach into it.
-* **Bottle row:** back right, right of the dispense spot. The four capped bottles stand here in order
-  A, B, C, D toward the right edge. The right gripper's zone.
+* **Bottle row:** back left (**Config L1**), front left (**Config L2**), back right (**Config R1**),
+  or front right (**Config R2**). The four capped bottles stand here in order A nearest the desk
+  midline through D nearest the side edge. The left gripper's zone in Config L1 and L2, the right
+  gripper's in Config R1 and R2.
 * **Cap spot:** the right side of the desk, right of the organizer's right end and clear of the bottle
   row and the lid band. One cap at a time lies here, open side up. The right gripper's zone.
 * **Organizer spot:** center of the desk, in front of the dispense spot. Monday is at the left end and
@@ -105,20 +147,25 @@ Complete both checklists before starting an episode.
   does not land in the compartment it was meant for. Both grippers reach it.
 
 Everything the right gripper carries stays on the right or at the center. The left gripper carries
-nothing further right than the Wednesday compartment and the discard cup. Nothing is ever carried
-over the open bottle.
+nothing further right than the Wednesday compartment and the discard cup. In Config L1 and L2 the
+left gripper also carries every bottle between the bottle row and the dispense spot, and the right
+gripper carries only caps. Nothing is ever carried over the open bottle.
 
 ## Vocabulary
 
-* **Arm assignment:** the right gripper carries every bottle, works every cap, fills Thursday through
-  Sunday, and works the Thursday through Sunday lids. The left gripper fills Monday through Wednesday,
-  works the Monday through Wednesday lids, holds the bottle while a cap comes off or goes on, and pins
-  the organizer while the right gripper works a lid. Neither gripper takes the other's jobs.
+* **Arm assignment:** the right gripper works every cap, fills Thursday through Sunday, works the
+  Thursday through Sunday lids, and carries every bottle in Config R1 and R2. The left gripper fills
+  Monday through Wednesday, works the Monday through Wednesday lids, holds the bottle while a cap
+  comes off or goes on, pins the organizer while the right gripper works a lid, and carries every
+  bottle in Config L1 and L2. Neither gripper takes the other's jobs.
 * **Compartment:** one of the seven wells in the organizer, printed with its day name, running Monday
   at the left end through Sunday at the right end.
 * **Day order:** Monday first, then Tuesday, and so on through Sunday. Every fill runs in day order,
   left to right along the organizer.
 * **Bottle order:** bottle A first, then B, then C, then D. Every episode runs in bottle order.
+* **Bottle row:** where the four capped bottles stand at the start and the end — back left
+  (**Config L1**), front left (**Config L2**), back right (**Config R1**), or front right
+  (**Config R2**). One per episode, chosen before recording and never changed mid-episode.
 * **Dose cell:** the one cell on the chart where the current bottle's row meets the current day's
   column. It gives 0, 1, or 2 and is the only thing that sets how many tablets go in.
 * **Open bottle:** a bottle with its cap off. It stands at the dispense spot and nowhere else, and it
@@ -155,6 +202,9 @@ over the open bottle.
 
 Step 1 opens all seven lids and runs once. Steps 2 to 4 are one bottle. Run them in full four times,
 in bottle order A, B, C, D. Steps 5 to 7 run once, after all four bottles are back in the bottle row.
+Only the first pick in Step 2 and the return in Step 4 depend on the config: the gripper on the bottle
+row's side carries the bottle out to the dispense spot and back (left in Config L1 and L2, right in
+Config R1 and R2). Every other line is the same in all four configs.
 
 ### Step 1: Open all seven lids
 
@@ -188,10 +238,17 @@ discard the episode.
 **Goal:** the next bottle in order standing open at the dispense spot, with its cap lying open side up
 at the cap spot.
 
-* The **right gripper** closes on the next bottle at the middle of its body in the **bottle row** and
-  **lifts** it straight up until its base is clear of the desk.
-* The **right gripper** carries the bottle upright to the **dispense spot**, lowers it until its base
-  rests flat, and releases once it is settled. The bottle is never tilted on the way.
+Look where the bottle row is before reaching for the bottle.
+
+* **IF the bottle row is on the left (Config L1 or L2):** the **left gripper** closes on the next
+  bottle at the middle of its body in the **bottle row**, **lifts** it straight up until its base is
+  clear of the desk, carries it upright to the **dispense spot**, lowers it until its base rests flat,
+  and releases once it is settled. The bottle is never tilted on the way.
+* **IF the bottle row is on the right (Config R1 or R2):** the **right gripper** takes the next bottle
+  to the dispense spot the same way.
+
+Then, in all four:
+
 * The **left gripper** closes on the bottle at the middle of its body and **holds** it while the cap
   comes off.
 * The **right gripper** closes on the **cap** at its side, **lifts** it straight up off the mouth,
@@ -257,10 +314,11 @@ cap spot bare.
 * The **right gripper** lowers the cap straight down onto the mouth and **presses** it down until it
   sits flat all round, holds for 2 seconds, and releases.
 * The **right gripper** lifts clear, then the left gripper lifts clear.
-* The **right gripper** closes on the capped bottle at the middle of its body, **lifts** it straight
-  up, carries it upright to its own slot in the **bottle row**, lowers it until its base rests flat,
-  and releases once it is settled.
-* The **right gripper** lifts clear.
+* **IF Config L1 or L2:** the **left gripper** closes on the capped bottle at the middle of its body,
+  **lifts** it straight up, carries it upright to its own slot in the **bottle row**, lowers it until
+  its base rests flat, and releases once it is settled. **IF Config R1 or R2:** the **right gripper**
+  returns it the same way.
+* That gripper lifts clear.
 
 The cap goes on before the bottle moves. An open bottle carried across the desk tips its tablets out
 over the organizer and over the open lids.
@@ -339,9 +397,12 @@ This reset is not recorded.
    for.
 5. Wipe each compartment dry, close all seven lids, and confirm each one seats flat. Replace the
    organizer if a hinge is cracked or a lid will not stay open or will not seat.
-6. Press every cap on and stand the four bottles in the bottle row in order A, B, C, D, letters facing
-   the front edge. Replace a cap that will not lift off cleanly or will not seat flat.
-7. Lay the next printed dose chart flat at the chart spot, printed side up, and fix or weight it.
+6. Press every cap on and stand the four bottles in the bottle row for the next episode's config —
+   back left (Config L1), front left (Config L2), back right (Config R1), or front right (Config R2)
+   — in order A, B, C, D from the desk midline outward, letters facing the front edge. Replace a cap
+   that will not lift off cleanly or will not seat flat.
+7. Lay the next printed dose chart flat at the chart spot, the back left or (Config L1) the back
+   right, printed side up, and fix or weight it.
    Confirm its columns run Monday through Sunday in the same order as the compartments, that every
    cell gives 0, 1, or 2, and that the whole chart adds up to no more than 20 tablets.
 8. Confirm the organizer stands square with Monday at the left end, and that the dispense spot, the
@@ -364,6 +425,23 @@ Tag every violation with its timestamp and name. Keep the episode with the viola
 delete it just because a rule was broken.
 
 ### Violations
+
+**Note on the start position:** the violations below were written for Config R1 (bottle row at the
+back right, chart at the back left). The pickup and arm-role cues will be rewritten later to cover all
+four start positions; they are left as they are for now. Until then, anything that does not match the
+episode's config goes under **Config misaligned**.
+
+**Violation: Config misaligned**
+
+* **Visible cue:** what the operator does does not match the config on the desk — the bottle row is
+  not in the corner for the config; a gripper reaches across the desk for a bottle or carries a bottle
+  from the far side; or the wrong IF line is followed.
+* **SOP rule broken:** the start position and the same-side rule (the gripper on the bottle row's side
+  carries each bottle out to the dispense spot and back, left in Config L1 and L2 and right in Config
+  R1 and R2; no arm reaches across the desk; the IF line followed is the one for the config on the
+  desk).
+* **Coaching note:** look where the bottle row is before the first reach, then follow that config's
+  IF lines through Steps 2 and 4.
 
 **Violation: Filling started before all seven lids were open**
 
