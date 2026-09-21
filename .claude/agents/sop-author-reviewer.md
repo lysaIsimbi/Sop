@@ -48,7 +48,17 @@ match their structure and altitude rather than inventing your own.
 Produce an SOP that mirrors the gold-standard structure exactly:
 
 1. **Title + variant line** (e.g. "Medium Towels SOP (5x)").
-2. **Setup** — split into a **Hardware checklist** (cameras on/framing, arms at
+2. **Setup** — opens with a **Cell configuration** block, copied verbatim into
+   every SOP:
+
+   ```
+   ### Cell configuration
+
+   * **Environment camera:** 900 mm.
+   * **cell_type:** single_arm
+   ```
+
+   Then split into a **Hardware checklist** (cameras on/framing, arms at
    home with grippers open, surface clear) and a **Materials checklist** (exact
    item counts, dimensions, and starting positions). Add a **Workspace layout**
    line naming each zone (e.g. left = input, center = work, right = output).

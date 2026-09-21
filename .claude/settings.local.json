@@ -8,7 +8,9 @@
       "Bash(pip3 --version)",
       "Bash(google-chrome --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=\"/home/neotix/Documents/SOPs/Pick_and_Place_SOP_V3.pdf\" pick_and_place.html)",
       "Bash(/usr/bin/python3 build_pdf.py \"/home/neotix/Documents/SOPs/T-Shirt_Folding_SOP_V2.md\" tshirt.html)",
-      "Bash(google-chrome --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=\"/home/neotix/Documents/SOPs/T-Shirt_Folding_SOP_V2.pdf\" tshirt.html)"
+      "Bash(google-chrome --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=\"/home/neotix/Documents/SOPs/T-Shirt_Folding_SOP_V2.pdf\" tshirt.html)",
+      "Bash(python3 .claude/agents/md2pdf.py Bus_a_Dinner_Table/Bus_a_Dinner_Table_SOP.md Bus_a_Dinner_Table/Bus_a_Dinner_Table_SOP.pdf)",
+      "Bash(awk 'length>102 {print NR\": \"length}' Fold_Six_Napkins_Decoratively/Fold_Six_Napkins_Decoratively_SOP.md)"
     ]
   }
 }
