@@ -70,3 +70,5 @@ Please find below the progress report of the past week.
 | Date | File | Sent |
 |---|---|---|
 | 2026-09-18 | `2026-09-18_Progress_Report_Lysa_Isimbi.md` | pending |
+| 2026-09-25 | `2026-09-25_Progress_Report_Lysa_Isimbi.md` | pending |
+| 2026-10-02 | `2026-10-02_Progress_Report_Lysa_Isimbi.md` | pending |

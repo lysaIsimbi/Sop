@@ -59,7 +59,7 @@ Only rows without the bright-green highlight are included. “Materials” combi
 |---:|---|---|
 | 143 | Decant a carton into totes | Filled shipping carton; safety cutter; two or more totes; mixed SKU units; internal dunnage; SKU/count sheet; tote labels; marker or label printer; dunnage/recycling bins. |
 | 144 | Triage damaged goods | Flagged/damaged sample items; inspection mat and light; photo-staging backdrop or camera mock; quarantine bin; quarantine tags; condition-code reference card; inspection log and pen; resealing tape. |
-| 146 | Pick and protect fragile glassware | Fragile glassware items; source shelf/bin; picking tote; kraft/tissue interleaving paper; cushioning/void fill; fragile flag or label; item/count list. |
+| 146 | Pick and protect fragile glassware | Fragile glassware items; source shelf/bin; picking tote; cardboard cell divider; bubble wrap sheets; cushioning/void fill; fragile sticker; item/count list. |
 | 147 | Pack a cold-chain tote | Insulated tote with lid; liner bag; mock temperature-sensitive items; gel packs; top gel pack; liner seal/tie or tape; cold-chain label; packing layout card. |
 | 148 | Erect and tape a carton | Flat corrugated carton blank; packing-tape roll and dispenser; H-pattern taping guide/diagram; square-up fixture or marked work area. |
 | 149 | Pack a single-order carton | Several carton sizes; order items; packing list; dunnage/void fill; document pouch if used; tape and dispenser; shipping label; label printer mock or preprinted label; staging zone. |
